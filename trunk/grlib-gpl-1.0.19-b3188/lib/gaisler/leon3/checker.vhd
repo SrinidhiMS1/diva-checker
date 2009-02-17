@@ -16,8 +16,8 @@
 --  along with this program; if not, write to the Free Software
 --  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA 
 -----------------------------------------------------------------------------
--- Entity: 	leon3s
--- File:	leon3s.vhd
+-- Entity: 	checker
+-- File:	checker.vhd
 -- Author:	Jiri Gaisler, Edvin Catovic, Gaisler Research
 -- Description:	Top-level LEON3 component
 ------------------------------------------------------------------------------
@@ -38,7 +38,7 @@ use gaisler.arith.all;
 --library fpu;
 --use fpu.libfpu.all;
 
-entity leon3s is
+entity checker is
   -- see grip.pdf Section 52.10 (page 536-537) for configuration option descriptions
   generic (
     hindex    : integer               := 0; -- AHB bus index (for debugging purposes
@@ -102,7 +102,7 @@ entity leon3s is
   );
 end; 
 
-architecture rtl of leon3s is
+architecture rtl of checker is
 
 constant IRFBITS  : integer range 6 to 10 := log2(NWINDOWS+1) + 4;
 constant IREGNUM  : integer := NWINDOWS * 16 + 8;
@@ -135,7 +135,7 @@ begin
 
    gnd <= '0'; vcc <= '1';
 
--- leon3 processor core (iu, caches & mul/div)
+-- checker processor core (iu, caches & mul/div)
 
   p0 : proc3 
   generic map (hindex, fabtech, memtech, nwindows, dsu, fpuarch, v8, cp, mac,      
@@ -204,8 +204,8 @@ begin
 -- pragma translate_off
   bootmsg : report_version 
   generic map (
-    "leon3_" & tost(hindex) & ": LEON3 SPARC V8 processor rev " & tost(LEON3_VERSION),
-    "leon3_" & tost(hindex) & ": icache " & tost(isets*icen) & "*" & tost(isetsize*icen) &
+    "checker_" & tost(hindex) & ": LEON3 SPARC V8 processor rev " & tost(LEON3_VERSION),
+    "checker_" & tost(hindex) & ": icache " & tost(isets*icen) & "*" & tost(isetsize*icen) &
 	" kbyte, dcache "  & tost(dsets*dcen) & "*" & tost(dsetsize*dcen) & " kbyte"
   );
 -- pragma translate_on
