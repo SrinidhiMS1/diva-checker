@@ -1,0 +1,6 @@
+CommandLine
+/opt/Xilinx/10.1/ISE/bin/lin/unwrapped/xst -ise /home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/leon3mp.ise -intstyle ise -ifn /home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/leon3mp.xst -ofn /home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/leon3mp.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s
