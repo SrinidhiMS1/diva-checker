@@ -1,2 +1,0 @@
-#devices 
-gpio charlcd sui

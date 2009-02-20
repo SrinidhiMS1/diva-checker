@@ -1,0 +1,897 @@
+Release 10.1.03 - xst K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "grlib" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/grlib/xil_8qS0mX".
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "grlib" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/grlib/xil_5olBMI".
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "grlib" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/grlib/xil_OthGgu".
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "grlib" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/grlib/xil_dFk9Of".
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "grlib" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/grlib/xil_M3vbA1".
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "grlib" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/grlib/xil_Dzh1xN".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "grlib" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/grlib/xil_RSBrAz".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "grlib" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/grlib/xil_Nr1gHl".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "grlib" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/grlib/xil_rFgwS7".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "grlib" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/grlib/xil_IbQk8T".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "grlib" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/grlib/xil_4VxEsG".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "grlib" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/grlib/xil_K79oRs".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_Zomaqf".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_FhCfe2".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_0MtihP".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_WeHpzC".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.35 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_HLz83p".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.37 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_tPCWId".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.39 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_twR0x1".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.41 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_8E2exP".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.44 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_gQoNGD".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.46 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_93kT0r".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.49 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_gCEbvg".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.51 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_AoDx94".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.53 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_Wp6vYT".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.55 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_v8L5XI".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.58 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_vkLE7x".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.60 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_ZcQfrn".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.62 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_QH1VUc".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.64 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_kDXRz2".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.67 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_E3u5pS".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.69 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_PCQlqI".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.71 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_NGxIAy".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.73 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_nNAcVo".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.76 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_3fiIpf".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.78 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_mdzb45".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.81 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_VWlASW".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.83 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_SlvTQN".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.85 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_ffQ5YE".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.87 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_LItbhw".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.89 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_TrVeJn".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.92 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_Mqhklf".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.95 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_b4mn76".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.97 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_nRRn3Y".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.99 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_himo9Q".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.02 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_WjSFpJ".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.04 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_445VPB".
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.06 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_Ev26pu".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.09 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_88Rdan".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.11 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_OyNh4f".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.14 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_RrRf88".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.16 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_4POam2".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.19 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_zXD4JV".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.21 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+
+User Interruption
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_mhrH9g".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.25 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_3S7JZa".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.28 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_maEIZ4".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.30 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_Z2iF9Y".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.32 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_RocztT".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.34 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_n4NqXN".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.37 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_Px0hBI".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.39 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_QTs7oD".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.41 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_5F9Umy".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.43 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_uXBJut".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.46 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_wuoyMo".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.48 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_Fhlkek".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.50 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_yNm1Pf".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.53 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_R6KPBb".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.55 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_mZ3Hx7".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.57 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "techmap" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/techmap/xil_gdTuD3".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.59 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "spw" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/spw/xil_ti4iTZ".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.62 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "spw" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/spw/xil_LKDejW".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.64 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "eth" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/eth/xil_d3xoTS".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.67 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "eth" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/eth/xil_50vUDP".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.69 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "eth" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/eth/xil_BpoJyM".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.71 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "eth" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/eth/xil_6HjPDJ".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.73 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "eth" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/eth/xil_hy5hTG".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.76 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "eth" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/eth/xil_Cwz7iE".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.78 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "eth" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/eth/xil_0LuwTB".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.81 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "eth" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/eth/xil_OyEuEz".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.83 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+ERROR:HDLParsers:3575 - Cannot write dependency database for library "eth" to file "/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/designs/leon3-gr-pci-xc2v3000/xst/eth/xil_IIEMzx".
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.86 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+
+User Interruption
+--> INTERNAL_ERROR:Xst:cmain.c:3378:1.25.10.2 -  To resolve this error, please consult the Answers Database and other online resources at http://support.xilinx.com 

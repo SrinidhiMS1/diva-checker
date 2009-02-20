@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST &quot;clkgen0_xc2v_v_dll0&quot; LOC = DCM_X2Y0;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(20)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">clkgen0_xc2v_v_dll0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST &quot;clkgen0_xc2v_v_sd0_dll1&quot; LOC = DCM_X5Y0;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(21)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">clkgen0_xc2v_v_sd0_dll1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST &quot;clkgen0_v_dll0&quot; LOC = DCM_X2Y0;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(28)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">clkgen0_v_dll0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST &quot;clkgen0_v_dll1&quot; LOC = DCM_X5Y0;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(29)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">clkgen0_v_dll1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST &quot;clkgen0/v/dll0&quot; LOC = DCM_X2Y0;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(30)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">clkgen0/v/dll0</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;INST &quot;clkgen0/v/dll1&quot; LOC = DCM_X5Y0;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(31)]</arg>: <arg fmt="%s" index="2">INST</arg> &quot;<arg fmt="%s" index="3">clkgen0/v/dll1</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;wdogn&quot; LOC = &quot;G4&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(54)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">wdogn</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;power_state(1)&quot; LOC = &quot;P1&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(85)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">power_state(1)</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;power_state(0)&quot; LOC = &quot;N1&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(86)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">power_state(0)</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pme_status&quot; LOC = &quot;J1&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(87)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">pme_status</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pme_enable&quot; LOC = &quot;H1&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(88)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">pme_enable</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pme_clear&quot; LOC = &quot;L1&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(89)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">pme_clear</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_cbe(3)&quot; LOC = &quot;AC6&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(129)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_cbe(3)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_cbe(2)&quot; LOC = &quot;AD6&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(130)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_cbe(2)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_cbe(1)&quot; LOC = &quot;AA7&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(131)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_cbe(1)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_cbe(0)&quot; LOC = &quot;AB7&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(132)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_cbe(0)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_arb_req(3)&quot; LOC = &quot;P7&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(133)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_arb_req(3)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_arb_req(2)&quot; LOC = &quot;P6&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(134)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_arb_req(2)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_arb_req(1)&quot; LOC = &quot;P5&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(135)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_arb_req(1)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_arb_req(0)&quot; LOC = &quot;P4&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(136)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_arb_req(0)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_arb_gnt(3)&quot; LOC = &quot;N4&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(137)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_arb_gnt(3)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_arb_gnt(2)&quot; LOC = &quot;N5&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(138)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_arb_gnt(2)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_arb_gnt(1)&quot; LOC = &quot;N6&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(139)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_arb_gnt(1)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_arb_gnt(0)&quot; LOC = &quot;N7&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(140)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_arb_gnt(0)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(31)&quot; LOC = &quot;T8&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(141)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(31)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(30)&quot; LOC = &quot;T6&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(142)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(30)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(29)&quot; LOC = &quot;T5&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(143)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(29)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(28)&quot; LOC = &quot;U5&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(144)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(28)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(27)&quot; LOC = &quot;U6&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(145)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(27)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(26)&quot; LOC = &quot;U3&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(146)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(26)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(25)&quot; LOC = &quot;U4&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(147)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(25)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(24)&quot; LOC = &quot;T7&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(148)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(24)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(23)&quot; LOC = &quot;U7&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(149)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(23)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(22)&quot; LOC = &quot;V3&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(150)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(22)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(21)&quot; LOC = &quot;V4&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(151)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(21)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(20)&quot; LOC = &quot;V5&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(152)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(20)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(19)&quot; LOC = &quot;V7&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(153)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(19)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(18)&quot; LOC = &quot;V6&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(154)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(18)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(17)&quot; LOC = &quot;W3&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(155)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(17)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(16)&quot; LOC = &quot;W4&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(156)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(16)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(15)&quot; LOC = &quot;Y7&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(157)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(15)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(14)&quot; LOC = &quot;Y8&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(158)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(14)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(13)&quot; LOC = &quot;AD7&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(159)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(13)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(12)&quot; LOC = &quot;AC7&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(160)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(12)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(11)&quot; LOC = &quot;AA8&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(161)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(11)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(10)&quot; LOC = &quot;AB8&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(162)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(10)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(9)&quot; LOC = &quot;AC10&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(163)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(9)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(8)&quot; LOC = &quot;AD10&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(164)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(8)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(7)&quot; LOC = &quot;AA10&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(165)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(7)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(6)&quot; LOC = &quot;AB10&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(166)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(6)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(5)&quot; LOC = &quot;AD9&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(167)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(5)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(4)&quot; LOC = &quot;AA11&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(168)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(4)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(3)&quot; LOC = &quot;Y11&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(169)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(3)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(2)&quot; LOC = &quot;Y10&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(170)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(2)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(1)&quot; LOC = &quot;W11&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(171)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(1)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;pci_ad(0)&quot; LOC = &quot;AB11&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(172)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;pci_ad(0)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;master&quot; LOC = &quot;B1&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(193)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">master</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;cmperrn&quot; LOC = &quot;B4&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(233)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">cmperrn</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;cb(7)&quot; LOC = &quot;D19&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(234)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">cb(7)</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;cb(6)&quot; LOC = &quot;E19&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(235)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">cb(6)</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;cb(5)&quot; LOC = &quot;E20&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(236)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">cb(5)</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;cb(4)&quot; LOC = &quot;F20&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(237)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">cb(4)</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;cb(3)&quot; LOC = &quot;C21&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(238)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">cb(3)</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;cb(2)&quot; LOC = &quot;D21&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(239)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">cb(2)</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;cb(1)&quot; LOC = &quot;C20&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(240)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">cb(1)</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;cb(0)&quot; LOC = &quot;D20&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(241)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">cb(0)</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;brdyn&quot; LOC = &quot;P22&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(242)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">brdyn</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;bexcn&quot; LOC = &quot;P19&quot;  ;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(243)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">bexcn</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;spw_rxd(1)&quot;   LOC = &quot;D16&quot;;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(279)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;spw_rxd(1)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;spw_rxd(0)&quot;   LOC = &quot;C16&quot;;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(280)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;spw_rxd(0)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;spw_rxs(1)&quot;   LOC = &quot;C15&quot;;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(281)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;spw_rxs(1)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;spw_rxs(0)&quot;   LOC = &quot;D14&quot;;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(282)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;spw_rxs(0)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;spw_txs(1)&quot;  LOC = &quot;E14&quot;;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(283)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;spw_txs(1)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;spw_txs(0)&quot;  LOC = &quot;F14&quot;;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(284)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;spw_txs(0)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;spw_txd(1)&quot;  LOC = &quot;G14&quot;;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(285)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;spw_txd(1)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="unknown" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;spw_txd(0)&quot;  LOC = &quot;H15&quot;;&gt; [/home/diva/788/trunk/grlib-gpl-1.0.19-b3188/boards/gr-pci-xc2v/leon3mp.ucf(286)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;spw_txd(0)&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="unknown" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">pci_devsel</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="unknown" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">pci_req</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="unknown" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">pci_stop</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="unknown" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">pci_irdy</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="unknown" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">pci_serr</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="unknown" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">pci_trdy</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="unknown" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">pci_perr</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="unknown" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">pci_rst</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="unknown" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">pci_lock</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="unknown" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">pci_par</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="unknown" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">pci_frame</arg>&apos; has no legal driver
+</msg>
+
+</messages>
+

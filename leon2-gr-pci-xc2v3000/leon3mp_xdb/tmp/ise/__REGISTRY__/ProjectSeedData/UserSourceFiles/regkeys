@@ -1,0 +1,15 @@
+NUM_USER_FILES
+4
+s
+user_file_1
+config.vhd
+s
+user_file_2
+ahbrom.vhd
+s
+user_file_3
+leon3mp.vhd
+s
+user_file_4
+../../boards/gr-pci-xc2v/leon3mp.ucf
+s

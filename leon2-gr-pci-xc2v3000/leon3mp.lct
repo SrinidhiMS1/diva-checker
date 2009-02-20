@@ -1,0 +1,8 @@
+[Device]
+Family = ;
+PartNumber = xc2v3000-4fg676;
+Package = ;
+PartType = xc2v3000;
+Speed = -4;
+Operating_condition = COM;
+Status = Production;
