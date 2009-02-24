@@ -145,6 +145,15 @@ begin
     tlb_type, tlb_rep, lddel, disas, tbuf, pwd, svt, rstaddr, smp, cached, 0, scantest)
   port map (clk, rst, holdn, ahbi, ahbo, ahbsi, ahbso, rfi, rfo, crami, cramo, 
     tbi, tbo, fpi, fpo, cpi, cpo, irqi, irqo, dbgi, dbgo, gnd, clk, vcc);
+
+  c0: checker
+  generic map (hindex, fabtech, memtech, nwindows, dsu, fpuarch, v8, cp, mac,      
+    pclow, notag, nwp, icen, irepl, isets, ilinesize, isetsize, isetlock, 
+    dcen, drepl, dsets, dlinesize, dsetsize, dsetlock, dsnoop, ilram, 
+    ilramsize, ilramstart, dlram, dlramsize, dlramstart, mmuen, itlbnum, dtlbnum,
+    tlb_type, tlb_rep, lddel, disas, tbuf, pwd, svt, rstaddr, smp, cached, 0, scantest)
+  port map (clk, rst, holdn, ahbi, ahbo, ahbsi, ahbso, rfi, rfo, crami, cramo, 
+    tbi, tbo, fpi, fpo, cpi, cpo, irqi, irqo, dbgi, dbgo, gnd, clk, vcc);
   
 -- IU register file
   
