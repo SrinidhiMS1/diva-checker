@@ -384,11 +384,11 @@ package leon3 is
     flush  	: std_ulogic;			  -- pipeline flush
     exack    	: std_ulogic;			  -- FP exception acknowledge
     a_rs1  	: std_logic_vector(4 downto 0);
-    d             : fpc_pipeline_control_type;
-    a             : fpc_pipeline_control_type;
-    e             : fpc_pipeline_control_type;
-    m             : fpc_pipeline_control_type;
-    x             : fpc_pipeline_control_type;    
+    d             : fpc_pipeline_control_type; -- decode stage
+    a             : fpc_pipeline_control_type; -- register access stage
+    e             : fpc_pipeline_control_type; -- execute stage
+    m             : fpc_pipeline_control_type; -- memory stage
+    x             : fpc_pipeline_control_type; -- decode stage
     lddata        : std_logic_vector(31 downto 0);     -- load data
     dbg           : fpc_debug_in_type;               -- debug signals
   end record;
