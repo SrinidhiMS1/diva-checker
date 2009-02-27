@@ -1,0 +1,191 @@
+Release 10.1.03 - Bitgen K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+Loading device for application Rf_Device from file '2v3000.nph' in environment
+/opt/Xilinx/10.1/ISE.
+   "leon3mp" is an NCD, version 3.2, device xc2v3000, package fg676, speed -4
+This design is using the default stepping level (major silicon revision) for
+this device (0). Unless your design is targeted at devices of this stepping
+level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any
+available performance and functional enhancements for this device. The latest
+stepping level for this device is '1'. Additional information on "stepping
+level" is available at support.xilinx.com.
+Opened constraints file leon3mp.pcf.
+
+Tue Feb 24 18:20:47 2009
+
+/opt/Xilinx/10.1/ISE/bin/lin/unwrapped/bitgen -l -m -w -d -g ConfigRate:4 -g CclkPin:PULLUP -g TdoPin:PULLNONE -g M1Pin:PULLUP -g DonePin:PULLUP -g DriveDone:Yes -g StartUpClk:JtagClk -g DONE_cycle:4 -g GTS_cycle:5 -g M0Pin:PULLUP -g M2Pin:PULLUP -g ProgPin:PULLUP -g TckPin:PULLUP -g TdiPin:PULLUP -g TmsPin:PULLUP -g DonePipe:No -g GWE_cycle:6 -g LCK_cycle:NoWait leon3mp.ncd 
+
+Summary of Bitgen Options:
++----------------------+----------------------+
+| Option Name          | Current Setting      |
++----------------------+----------------------+
+| Compress             | (Not Specified)*     |
++----------------------+----------------------+
+| Readback             | (Not Specified)*     |
++----------------------+----------------------+
+| CRC                  | Enable*              |
++----------------------+----------------------+
+| DebugBitstream       | No*                  |
++----------------------+----------------------+
+| ConfigRate           | 4**                  |
++----------------------+----------------------+
+| StartupClk           | JtagClk              |
++----------------------+----------------------+
+| DCMShutdown          | Disable*             |
++----------------------+----------------------+
+| DisableBandgap       | No*                  |
++----------------------+----------------------+
+| CclkPin              | Pullup**             |
++----------------------+----------------------+
+| DonePin              | Pullup**             |
++----------------------+----------------------+
+| HswapenPin           | Pullup*              |
++----------------------+----------------------+
+| M0Pin                | Pullup**             |
++----------------------+----------------------+
+| M1Pin                | Pullup**             |
++----------------------+----------------------+
+| M2Pin                | Pullup**             |
++----------------------+----------------------+
+| PowerdownPin         | Pullup*              |
++----------------------+----------------------+
+| ProgPin              | Pullup**             |
++----------------------+----------------------+
+| TckPin               | Pullup**             |
++----------------------+----------------------+
+| TdiPin               | Pullup**             |
++----------------------+----------------------+
+| TdoPin               | Pullnone             |
++----------------------+----------------------+
+| TmsPin               | Pullup**             |
++----------------------+----------------------+
+| UnusedPin            | Pulldown*            |
++----------------------+----------------------+
+| GWE_cycle            | 6**                  |
++----------------------+----------------------+
+| GTS_cycle            | 5**                  |
++----------------------+----------------------+
+| LCK_cycle            | NoWait**             |
++----------------------+----------------------+
+| Match_cycle          | NoWait               |
++----------------------+----------------------+
+| DONE_cycle           | 4**                  |
++----------------------+----------------------+
+| Persist              | No*                  |
++----------------------+----------------------+
+| DriveDone            | Yes                  |
++----------------------+----------------------+
+| DonePipe             | No**                 |
++----------------------+----------------------+
+| Security             | None*                |
++----------------------+----------------------+
+| UserID               | 0xFFFFFFFF*          |
++----------------------+----------------------+
+| ActivateGclk         | No*                  |
++----------------------+----------------------+
+| ActiveReconfig       | No*                  |
++----------------------+----------------------+
+| PartialMask0         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialMask1         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialMask2         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialGclk          | (Not Specified)*     |
++----------------------+----------------------+
+| PartialLeft          | (Not Specified)*     |
++----------------------+----------------------+
+| PartialRight         | (Not Specified)*     |
++----------------------+----------------------+
+| Encrypt              | No*                  |
++----------------------+----------------------+
+| Key0                 | pick*                |
++----------------------+----------------------+
+| Key1                 | pick*                |
++----------------------+----------------------+
+| Key2                 | pick*                |
++----------------------+----------------------+
+| Key3                 | pick*                |
++----------------------+----------------------+
+| Key4                 | pick*                |
++----------------------+----------------------+
+| Key5                 | pick*                |
++----------------------+----------------------+
+| Keyseq0              | M*                   |
++----------------------+----------------------+
+| Keyseq1              | M*                   |
++----------------------+----------------------+
+| Keyseq2              | M*                   |
++----------------------+----------------------+
+| Keyseq3              | M*                   |
++----------------------+----------------------+
+| Keyseq4              | M*                   |
++----------------------+----------------------+
+| Keyseq5              | M*                   |
++----------------------+----------------------+
+| KeyFile              | (Not Specified)*     |
++----------------------+----------------------+
+| StartKey             | 0*                   |
++----------------------+----------------------+
+| StartCBC             | pick*                |
++----------------------+----------------------+
+| FreezeDCI            | No*                  |
++----------------------+----------------------+
+| IEEE1532             | No*                  |
++----------------------+----------------------+
+| Binary               | No*                  |
++----------------------+----------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+Saving ll file in "leon3mp.ll".
+
+The following frames contain LUTs configured as RAMs or SRL16s
+and should not be read back while the device is active:
+
+   Frame Address - 0x00220200
+   Frame Address - 0x002a0200
+   Frame Address - 0x002c0400
+   Frame Address - 0x00300200
+   Frame Address - 0x00360400
+   Frame Address - 0x00380400
+   Frame Address - 0x003a0400
+   Frame Address - 0x00400200
+   Frame Address - 0x00440200
+   Frame Address - 0x00440400
+   Frame Address - 0x00460400
+   Frame Address - 0x00480400
+   Frame Address - 0x004a0200
+   Frame Address - 0x004a0400
+   Frame Address - 0x004c0200
+   Frame Address - 0x004c0400
+   Frame Address - 0x004e0200
+   Frame Address - 0x004e0400
+   Frame Address - 0x00560200
+   Frame Address - 0x005e0200
+   Frame Address - 0x005e0400
+   Frame Address - 0x00620200
+   Frame Address - 0x00620400
+   Frame Address - 0x00640200
+   Frame Address - 0x00640400
+   Frame Address - 0x00660200
+   Frame Address - 0x00660400
+   Frame Address - 0x00680200
+   Frame Address - 0x00680400
+   Frame Address - 0x006a0200
+   Frame Address - 0x006a0400
+   Frame Address - 0x006c0200
+   Frame Address - 0x006c0400
+   Frame Address - 0x006e0200
+   Frame Address - 0x00700200
+   Frame Address - 0x00700400
+
+More information regarding the usage of these LUTs can be found in the
+file 'leon3mp.ll'.
+
+Creating bit map...
+Saving bit stream in "leon3mp.bit".
+Creating bit mask...
+Saving mask bit stream in "leon3mp.msk".
+Bitstream generation is complete.

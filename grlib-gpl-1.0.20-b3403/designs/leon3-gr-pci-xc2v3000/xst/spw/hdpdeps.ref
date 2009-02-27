@@ -1,0 +1,11 @@
+V3 17
+FL ../../lib/spw/comp/spwcomp.vhd 2009/02/12.10:30:49 K.39
+PH spw/spwcomp 1235534587 FL ../../lib/spw/comp/spwcomp.vhd PB ieee/std_logic_1164 1217055545 \
+      CD grspwc2 CD grspwc CD grspwc_axcelerator CD grspwc_unisim CD grspw_gen
+FL ../../lib/spw/wrapper/grspw_gen.vhd 2009/02/12.10:30:49 K.39
+EN spw/grspw_gen 1235534588 FL ../../lib/spw/wrapper/grspw_gen.vhd \
+      PB ieee/std_logic_1164 1217055545 LB grlib PB grlib/stdlib 1235534586 \
+      LB techmap PH techmap/gencomp 1235534587 LB spw PH spw/spwcomp 1235534587
+AR spw/grspw_gen/rtl 1235534589 \
+      FL ../../lib/spw/wrapper/grspw_gen.vhd EN spw/grspw_gen 1235534588 CP grspwc \
+      CP techbuf CP syncram_2p CP syncram_2pft

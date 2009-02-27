@@ -1,0 +1,81 @@
+Release 10.1.03 - par K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Tue Feb 24 18:20:11 2009
+
+All signals are completely routed.
+
+WARNING:ParHelpers:362 - There are 8 sourceless signals in this design. This design will not pass the DRC check run by
+   Bitgen.
+
+   pci_arb_gnt(0)_OBUF
+   pci_arb_gnt(1)_OBUF
+   pci_arb_gnt(2)_OBUF
+   pci_arb_gnt(3)_OBUF
+   spw_txd(0)_OBUF
+   spw_txd(1)_OBUF
+   spw_txs(0)_OBUF
+   spw_txs(1)_OBUF
+WARNING:ParHelpers:361 - There are 58 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   pci_ad(0)_IBUF
+   pci_ad(1)_IBUF
+   pci_ad(10)_IBUF
+   pci_ad(11)_IBUF
+   pci_ad(12)_IBUF
+   pci_ad(13)_IBUF
+   pci_ad(14)_IBUF
+   pci_ad(15)_IBUF
+   pci_ad(16)_IBUF
+   pci_ad(17)_IBUF
+   pci_ad(18)_IBUF
+   pci_ad(19)_IBUF
+   pci_ad(2)_IBUF
+   pci_ad(20)_IBUF
+   pci_ad(21)_IBUF
+   pci_ad(22)_IBUF
+   pci_ad(23)_IBUF
+   pci_ad(24)_IBUF
+   pci_ad(25)_IBUF
+   pci_ad(26)_IBUF
+   pci_ad(27)_IBUF
+   pci_ad(28)_IBUF
+   pci_ad(29)_IBUF
+   pci_ad(3)_IBUF
+   pci_ad(30)_IBUF
+   pci_ad(31)_IBUF
+   pci_ad(4)_IBUF
+   pci_ad(5)_IBUF
+   pci_ad(6)_IBUF
+   pci_ad(7)_IBUF
+   pci_ad(8)_IBUF
+   pci_ad(9)_IBUF
+   pci_arb_req(0)_IBUF
+   pci_arb_req(1)_IBUF
+   pci_arb_req(2)_IBUF
+   pci_arb_req(3)_IBUF
+   pci_cbe(0)_IBUF
+   pci_cbe(1)_IBUF
+   pci_cbe(2)_IBUF
+   pci_cbe(3)_IBUF
+   pci_devsel_IBUF
+   pci_frame_IBUF
+   pci_gnt_IBUF
+   pci_host_IBUF
+   pci_idsel_IBUF
+   pci_irdy_IBUF
+   pci_lock_IBUF
+   pci_par_IBUF
+   pci_perr_IBUF
+   pci_req_IBUF
+   pci_rst_IBUF
+   pci_serr_IBUF
+   pci_stop_IBUF
+   pci_trdy_IBUF
+   spw_rxd(0)_IBUF
+   spw_rxd(1)_IBUF
+   spw_rxs(0)_IBUF
+   spw_rxs(1)_IBUF
+
+

@@ -1,0 +1,17 @@
+PH grethpkg NULL ../../lib/eth/core/greth_pkg.vhd sub00/vhpl01 1235534587
+EN greth_rx NULL ../../lib/eth/core/greth_rx.vhd sub00/vhpl09 1235534588
+EN greth_tx NULL ../../lib/eth/core/greth_tx.vhd sub00/vhpl07 1235534588
+AR greth_tx rtl ../../lib/eth/core/greth_tx.vhd sub00/vhpl08 1235534589
+AR grethc rtl ../../lib/eth/core/grethc.vhd sub00/vhpl12 1235534589
+PB grethpkg grethpkg ../../lib/eth/core/greth_pkg.vhd sub00/vhpl02 1235534588
+EN eth_ahb_mst NULL ../../lib/eth/core/eth_ahb_mst.vhd sub00/vhpl05 1235534588
+AR eth_ahb_mst rtl ../../lib/eth/core/eth_ahb_mst.vhd sub00/vhpl06 1235534589
+EN greth_gen NULL ../../lib/eth/wrapper/greth_gen.vhd sub00/vhpl13 1235534588
+EN grethc NULL ../../lib/eth/core/grethc.vhd sub00/vhpl11 1235534588
+PH ethcomp NULL ../../lib/eth/comp/ethcomp.vhd sub00/vhpl00 1235534587
+AR greth_rx rtl ../../lib/eth/core/greth_rx.vhd sub00/vhpl10 1235534589
+AR eth_rstgen rtl ../../lib/eth/core/eth_rstgen.vhd sub00/vhpl04 1235534588
+EN eth_rstgen NULL ../../lib/eth/core/eth_rstgen.vhd sub00/vhpl03 1235534587
+EN greth_gbit_gen NULL ../../lib/eth/wrapper/greth_gbit_gen.vhd sub00/vhpl15 1235534588
+AR greth_gbit_gen rtl ../../lib/eth/wrapper/greth_gbit_gen.vhd sub00/vhpl16 1235534589
+AR greth_gen rtl ../../lib/eth/wrapper/greth_gen.vhd sub00/vhpl14 1235534589

@@ -1,0 +1,2850 @@
+Release 10.1.03 - xst K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/grlib/stdlib/version.vhd" in Library grlib.
+Package <version> compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/grlib/stdlib/stdlib.vhd" in Library grlib.
+Package <stdlib> compiled.
+WARNING:HDLParsers:3534 - "../../lib/grlib/stdlib/stdlib.vhd" Line 186. In the function *, not all control paths contain a return statement.
+WARNING:HDLParsers:3534 - "../../lib/grlib/stdlib/stdlib.vhd" Line 200. In the function signed_mul, not all control paths contain a return statement.
+WARNING:HDLParsers:3534 - "../../lib/grlib/stdlib/stdlib.vhd" Line 216. In the function +, not all control paths contain a return statement.
+WARNING:HDLParsers:3534 - "../../lib/grlib/stdlib/stdlib.vhd" Line 227. In the function +, not all control paths contain a return statement.
+WARNING:HDLParsers:3534 - "../../lib/grlib/stdlib/stdlib.vhd" Line 238. In the function +, not all control paths contain a return statement.
+WARNING:HDLParsers:3534 - "../../lib/grlib/stdlib/stdlib.vhd" Line 251. In the function +, not all control paths contain a return statement.
+WARNING:HDLParsers:3534 - "../../lib/grlib/stdlib/stdlib.vhd" Line 267. In the function -, not all control paths contain a return statement.
+WARNING:HDLParsers:3534 - "../../lib/grlib/stdlib/stdlib.vhd" Line 278. In the function -, not all control paths contain a return statement.
+WARNING:HDLParsers:3534 - "../../lib/grlib/stdlib/stdlib.vhd" Line 289. In the function -, not all control paths contain a return statement.
+WARNING:HDLParsers:3534 - "../../lib/grlib/stdlib/stdlib.vhd" Line 302. In the function -, not all control paths contain a return statement.
+Package body <stdlib> compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/grlib/sparc/sparc.vhd" in Library grlib.
+Package <sparc> compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/grlib/modgen/multlib.vhd" in Library grlib.
+Package <multlib> compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/grlib/modgen/leaves.vhd" in Library grlib.
+Package <blocks> compiled.
+Entity <FLIPFLOP> compiled.
+Entity <FLIPFLOP> (Architecture <FLIPFLOP>) compiled.
+Entity <PP_LOW> compiled.
+Entity <PP_LOW> (Architecture <PP_LOW>) compiled.
+Entity <PP_MIDDLE> compiled.
+Entity <PP_MIDDLE> (Architecture <PP_MIDDLE>) compiled.
+Entity <PP_HIGH> compiled.
+Entity <PP_HIGH> (Architecture <PP_HIGH>) compiled.
+Entity <R_GATE> compiled.
+Entity <R_GATE> (Architecture <R_GATE>) compiled.
+Entity <DECODER> compiled.
+Entity <DECODER> (Architecture <DECODER>) compiled.
+Entity <FULL_ADDER> compiled.
+Entity <FULL_ADDER> (Architecture <FULL_ADDER>) compiled.
+Entity <HALF_ADDER> compiled.
+Entity <HALF_ADDER> (Architecture <HALF_ADDER>) compiled.
+Entity <INVBLOCK> compiled.
+Entity <INVBLOCK> (Architecture <INVBLOCK_regular>) compiled.
+Entity <XXOR1> compiled.
+Entity <XXOR1> (Architecture <XXOR_regular>) compiled.
+Entity <BLOCK0> compiled.
+Entity <BLOCK0> (Architecture <BLOCK0_regular>) compiled.
+Entity <BLOCK1> compiled.
+Entity <BLOCK1> (Architecture <BLOCK1_regular>) compiled.
+Entity <BLOCK2> compiled.
+Entity <BLOCK2> (Architecture <BLOCK2_regular>) compiled.
+Entity <BLOCK1A> compiled.
+Entity <BLOCK1A> (Architecture <BLOCK1A_regular>) compiled.
+Entity <BLOCK2A> compiled.
+Entity <BLOCK2A> (Architecture <BLOCK2A_regular>) compiled.
+Entity <PRESTAGE_64> compiled.
+Entity <PRESTAGE_64> (Architecture <PRESTAGE>) compiled.
+Entity <DBLC_0_64> compiled.
+Entity <DBLC_0_64> (Architecture <DBLC_0>) compiled.
+Entity <DBLC_1_64> compiled.
+Entity <DBLC_1_64> (Architecture <DBLC_1>) compiled.
+Entity <DBLC_2_64> compiled.
+Entity <DBLC_2_64> (Architecture <DBLC_2>) compiled.
+Entity <DBLC_3_64> compiled.
+Entity <DBLC_3_64> (Architecture <DBLC_3>) compiled.
+Entity <DBLC_4_64> compiled.
+Entity <DBLC_4_64> (Architecture <DBLC_4>) compiled.
+Entity <DBLC_5_64> compiled.
+Entity <DBLC_5_64> (Architecture <DBLC_5>) compiled.
+Entity <XORSTAGE_64> compiled.
+Entity <XORSTAGE_64> (Architecture <XORSTAGE>) compiled.
+Entity <DBLCTREE_64> compiled.
+Entity <DBLCTREE_64> (Architecture <DBLCTREE>) compiled.
+Entity <DBLCADDER_64_64> compiled.
+Entity <DBLCADDER_64_64> (Architecture <DBLCADDER>) compiled.
+Entity <XXOR2> compiled.
+Entity <XXOR2> (Architecture <XXOR_true>) compiled.
+Entity <DBLC_0_32> compiled.
+Entity <DBLC_0_32> (Architecture <DBLC_0>) compiled.
+Entity <DBLC_1_32> compiled.
+Entity <DBLC_1_32> (Architecture <DBLC_1>) compiled.
+Entity <DBLC_2_32> compiled.
+Entity <DBLC_2_32> (Architecture <DBLC_2>) compiled.
+Entity <DBLC_3_32> compiled.
+Entity <DBLC_3_32> (Architecture <DBLC_3>) compiled.
+Entity <DBLC_4_32> compiled.
+Entity <DBLC_4_32> (Architecture <DBLC_4>) compiled.
+Entity <XORSTAGE_32> compiled.
+Entity <XORSTAGE_32> (Architecture <XORSTAGE>) compiled.
+Entity <PRESTAGE_32> compiled.
+Entity <PRESTAGE_32> (Architecture <PRESTAGE>) compiled.
+Entity <DBLCTREE_32> compiled.
+Entity <DBLCTREE_32> (Architecture <DBLCTREE>) compiled.
+Entity <DBLCADDER_32_32> compiled.
+Entity <DBLCADDER_32_32> (Architecture <DBLCADDER>) compiled.
+Entity <PRESTAGE_128> compiled.
+Entity <PRESTAGE_128> (Architecture <PRESTAGE>) compiled.
+Entity <DBLC_0_128> compiled.
+Entity <DBLC_0_128> (Architecture <DBLC_0>) compiled.
+Entity <DBLC_1_128> compiled.
+Entity <DBLC_1_128> (Architecture <DBLC_1>) compiled.
+Entity <DBLC_2_128> compiled.
+Entity <DBLC_2_128> (Architecture <DBLC_2>) compiled.
+Entity <DBLC_3_128> compiled.
+Entity <DBLC_3_128> (Architecture <DBLC_3>) compiled.
+Entity <DBLC_4_128> compiled.
+Entity <DBLC_4_128> (Architecture <DBLC_4>) compiled.
+Entity <DBLC_5_128> compiled.
+Entity <DBLC_5_128> (Architecture <DBLC_5>) compiled.
+Entity <DBLC_6_128> compiled.
+Entity <DBLC_6_128> (Architecture <DBLC_6>) compiled.
+Entity <XORSTAGE_128> compiled.
+Entity <XORSTAGE_128> (Architecture <XORSTAGE>) compiled.
+Entity <DBLCTREE_128> compiled.
+Entity <DBLCTREE_128> (Architecture <DBLCTREE>) compiled.
+Entity <DBLCADDER_128_128> compiled.
+Entity <DBLCADDER_128_128> (Architecture <DBLCADDER>) compiled.
+Entity <BOOTHCODER_18_18> compiled.
+Entity <BOOTHCODER_18_18> (Architecture <BOOTHCODER>) compiled.
+Entity <WALLACE_18_18> compiled.
+Entity <WALLACE_18_18> (Architecture <WALLACE>) compiled.
+Entity <MULTIPLIER_18_18> compiled.
+Entity <MULTIPLIER_18_18> (Architecture <MULTIPLIER>) compiled.
+Entity <BOOTHCODER_34_10> compiled.
+Entity <BOOTHCODER_34_10> (Architecture <BOOTHCODER>) compiled.
+Entity <WALLACE_34_10> compiled.
+Entity <WALLACE_34_10> (Architecture <WALLACE>) compiled.
+Entity <MULTIPLIER_34_10> compiled.
+Entity <MULTIPLIER_34_10> (Architecture <MULTIPLIER>) compiled.
+Entity <MUL_33_9> compiled.
+Entity <MUL_33_9> (Architecture <A>) compiled.
+Entity <BOOTHCODER_34_18> compiled.
+Entity <BOOTHCODER_34_18> (Architecture <BOOTHCODER>) compiled.
+Entity <WALLACE_34_18> compiled.
+Entity <WALLACE_34_18> (Architecture <WALLACE>) compiled.
+Entity <MULTIPLIER_34_18> compiled.
+Entity <MULTIPLIER_34_18> (Architecture <MULTIPLIER>) compiled.
+Entity <MUL_33_17> compiled.
+Entity <MUL_33_17> (Architecture <A>) compiled.
+Entity <BOOTHCODER_34_34> compiled.
+Entity <BOOTHCODER_34_34> (Architecture <BOOTHCODER>) compiled.
+Entity <WALLACE_34_34> compiled.
+Entity <WALLACE_34_34> (Architecture <WALLACE>) compiled.
+Entity <MULTIPLIER_34_34> compiled.
+Entity <MULTIPLIER_34_34> (Architecture <MULTIPLIER>) compiled.
+Entity <MUL_33_33> compiled.
+Entity <MUL_33_33> (Architecture <A>) compiled.
+Entity <ADD32> compiled.
+Entity <ADD32> (Architecture <A>) compiled.
+Entity <MUL_17_17> compiled.
+Entity <MUL_17_17> (Architecture <A>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.40 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/grlib/amba/amba.vhd" in Library grlib.
+Package <amba> compiled.
+Package body <amba> compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.43 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/grlib/amba/devices.vhd" in Library grlib.
+Package <devices> compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.44 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/grlib/amba/defmst.vhd" in Library grlib.
+Entity <ahbdefmst> compiled.
+Entity <ahbdefmst> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.45 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/grlib/amba/apbctrl.vhd" in Library grlib.
+Entity <apbctrl> compiled.
+Entity <apbctrl> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.46 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/grlib/amba/ahbctrl.vhd" in Library grlib.
+Entity <ahbctrl> compiled.
+Entity <ahbctrl> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.50 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/grlib/amba/dma2ahb_pkg.vhd" in Library grlib.
+Package <DMA2AHB_Package> compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.52 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/grlib/amba/dma2ahb.vhd" in Library grlib.
+Entity <DMA2AHB> compiled.
+Entity <DMA2AHB> (Architecture <RTL>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.54 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/gencomp/gencomp.vhd" in Library techmap.
+Package <gencomp> compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.58 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/gencomp/netcomp.vhd" in Library techmap.
+Package <netcomp> compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.61 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/inferred/memory_inferred.vhd" in Library techmap.
+Entity <generic_syncram> compiled.
+Entity <generic_syncram> (Architecture <behavioral>) compiled.
+Entity <generic_syncram_2p> compiled.
+Entity <generic_syncram_2p> (Architecture <behav>) compiled.
+Entity <generic_regfile_3p> compiled.
+Entity <generic_regfile_3p> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.63 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/inferred/ddr_inferred.vhd" in Library techmap.
+Entity <gen_iddr_reg> compiled.
+Entity <gen_iddr_reg> (Architecture <rtl>) compiled.
+Entity <gen_oddr_reg> compiled.
+Entity <gen_oddr_reg> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.64 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/inferred/mul_inferred.vhd" in Library techmap.
+Entity <gen_mul_61x61> compiled.
+Entity <gen_mul_61x61> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.65 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/inferred/ddr_phy_inferred.vhd" in Library techmap.
+Entity <gen_ddr_phy_oreg> compiled.
+Entity <gen_ddr_phy_oreg> (Architecture <rtl>) compiled.
+Entity <gen_ddr_phy_ireg> compiled.
+Entity <gen_ddr_phy_ireg> (Architecture <rtl>) compiled.
+Entity <gen_ddr_phy_reg> compiled.
+Entity <gen_ddr_phy_reg> (Architecture <rtl>) compiled.
+Entity <generic_ddr_phy> compiled.
+Entity <generic_ddr_phy> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.68 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/unisim/memory_unisim.vhd" in Library techmap.
+Entity <virtex_syncram> compiled.
+Entity <virtex_syncram> (Architecture <behav>) compiled.
+Entity <virtex_syncram_dp> compiled.
+Entity <virtex_syncram_dp> (Architecture <behav>) compiled.
+Entity <virtex2_syncram> compiled.
+Entity <virtex2_syncram> (Architecture <behav>) compiled.
+Entity <virtex2_syncram_dp> compiled.
+Entity <virtex2_syncram_dp> (Architecture <behav>) compiled.
+Entity <virtex2_syncram_2p> compiled.
+Entity <virtex2_syncram_2p> (Architecture <behav>) compiled.
+Entity <virtex2_syncram64> compiled.
+Entity <virtex2_syncram64> (Architecture <behav>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.72 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/unisim/buffer_unisim.vhd" in Library techmap.
+Entity <clkbuf_xilinx> compiled.
+Entity <clkbuf_xilinx> (Architecture <rtl>) compiled.
+Entity <clkmux_xilinx> compiled.
+Entity <clkmux_xilinx> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.74 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/unisim/pads_unisim.vhd" in Library techmap.
+Entity <virtex_inpad> compiled.
+Entity <virtex_inpad> (Architecture <rtl>) compiled.
+Entity <virtex_iopad> compiled.
+Entity <virtex_iopad> (Architecture <rtl>) compiled.
+Entity <virtex_outpad> compiled.
+Entity <virtex_outpad> (Architecture <rtl>) compiled.
+Entity <virtex_toutpad> compiled.
+Entity <virtex_toutpad> (Architecture <rtl>) compiled.
+Entity <virtex_skew_outpad> compiled.
+Entity <virtex_skew_outpad> (Architecture <rtl>) compiled.
+Entity <virtex_clkpad> compiled.
+Entity <virtex_clkpad> (Architecture <rtl>) compiled.
+Entity <virtex_outpad_ds> compiled.
+Entity <virtex_outpad_ds> (Architecture <rtl>) compiled.
+Entity <virtex_inpad_ds> compiled.
+Entity <virtex_inpad_ds> (Architecture <rtl>) compiled.
+Entity <virtex_clkpad_ds> compiled.
+Entity <virtex_clkpad_ds> (Architecture <rtl>) compiled.
+Entity <virtex4_inpad_ds> compiled.
+Entity <virtex4_inpad_ds> (Architecture <rtl>) compiled.
+Entity <virtex4_clkpad_ds> compiled.
+Entity <virtex4_clkpad_ds> (Architecture <rtl>) compiled.
+Entity <virtex5_iopad_ds> compiled.
+Entity <virtex5_iopad_ds> (Architecture <rtl>) compiled.
+Entity <virtex5_outpad_ds> compiled.
+Entity <virtex5_outpad_ds> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.76 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/unisim/clkgen_unisim.vhd" in Library techmap.
+Entity <clkgen_virtex2> compiled.
+Entity <clkgen_virtex2> (Architecture <struct>) compiled.
+Entity <clkgen_virtex> compiled.
+Entity <clkgen_virtex> (Architecture <rtl>) compiled.
+Entity <clkmul_virtex2> compiled.
+Entity <clkmul_virtex2> (Architecture <struct>) compiled.
+Entity <clkgen_spartan3> compiled.
+Entity <clkgen_spartan3> (Architecture <struct>) compiled.
+Entity <clkgen_virtex5> compiled.
+Entity <clkgen_virtex5> (Architecture <struct>) compiled.
+Entity <clkand_unisim> compiled.
+Entity <clkand_unisim> (Architecture <rtl>) compiled.
+Entity <clkmux_unisim> compiled.
+Entity <clkmux_unisim> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.78 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/unisim/tap_unisim.vhd" in Library techmap.
+Entity <virtex_tap> compiled.
+Entity <virtex_tap> (Architecture <rtl>) compiled.
+Entity <virtex2_tap> compiled.
+Entity <virtex2_tap> (Architecture <rtl>) compiled.
+Entity <spartan3_tap> compiled.
+Entity <spartan3_tap> (Architecture <rtl>) compiled.
+Entity <virtex4_tap> compiled.
+Entity <virtex4_tap> (Architecture <rtl>) compiled.
+Entity <virtex5_tap> compiled.
+Entity <virtex5_tap> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.80 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/unisim/ddr_unisim.vhd" in Library techmap.
+Entity <unisim_iddr_reg> compiled.
+Entity <unisim_iddr_reg> (Architecture <rtl>) compiled.
+Entity <unisim_oddr_reg> compiled.
+Entity <unisim_oddr_reg> (Architecture <rtl>) compiled.
+Entity <oddrv2> compiled.
+Entity <oddrv2> (Architecture <rtl>) compiled.
+Entity <oddrc3e> compiled.
+Entity <oddrc3e> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.82 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/unisim/ddr_phy_unisim.vhd" in Library techmap.
+Entity <virtex4_ddr_phy> compiled.
+Entity <virtex4_ddr_phy> (Architecture <rtl>) compiled.
+Entity <virtex2_ddr_phy> compiled.
+Entity <virtex2_ddr_phy> (Architecture <rtl>) compiled.
+Entity <spartan3e_ddr_phy> compiled.
+Entity <spartan3e_ddr_phy> (Architecture <rtl>) compiled.
+Entity <virtex5_ddr2_phy> compiled.
+Entity <virtex5_ddr2_phy> (Architecture <rtl>) compiled.
+Entity <spartan3a_ddr2_phy> compiled.
+Entity <spartan3a_ddr2_phy> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.88 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/unisim/grspwc_unisim.vhd" in Library techmap.
+Entity <grspwc_unisim> compiled.
+Entity <grspwc_unisim> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.91 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/unisim/grfpw_unisim.vhd" in Library techmap.
+Entity <grfpw_unisim> compiled.
+Entity <grfpw_unisim> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.92 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/unisim/grusbhc_unisim.vhd" in Library techmap.
+Entity <grusbhc_unisim> compiled.
+Entity <grusbhc_unisim> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.98 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/unisim/ssrctrl_unisim.vhd" in Library techmap.
+Entity <ssrctrl_unisim> compiled.
+Entity <ssrctrl_unisim_netlist> compiled.
+Entity <ssrctrl_unisim_netlist> (Architecture <beh>) compiled.
+Entity <ssrctrl_unisim> (Architecture <beh>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.10 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/unisim/sysmon_unisim.vhd" in Library techmap.
+Entity <sysmon_virtex5> compiled.
+Entity <sysmon_virtex5> (Architecture <struct>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.13 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/allclkgen.vhd" in Library techmap.
+Package <allclkgen> compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.15 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/allddr.vhd" in Library techmap.
+Package <allddr> compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.19 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/allmem.vhd" in Library techmap.
+Package <allmem> compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.22 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/allpads.vhd" in Library techmap.
+Package <allpads> compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.25 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/alltap.vhd" in Library techmap.
+Package <alltap> compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.27 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/clkgen.vhd" in Library techmap.
+Entity <clkgen> compiled.
+Entity <clkgen> (Architecture <struct>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.30 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/clkmux.vhd" in Library techmap.
+Entity <clkmux> compiled.
+Entity <clkmux> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.32 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/clkand.vhd" in Library techmap.
+Entity <clkand> compiled.
+Entity <clkand> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.35 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/ddr_ireg.vhd" in Library techmap.
+Entity <ddr_ireg> compiled.
+Entity <ddr_ireg> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.37 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/ddr_oreg.vhd" in Library techmap.
+Entity <ddr_oreg> compiled.
+Entity <ddr_oreg> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.40 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/ddrphy.vhd" in Library techmap.
+Entity <ddrphy> compiled.
+Entity <ddrphy> (Architecture <rtl>) compiled.
+Entity <ddr2phy> compiled.
+Entity <ddr2phy> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.43 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/syncram.vhd" in Library techmap.
+Entity <syncram> compiled.
+Entity <syncram> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.46 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/syncram64.vhd" in Library techmap.
+Entity <syncram64> compiled.
+Entity <syncram64> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.49 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/syncram_2p.vhd" in Library techmap.
+Entity <syncram_2p> compiled.
+Entity <syncram_2p> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.51 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/syncram_dp.vhd" in Library techmap.
+Entity <syncram_dp> compiled.
+Entity <syncram_dp> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.55 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/syncfifo.vhd" in Library techmap.
+Entity <syncfifo> compiled.
+Entity <syncfifo> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.58 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/regfile_3p.vhd" in Library techmap.
+Entity <regfile_3p> compiled.
+Entity <regfile_3p> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.60 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/tap.vhd" in Library techmap.
+Entity <tap> compiled.
+Entity <tap> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.64 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/techbuf.vhd" in Library techmap.
+Entity <techbuf> compiled.
+Entity <techbuf> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.67 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/clkpad.vhd" in Library techmap.
+Entity <clkpad> compiled.
+Entity <clkpad> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.70 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/clkpad_ds.vhd" in Library techmap.
+Entity <clkpad_ds> compiled.
+Entity <clkpad_ds> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.72 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/inpad.vhd" in Library techmap.
+Entity <inpad> compiled.
+Entity <inpad> (Architecture <rtl>) compiled.
+Entity <inpadv> compiled.
+Entity <inpadv> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.76 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/inpad_ds.vhd" in Library techmap.
+Entity <inpad_ds> compiled.
+Entity <inpad_ds> (Architecture <rtl>) compiled.
+Entity <inpad_dsv> compiled.
+Entity <inpad_dsv> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.80 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/iodpad.vhd" in Library techmap.
+Entity <iodpad> compiled.
+Entity <iodpad> (Architecture <rtl>) compiled.
+Entity <iodpadv> compiled.
+Entity <iodpadv> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.82 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/iopad.vhd" in Library techmap.
+Entity <iopad> compiled.
+Entity <iopad> (Architecture <rtl>) compiled.
+Entity <iopadv> compiled.
+Entity <iopadv> (Architecture <rtl>) compiled.
+Entity <iopadvv> compiled.
+Entity <iopadvv> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.86 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/iopad_ds.vhd" in Library techmap.
+Entity <iopad_ds> compiled.
+Entity <iopad_ds> (Architecture <rtl>) compiled.
+Entity <iopad_dsv> compiled.
+Entity <iopad_dsv> (Architecture <rtl>) compiled.
+Entity <iopad_dsvv> compiled.
+Entity <iopad_dsvv> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.90 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/lvds_combo.vhd" in Library techmap.
+Entity <lvds_combo> compiled.
+Entity <lvds_combo> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.93 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/odpad.vhd" in Library techmap.
+Entity <odpad> compiled.
+Entity <odpad> (Architecture <rtl>) compiled.
+Entity <odpadv> compiled.
+Entity <odpadv> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.96 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/outpad.vhd" in Library techmap.
+Entity <outpad> compiled.
+Entity <outpad> (Architecture <rtl>) compiled.
+Entity <outpadv> compiled.
+Entity <outpadv> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.00 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/outpad_ds.vhd" in Library techmap.
+Entity <outpad_ds> compiled.
+Entity <outpad_ds> (Architecture <rtl>) compiled.
+Entity <outpad_dsv> compiled.
+Entity <outpad_dsv> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.03 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/toutpad.vhd" in Library techmap.
+Entity <toutpad> compiled.
+Entity <toutpad> (Architecture <rtl>) compiled.
+Entity <toutpadv> compiled.
+Entity <toutpadv> (Architecture <rtl>) compiled.
+Entity <toutpadvv> compiled.
+Entity <toutpadvv> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.07 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/skew_outpad.vhd" in Library techmap.
+Entity <skew_outpad> compiled.
+Entity <skew_outpad> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.10 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/grspwc_net.vhd" in Library techmap.
+Entity <grspwc_net> compiled.
+Entity <grspwc_net> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.14 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/grlfpw_net.vhd" in Library techmap.
+Entity <grlfpw_net> compiled.
+Entity <grlfpw_net> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.18 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/grfpw_net.vhd" in Library techmap.
+Entity <grfpw_net> compiled.
+Entity <grfpw_net> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.22 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/mul_61x61.vhd" in Library techmap.
+Entity <mul_61x61> compiled.
+Entity <mul_61x61> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.26 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/cpu_disas_net.vhd" in Library techmap.
+Entity <cpu_disas_net> compiled.
+Entity <cpu_disas_net> (Architecture <behav>) compiled.
+Entity <fpu_disas_net> compiled.
+Entity <fpu_disas_net> (Architecture <behav>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.28 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/grusbhc_net.vhd" in Library techmap.
+Entity <grusbhc_net> compiled.
+Entity <grusbhc_net> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.35 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/ringosc.vhd" in Library techmap.
+Entity <ringosc> compiled.
+Entity <ringosc> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.38 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/ssrctrl_net.vhd" in Library techmap.
+Entity <ssrctrl_net> compiled.
+Entity <ssrctrl_net> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.41 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/techmap/maps/system_monitor.vhd" in Library techmap.
+Entity <system_monitor> compiled.
+Entity <system_monitor> (Architecture <struct>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.44 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/spw/comp/spwcomp.vhd" in Library spw.
+Package <spwcomp> compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.45 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/spw/wrapper/grspw_gen.vhd" in Library spw.
+Entity <grspw_gen> compiled.
+Entity <grspw_gen> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.49 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/eth/comp/ethcomp.vhd" in Library eth.
+Package <ethcomp> compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.50 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/eth/core/greth_pkg.vhd" in Library eth.
+Package <grethpkg> compiled.
+Package body <grethpkg> compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.52 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/eth/core/eth_rstgen.vhd" in Library eth.
+Entity <eth_rstgen> compiled.
+Entity <eth_rstgen> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.53 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/eth/core/eth_ahb_mst.vhd" in Library eth.
+Entity <eth_ahb_mst> compiled.
+Entity <eth_ahb_mst> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.55 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/eth/core/greth_tx.vhd" in Library eth.
+Entity <greth_tx> compiled.
+Entity <greth_tx> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.59 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/eth/core/greth_rx.vhd" in Library eth.
+Entity <greth_rx> compiled.
+Entity <greth_rx> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.62 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/eth/core/grethc.vhd" in Library eth.
+Entity <grethc> compiled.
+Entity <grethc> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.79 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/eth/wrapper/greth_gen.vhd" in Library eth.
+Entity <greth_gen> compiled.
+Entity <greth_gen> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.82 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/eth/wrapper/greth_gbit_gen.vhd" in Library eth.
+Entity <greth_gbit_gen> compiled.
+Entity <greth_gbit_gen> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.85 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/opencores/occomp/occomp.vhd" in Library opencores.
+Package <occomp> compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.86 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/opencores/can/cancomp.vhd" in Library opencores.
+Package <cancomp> compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.86 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/opencores/can/can_top.vhd" in Library opencores.
+Entity <can_acf> compiled.
+Entity <can_acf> (Architecture <RTL>) compiled.
+Entity <can_btl> compiled.
+Entity <can_btl> (Architecture <RTL>) compiled.
+Entity <can_fifo> compiled.
+Entity <can_fifo> (Architecture <RTL>) compiled.
+Entity <can_crc> compiled.
+Entity <can_crc> (Architecture <RTL>) compiled.
+Entity <can_ibo> compiled.
+Entity <can_ibo> (Architecture <RTL>) compiled.
+Entity <can_bsp> compiled.
+Entity <can_bsp> (Architecture <RTL>) compiled.
+Entity <can_register> compiled.
+Entity <can_register> (Architecture <RTL>) compiled.
+Entity <can_register_asyn> compiled.
+Entity <can_register_asyn> (Architecture <RTL>) compiled.
+Entity <can_register_asyn_syn> compiled.
+Entity <can_register_asyn_syn> (Architecture <RTL>) compiled.
+Entity <can_register_syn> compiled.
+Entity <can_register_syn> (Architecture <RTL>) compiled.
+Entity <can_registers> compiled.
+Entity <can_registers> (Architecture <RTL>) compiled.
+Entity <can_top> compiled.
+Entity <can_top> (Architecture <RTL>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.04 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/opencores/can/can_top_core_sync.vhd" in Library opencores.
+Entity <can_btl_core_sync> compiled.
+Entity <can_btl_core_sync> (Architecture <RTL>) compiled.
+Entity <can_crc_core_sync> compiled.
+Entity <can_crc_core_sync> (Architecture <RTL>) compiled.
+Entity <can_ibo_core_sync> compiled.
+Entity <can_ibo_core_sync> (Architecture <RTL>) compiled.
+Entity <can_bsp_core_sync> compiled.
+Entity <can_bsp_core_sync> (Architecture <RTL>) compiled.
+Entity <can_top_core_sync> compiled.
+Entity <can_top_core_sync> (Architecture <RTL>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.14 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/opencores/i2c/i2c_master_bit_ctrl.vhd" in Library opencores.
+Entity <i2c_master_bit_ctrl> compiled.
+Entity <i2c_master_bit_ctrl> (Architecture <structural>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.16 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/opencores/i2c/i2c_master_byte_ctrl.vhd" in Library opencores.
+Entity <i2c_master_byte_ctrl> compiled.
+Entity <i2c_master_byte_ctrl> (Architecture <structural>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.18 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/opencores/i2c/i2coc.vhd" in Library opencores.
+Package <i2coc> compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.19 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../../lib/opencores/spi/simple_spi_top.v" in library opencores
+Module <fifo4> compiled
+Module <simple_spi_top> compiled
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.19 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/arith/arith.vhd" in Library gaisler.
+Package <arith> compiled.
+Package body <arith> compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.20 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/arith/mul32.vhd" in Library gaisler.
+Entity <mul32> compiled.
+Entity <mul32> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.22 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/arith/div32.vhd" in Library gaisler.
+Entity <div32> compiled.
+Entity <div32> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.24 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/memctrl/memctrl.vhd" in Library gaisler.
+Package <memctrl> compiled.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.28 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/memctrl/sdctrl.vhd" in Library gaisler.
+Entity <sdctrl> compiled.
+Entity <sdctrl> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.38 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/memctrl/sdmctrl.vhd" in Library gaisler.
+Entity <sdmctrl> compiled.
+Entity <sdmctrl> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.51 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/memctrl/srctrl.vhd" in Library gaisler.
+Entity <srctrl> compiled.
+Entity <srctrl> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.57 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/memctrl/spimctrl.vhd" in Library gaisler.
+Entity <spimctrl> compiled.
+Entity <spimctrl> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.64 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/leon3.vhd" in Library gaisler.
+Package <leon3> compiled.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.69 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/mmuconfig.vhd" in Library gaisler.
+Package <mmuconfig> compiled.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.72 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/mmuiface.vhd" in Library gaisler.
+Package <mmuiface> compiled.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.76 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/libmmu.vhd" in Library gaisler.
+Package <libmmu> compiled.
+Package body <libmmu> compiled.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.80 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/libiu.vhd" in Library gaisler.
+Package <libiu> compiled.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.85 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/libcache.vhd" in Library gaisler.
+Package <libcache> compiled.
+Package body <libcache> compiled.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 3.92 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/libproc3.vhd" in Library gaisler.
+Package <libproc3> compiled.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 3.97 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/cachemem.vhd" in Library gaisler.
+Entity <cachemem> compiled.
+Entity <cachemem> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.05 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/mmu_icache.vhd" in Library gaisler.
+Entity <mmu_icache> compiled.
+Entity <mmu_icache> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.18 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/mmu_dcache.vhd" in Library gaisler.
+Entity <mmu_dcache> compiled.
+Entity <mmu_dcache> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.48 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/mmu_acache.vhd" in Library gaisler.
+Entity <mmu_acache> compiled.
+Entity <mmu_acache> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.58 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/mmutlbcam.vhd" in Library gaisler.
+Entity <mmutlbcam> compiled.
+Entity <mmutlbcam> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.64 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/mmulrue.vhd" in Library gaisler.
+Entity <mmulrue> compiled.
+Entity <mmulrue> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.68 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/mmulru.vhd" in Library gaisler.
+Entity <mmulru> compiled.
+Entity <mmulru> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.75 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/mmutlb.vhd" in Library gaisler.
+Entity <mmutlb> compiled.
+Entity <mmutlb> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.86 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/mmutw.vhd" in Library gaisler.
+Entity <mmutw> compiled.
+Entity <mmutw> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 4.93 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/mmu.vhd" in Library gaisler.
+Entity <mmu> compiled.
+Entity <mmu> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 4.98 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/mmu_cache.vhd" in Library gaisler.
+Entity <mmu_cache> compiled.
+Entity <mmu_cache> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.03 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/acache.vhd" in Library gaisler.
+Entity <acache> compiled.
+Entity <acache> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.09 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/dcache.vhd" in Library gaisler.
+Entity <dcache> compiled.
+Entity <dcache> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.27 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/icache.vhd" in Library gaisler.
+Entity <icache> compiled.
+Entity <icache> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.36 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/cache.vhd" in Library gaisler.
+Entity <cache> compiled.
+Entity <cache> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.41 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/cpu_disasx.vhd" in Library gaisler.
+Entity <cpu_disasx> compiled.
+Entity <cpu_disasx> (Architecture <behav>) compiled.
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.44 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/iu3.vhd" in Library gaisler.
+Entity <iu3> compiled.
+Entity <iu3> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 5.96 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/grfpwx.vhd" in Library gaisler.
+Entity <grfpwx> compiled.
+Entity <grfpwx> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.00 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/mfpwx.vhd" in Library gaisler.
+Entity <mfpwx> compiled.
+Entity <mfpwx> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.04 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/grlfpwx.vhd" in Library gaisler.
+Entity <grlfpwx> compiled.
+Entity <grlfpwx> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.08 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/tbufmem.vhd" in Library gaisler.
+Entity <tbufmem> compiled.
+Entity <tbufmem> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.12 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/dsu3x.vhd" in Library gaisler.
+Entity <dsu3x> compiled.
+Entity <dsu3x> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.24 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/dsu3.vhd" in Library gaisler.
+Entity <dsu3> compiled.
+Entity <dsu3> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.28 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/proc3.vhd" in Library gaisler.
+Entity <proc3> compiled.
+Entity <proc3> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.33 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/leon3s.vhd" in Library gaisler.
+Entity <leon3s> compiled.
+Entity <leon3s> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.38 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/leon3cg.vhd" in Library gaisler.
+Entity <leon3cg> compiled.
+Entity <leon3cg> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.43 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/irqmp.vhd" in Library gaisler.
+Entity <irqmp> compiled.
+Entity <irqmp> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.50 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/grfpwxsh.vhd" in Library gaisler.
+Entity <grfpwxsh> compiled.
+Entity <grfpwxsh> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.54 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/grfpushwx.vhd" in Library gaisler.
+Entity <grfpushwx> compiled.
+Entity <grfpushwx> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.58 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/leon3/leon3sh.vhd" in Library gaisler.
+Entity <leon3sh> compiled.
+Entity <leon3sh> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.63 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/can/can.vhd" in Library gaisler.
+Package <can> compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.67 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/can/can_mod.vhd" in Library gaisler.
+Entity <can_mod> compiled.
+Entity <can_mod> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.72 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/can/can_oc.vhd" in Library gaisler.
+Entity <can_oc> compiled.
+Entity <can_oc> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 6.76 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/can/can_mc.vhd" in Library gaisler.
+Entity <can_mc> compiled.
+Entity <can_mc> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 6.81 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/can/canmux.vhd" in Library gaisler.
+Entity <canmux> compiled.
+Entity <canmux> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 6.85 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/can/can_rd.vhd" in Library gaisler.
+Entity <can_rd> compiled.
+Entity <can_rd> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 6.90 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/misc.vhd" in Library gaisler.
+Package <misc> compiled.
+Package body <misc> compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 6.96 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/rstgen.vhd" in Library gaisler.
+Entity <rstgen> compiled.
+Entity <rstgen> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 6.99 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/gptimer.vhd" in Library gaisler.
+Entity <gptimer> compiled.
+Entity <gptimer> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.06 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/ahbram.vhd" in Library gaisler.
+Entity <ahbram> compiled.
+Entity <ahbram> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.10 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/ahbdpram.vhd" in Library gaisler.
+Entity <ahbdpram> compiled.
+Entity <ahbdpram> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.15 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/ahbtrace.vhd" in Library gaisler.
+Entity <ahbtrace> compiled.
+Entity <ahbtrace> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.21 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/ahbmst.vhd" in Library gaisler.
+Entity <ahbmst> compiled.
+Entity <ahbmst> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.26 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/grgpio.vhd" in Library gaisler.
+Entity <grgpio> compiled.
+Entity <grgpio> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.33 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/ahbstat.vhd" in Library gaisler.
+Entity <ahbstat> compiled.
+Entity <ahbstat> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.38 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/logan.vhd" in Library gaisler.
+Entity <logan> compiled.
+Entity <logan> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.44 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/apbps2.vhd" in Library gaisler.
+Entity <apbps2> compiled.
+Entity <apbps2> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.51 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/charrom_package.vhd" in Library gaisler.
+Package <charrom_package> compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.54 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/charrom.vhd" in Library gaisler.
+Entity <charrom> compiled.
+Entity <charrom> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.64 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/apbvga.vhd" in Library gaisler.
+Entity <apbvga> compiled.
+Entity <apbvga> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 7.70 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/ahbdma.vhd" in Library gaisler.
+Entity <ahbdma> compiled.
+Entity <ahbdma> (Architecture <struct>) compiled.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 7.76 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/svgactrl.vhd" in Library gaisler.
+Entity <svgactrl> compiled.
+Entity <svgactrl> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 7.84 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/i2cmst.vhd" in Library gaisler.
+Entity <i2cmst> compiled.
+Entity <i2cmst> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 7.90 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/spictrl.vhd" in Library gaisler.
+Entity <spictrl> compiled.
+Entity <spictrl> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.00 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/i2cslv.vhd" in Library gaisler.
+Entity <i2cslv> compiled.
+Entity <i2cslv> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.07 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/wild.vhd" in Library gaisler.
+Package <Wild> compiled.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.10 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/wild2ahb.vhd" in Library gaisler.
+Entity <Wild2AHB> compiled.
+Entity <Wild2AHB> (Architecture <RTL>) compiled.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.18 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/grsysmon.vhd" in Library gaisler.
+Entity <grsysmon> compiled.
+Entity <grsysmon> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.28 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/misc/gracectrl.vhd" in Library gaisler.
+Entity <gracectrl> compiled.
+Entity <gracectrl> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.36 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/net/net.vhd" in Library gaisler.
+Package <net> compiled.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.42 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/pci/pci.vhd" in Library gaisler.
+Package <pci> compiled.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.50 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/pci/pcilib.vhd" in Library gaisler.
+Package <pcilib> compiled.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.56 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/pci/pciahbmst.vhd" in Library gaisler.
+Entity <pciahbmst> compiled.
+Entity <pciahbmst> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 8.64 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/pci/pcitrace.vhd" in Library gaisler.
+Entity <pcitrace> compiled.
+Entity <pcitrace> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 8.72 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/pci/pci_target.vhd" in Library gaisler.
+Entity <pci_target> compiled.
+Entity <pci_target> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 8.84 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/pci/pci_mt.vhd" in Library gaisler.
+Entity <pci_mt> compiled.
+Entity <pci_mt> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.02 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/pci/dmactrl.vhd" in Library gaisler.
+Entity <dmactrl> compiled.
+Entity <dmactrl> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.15 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/pci/pci_mtf.vhd" in Library gaisler.
+Entity <pci_mtf> compiled.
+Entity <pci_mtf> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 9.62 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/pci/pcipads.vhd" in Library gaisler.
+Entity <pcipads> compiled.
+Entity <pcipads> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 9.70 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/pci/pcidma.vhd" in Library gaisler.
+Entity <pcidma> compiled.
+Entity <pcidma> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 9.76 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/uart/uart.vhd" in Library gaisler.
+Package <uart> compiled.
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 9.83 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/uart/libdcom.vhd" in Library gaisler.
+Package <libdcom> compiled.
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 9.90 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/uart/apbuart.vhd" in Library gaisler.
+Entity <apbuart> compiled.
+Entity <apbuart> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.00 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/uart/dcom.vhd" in Library gaisler.
+Entity <dcom> compiled.
+Entity <dcom> (Architecture <struct>) compiled.
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.08 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/uart/dcom_uart.vhd" in Library gaisler.
+Entity <dcom_uart> compiled.
+Entity <dcom_uart> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.16 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/uart/ahbuart.vhd" in Library gaisler.
+Entity <ahbuart> compiled.
+Entity <ahbuart> (Architecture <struct>) compiled.
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.23 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/jtag/jtag.vhd" in Library gaisler.
+Package <jtag> compiled.
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.28 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/jtag/libjtagcom.vhd" in Library gaisler.
+Package <libjtagcom> compiled.
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.34 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/jtag/jtagcom.vhd" in Library gaisler.
+Entity <jtagcom> compiled.
+Entity <jtagcom> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.41 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/jtag/ahbjtag.vhd" in Library gaisler.
+Entity <ahbjtag> compiled.
+Entity <ahbjtag> (Architecture <struct>) compiled.
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.48 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/jtag/ahbjtag_bsd.vhd" in Library gaisler.
+Entity <ahbjtag_bsd> compiled.
+Entity <ahbjtag_bsd> (Architecture <struct>) compiled.
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 10.56 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/greth/ethernet_mac.vhd" in Library gaisler.
+Package <ethernet_mac> compiled.
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 10.63 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/greth/greth.vhd" in Library gaisler.
+Entity <greth> compiled.
+Entity <greth> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 10.72 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/greth/greth_gbit.vhd" in Library gaisler.
+Entity <greth_gbit> compiled.
+Entity <greth_gbit> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 10.80 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/greth/grethm.vhd" in Library gaisler.
+Entity <grethm> compiled.
+Entity <grethm> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 10.88 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/spacewire/spacewire.vhd" in Library gaisler.
+Package <spacewire> compiled.
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 10.96 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/spacewire/grspw.vhd" in Library gaisler.
+Entity <grspw> compiled.
+Entity <grspw> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.05 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/spacewire/grspw2.vhd" in Library gaisler.
+Entity <grspw2> compiled.
+Entity <grspw2> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.14 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/gaisler/spacewire/grspwm.vhd" in Library gaisler.
+Entity <grspwm> compiled.
+Entity <grspwm> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.20 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/esa/memoryctrl/memoryctrl.vhd" in Library esa.
+Package <memoryctrl> compiled.
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.27 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/esa/memoryctrl/mctrl.vhd" in Library esa.
+Entity <mctrl> compiled.
+Entity <mctrl> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 11.48 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/esa/pci/pcicomp.vhd" in Library esa.
+Package <pcicomp> compiled.
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 11.53 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/esa/pci/pci_arb_pkg.vhd" in Library esa.
+Package <pci_arb_pkg> compiled.
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 11.59 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/esa/pci/pci_arb.vhd" in Library esa.
+Entity <pci_arb> compiled.
+Entity <pci_arb> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 11.66 secs
+ 
+--> 
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "../../lib/esa/pci/pciarb.vhd" in Library esa.
+Entity <pciarb> compiled.
+Entity <pciarb> (Architecture <rtl>) compiled.
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 11.74 secs
+ 
+--> 
+
+
+Total memory usage is 560964 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   11 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

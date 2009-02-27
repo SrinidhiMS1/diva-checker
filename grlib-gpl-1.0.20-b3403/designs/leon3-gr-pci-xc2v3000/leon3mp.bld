@@ -1,0 +1,509 @@
+Release 10.1.03 ngdbuild K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/10.1/ISE/bin/lin/unwrapped/ngdbuild -ise
+/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/designs/leon3-gr-pci-xc2v3000/leon3m
+p.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc2v3000-fg676-4 leon3mp.ngc
+leon3mp.ngd
+
+Reading NGO file
+"/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/designs/leon3-gr-pci-xc2v3000/leon3
+mp.ngc" ...
+Reading in constraint information from
+'/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf'...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <INST "clkgen0_xc2v_v_dll0" LOC =
+   DCM_X2Y0;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   0)]: INST "clkgen0_xc2v_v_dll0" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST "clkgen0_xc2v_v_sd0_dll1" LOC =
+   DCM_X5Y0;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   1)]: INST "clkgen0_xc2v_v_sd0_dll1" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST "clkgen0_v_dll0" LOC = DCM_X2Y0;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   8)]: INST "clkgen0_v_dll0" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST "clkgen0_v_dll1" LOC = DCM_X5Y0;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   9)]: INST "clkgen0_v_dll1" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST "clkgen0/v/dll0" LOC = DCM_X2Y0;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(3
+   0)]: INST "clkgen0/v/dll0" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <INST "clkgen0/v/dll1" LOC = DCM_X5Y0;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(3
+   1)]: INST "clkgen0/v/dll1" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "wdogn" LOC = "G4"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(5
+   4)]: NET "wdogn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "power_state(1)" LOC = "P1"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(8
+   5)]: NET "power_state(1)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "power_state(0)" LOC = "N1"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(8
+   6)]: NET "power_state(0)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "pme_status" LOC = "J1"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(8
+   7)]: NET "pme_status" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "pme_enable" LOC = "H1"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(8
+   8)]: NET "pme_enable" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "pme_clear" LOC = "L1"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(8
+   9)]: NET "pme_clear" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_cbe(3)" LOC = "AC6"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   29)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_cbe(3)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_cbe(2)" LOC = "AD6"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   30)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_cbe(2)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_cbe(1)" LOC = "AA7"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   31)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_cbe(1)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_cbe(0)" LOC = "AB7"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   32)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_cbe(0)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_arb_req(3)" LOC = "P7"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   33)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_arb_req(3)"' because those design objects do not contain or drive
+   any instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_arb_req(2)" LOC = "P6"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   34)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_arb_req(2)"' because those design objects do not contain or drive
+   any instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_arb_req(1)" LOC = "P5"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   35)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_arb_req(1)"' because those design objects do not contain or drive
+   any instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_arb_req(0)" LOC = "P4"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   36)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_arb_req(0)"' because those design objects do not contain or drive
+   any instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_arb_gnt(3)" LOC = "N4"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   37)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_arb_gnt(3)"' because those design objects do not contain or drive
+   any instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_arb_gnt(2)" LOC = "N5"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   38)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_arb_gnt(2)"' because those design objects do not contain or drive
+   any instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_arb_gnt(1)" LOC = "N6"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   39)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_arb_gnt(1)"' because those design objects do not contain or drive
+   any instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_arb_gnt(0)" LOC = "N7"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   40)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_arb_gnt(0)"' because those design objects do not contain or drive
+   any instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(31)" LOC = "T8"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   41)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(31)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(30)" LOC = "T6"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   42)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(30)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(29)" LOC = "T5"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   43)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(29)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(28)" LOC = "U5"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   44)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(28)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(27)" LOC = "U6"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   45)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(27)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(26)" LOC = "U3"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   46)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(26)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(25)" LOC = "U4"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   47)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(25)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(24)" LOC = "T7"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   48)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(24)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(23)" LOC = "U7"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   49)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(23)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(22)" LOC = "V3"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   50)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(22)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(21)" LOC = "V4"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   51)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(21)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(20)" LOC = "V5"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   52)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(20)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(19)" LOC = "V7"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   53)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(19)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(18)" LOC = "V6"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   54)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(18)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(17)" LOC = "W3"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   55)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(17)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(16)" LOC = "W4"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   56)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(16)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(15)" LOC = "Y7"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   57)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(15)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(14)" LOC = "Y8"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   58)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(14)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(13)" LOC = "AD7"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   59)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(13)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(12)" LOC = "AC7"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   60)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(12)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(11)" LOC = "AA8"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   61)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(11)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(10)" LOC = "AB8"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   62)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(10)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(9)" LOC = "AC10"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   63)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(9)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(8)" LOC = "AD10"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   64)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(8)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(7)" LOC = "AA10"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   65)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(7)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(6)" LOC = "AB10"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   66)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(6)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(5)" LOC = "AD9"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   67)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(5)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(4)" LOC = "AA11"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   68)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(4)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(3)" LOC = "Y11"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   69)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(3)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(2)" LOC = "Y10"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   70)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(2)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(1)" LOC = "W11"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   71)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(1)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "pci_ad(0)" LOC = "AB11"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   72)]: This constraint cannot be distributed from the design objects matching
+   'NET "pci_ad(0)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "master" LOC = "B1"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(1
+   93)]: NET "master" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "cmperrn" LOC = "B4"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   33)]: NET "cmperrn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "cb(7)" LOC = "D19"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   34)]: NET "cb(7)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "cb(6)" LOC = "E19"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   35)]: NET "cb(6)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "cb(5)" LOC = "E20"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   36)]: NET "cb(5)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "cb(4)" LOC = "F20"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   37)]: NET "cb(4)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "cb(3)" LOC = "C21"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   38)]: NET "cb(3)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "cb(2)" LOC = "D21"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   39)]: NET "cb(2)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "cb(1)" LOC = "C20"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   40)]: NET "cb(1)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "cb(0)" LOC = "D20"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   41)]: NET "cb(0)" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "brdyn" LOC = "P22"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   42)]: NET "brdyn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "bexcn" LOC = "P19"  ;>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   43)]: NET "bexcn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "spw_rxd(1)"   LOC = "D16";>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   79)]: This constraint cannot be distributed from the design objects matching
+   'NET "spw_rxd(1)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "spw_rxd(0)"   LOC = "C16";>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   80)]: This constraint cannot be distributed from the design objects matching
+   'NET "spw_rxd(0)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "spw_rxs(1)"   LOC = "C15";>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   81)]: This constraint cannot be distributed from the design objects matching
+   'NET "spw_rxs(1)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "spw_rxs(0)"   LOC = "D14";>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   82)]: This constraint cannot be distributed from the design objects matching
+   'NET "spw_rxs(0)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "spw_txs(1)"  LOC = "E14";>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   83)]: This constraint cannot be distributed from the design objects matching
+   'NET "spw_txs(1)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "spw_txs(0)"  LOC = "F14";>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   84)]: This constraint cannot be distributed from the design objects matching
+   'NET "spw_txs(0)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "spw_txd(1)"  LOC = "G14";>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   85)]: This constraint cannot be distributed from the design objects matching
+   'NET "spw_txd(1)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "spw_txd(0)"  LOC = "H15";>
+   [/home/diva/788/repo3/grlib-gpl-1.0.20-b3403/boards/gr-pci-xc2v/leon3mp.ucf(2
+   86)]: This constraint cannot be distributed from the design objects matching
+   'NET "spw_txd(0)"' because those design objects do not contain or drive any
+   instances of the correct type.
+
+Done...
+Checking Partitions ...
+
+Checking expanded design ...
+WARNING:NgdBuild:470 - bidirect pad net 'pci_devsel' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'pci_req' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'pci_stop' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'pci_irdy' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'pci_serr' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'pci_trdy' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'pci_perr' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'pci_rst' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'pci_lock' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'pci_par' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'pci_frame' has no legal driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    24
+  Number of warnings:  63
+
+Total memory usage is 127088 kilobytes
+
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "leon3mp.bld"...

@@ -1,0 +1,825 @@
+Release 10.1.03 Map K.39 (lin)
+Xilinx Mapping Report File for Design 'leon3mp'
+
+Design Information
+------------------
+Command Line   : map -pr b -p xc2v3000-fg676-4 leon3mp.ngd 
+Target Device  : xc2v3000
+Target Package : fg676
+Target Speed   : -4
+Mapper Version : virtex2 -- $Revision: 1.46.12.2 $
+Mapped Date    : Tue Feb 24 18:16:10 2009
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:  139
+Logic Utilization:
+  Number of Slice Flip Flops:         6,419 out of  28,672   22%
+  Number of 4 input LUTs:            18,731 out of  28,672   65%
+Logic Distribution:
+  Number of occupied Slices:         11,772 out of  14,336   82%
+    Number of Slices containing only related logic:  11,772 out of  11,772 100%
+    Number of Slices containing unrelated logic:          0 out of  11,772   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:      18,988 out of  28,672   66%
+    Number used as logic:            18,563
+    Number used as a route-thru:        257
+    Number used for Dual Port RAMs:     120
+      (Two LUTs used per Dual Port RAM)
+    Number used as Shift registers:      48
+  Number of bonded IOBs:                197 out of     484   40%
+    IOB Flip Flops:                     169
+  Number of RAMB16s:                     26 out of      96   27%
+  Number of MULT18X18s:                   1 out of      96    1%
+  Number of BUFGMUXs:                     4 out of      16   25%
+  Number of DCMs:                         2 out of      12   16%
+  Number of BSCANs:                       1 out of       1  100%
+
+Peak Memory Usage:  318 MB
+Total REAL time to MAP completion:  36 secs 
+Total CPU time to MAP completion:   36 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+Section 13 - Control Set Information
+Section 14 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:LIT:243 - Logical network pci_66 has no load.
+WARNING:LIT:395 - The above warning message base_net_load_rule is repeated 118
+   more times for the following (max. 5 shown):
+   pci_devsel_IBUF,
+   pci_req_IBUF,
+   pci_ad(10)_IBUF,
+   pci_stop_IBUF,
+   pci_ad(11)_IBUF
+   To see the details of these warning messages, please use the -detail switch.
+WARNING:MapLib:160 - Cannot push net timing constraints on signal pci_clk
+   through input buffer. Timing constraints on that signal will be lost.
+WARNING:MapLib:701 - Signal pci_clk connected to top level port pci_clk has been
+   removed.
+WARNING:MapLib:39 - The timing specification "PERIOD=30000 pS HIGH 50%" on net
+   "pci_clk" has been discarded, because the net was optimized out of the
+   design.
+WARNING:MapLib:53 - The offset specification "OFFSET=OUT 12000 pS AFTER pci_clk"
+   has been discarded because the referenced clock pad net (pci_clk) was
+   optimized away.
+WARNING:MapLib:53 - The offset specification "OFFSET=IN 10000 pS BEFORE pci_clk"
+   has been discarded because the referenced clock pad net (pci_clk) was
+   optimized away.
+WARNING:MapLib:53 - The offset specification "OFFSET=OUT 11000 pS AFTER pci_clk"
+   has been discarded because the referenced clock pad net (pci_clk) was
+   optimized away.
+WARNING:MapLib:53 - The offset specification "OFFSET=IN 7000 pS BEFORE pci_clk"
+   has been discarded because the referenced clock pad net (pci_clk) was
+   optimized away.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_3_1 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_3_1 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_3_2 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_3_2 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_3_3 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_3_3 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_3_4 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_3_4 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_3_5 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_3_5 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_3_6 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_3_6 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_3_7 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_3_7 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_3_8 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_3_8 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_2_1 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_2_1 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_2_2 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_2_2 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register eth0.e1/ethc0/r.mdioen_1 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register eth0.e1/ethc0/r.mdioen_1 set/reset disagrees with another register
+   in the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_2_3 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_2_3 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_2_4 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_2_4 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_1_5 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_1_5 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_2_5 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_2_5 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_1_6 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_1_6 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_2_6 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_2_6 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_0_7 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_0_7 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_1_7 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_1_7 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_2_7 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_2_7 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_0_8 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_0_8 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_1_8 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_1_8 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_2_8 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_2_8 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_0_1 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_0_1 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_1_1 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_1_1 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_0_2 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_0_2 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_1_2 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_1_2 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_0_3 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_0_3 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_1_3 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_1_3 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_0_4 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_0_4 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_1_4 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_1_4 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_0_5 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_0_5 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/r.bdrive_0_6 has the property
+   IOB=TRUE, but was not packed into the output side of an I/O component.
+   Register mctrl2.sr1/r.bdrive_0_6 set/reset disagrees with another register in
+   the I/O component.
+WARNING:Pack:1542 - The register mctrl2.sr1/sd0.sdctrl/r.cfg.cke_1 has the
+   property IOB=TRUE, but was not packed into the output side of an I/O
+   component. The register symbol mctrl2.sr1/sd0.sdctrl/r.cfg.cke_1 has loads
+   outside the I/O component.
+   The register symbol mctrl2.sr1/sd0.sdctrl/r.cfg.cke_1 has loads outside the
+   I/O component.
+WARNING:Pack:266 - The function generator
+   l3.cpu[0].u0/p0/iu0/v_w_s_cwp_mux0003(1)86 failed to merge with F5
+   multiplexer l3.cpu[0].u0/p0/iu0/r_d_cwp_mux0000(1).  There is a conflict for
+   the FXMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator
+   l3.cpu[0].u0/p0/iu0/v_w_s_cwp_mux0003(2)149 failed to merge with F5
+   multiplexer l3.cpu[0].u0/p0/iu0/r_d_cwp_mux0000(2).  There is a conflict for
+   the FXMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator
+   l3.cpu[0].u0/p0/m1.c0mmu/dcache0/_mux0145 failed to merge with F5 multiplexer
+   l3.cpu[0].u0/p0/iu0/rdata_0_mux0001192_SW0_f5.  There is a conflict for the
+   FXMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator
+   eth0.e1/ethc0/Mxor_rxwrite_xor0000_Result1 failed to merge with F5
+   multiplexer eth0.e1/ethc0/r_rcntm_mux0000(6)23_SW0_f5.  There is a conflict
+   for the FXMUX.  The design will exhibit suboptimal timing.
+WARNING:PhysDesignRules:367 - The signal <pci_gnt_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_par_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_req_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_rst_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(0)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(1)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(2)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(3)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(4)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(5)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(6)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(7)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(8)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(9)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_idsel_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_frame_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <spw_rxd(0)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <spw_rxd(1)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:368 - The signal <spw_txd(0)_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <spw_txd(1)_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:367 - The signal <spw_rxs(0)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <spw_rxs(1)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:368 - The signal <spw_txs(0)_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <spw_txs(1)_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_lock_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_irdy_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_host_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_perr_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_serr_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_trdy_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_stop_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(10)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(11)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(20)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(12)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(21)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(13)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(30)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(22)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(14)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(31)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(23)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(15)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(24)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(16)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(25)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(17)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(26)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(18)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(27)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(19)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(28)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_ad(29)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:368 - The signal <pci_arb_gnt(0)_OBUF> is incomplete.
+   The signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <pci_arb_gnt(1)_OBUF> is incomplete.
+   The signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <pci_arb_gnt(2)_OBUF> is incomplete.
+   The signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <pci_arb_gnt(3)_OBUF> is incomplete.
+   The signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_cbe(0)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_cbe(1)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_cbe(2)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_cbe(3)_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_arb_req(0)_IBUF> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_arb_req(1)_IBUF> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_arb_req(2)_IBUF> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_arb_req(3)_IBUF> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <pci_devsel_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA14> on
+   block:<l3.cpu[0].u0/cmem0/dme.dd0[1].ddata0/xc2v.x0/a10.x[1].r.A>:<RAMB16_RAM
+   B16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA15> on
+   block:<l3.cpu[0].u0/cmem0/dme.dd0[1].ddata0/xc2v.x0/a10.x[1].r.A>:<RAMB16_RAM
+   B16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[0].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB24> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[0].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB25> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[0].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB26> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[0].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB27> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[0].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB28> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[0].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB29> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[0].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB30> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[0].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA5> on
+   block:<l3.cpu[0].u0/cmem0/ime.im0[0].idata0/xc2v.x0/a11.x[3].r.A>:<RAMB16_RAM
+   B16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA6> on
+   block:<l3.cpu[0].u0/cmem0/ime.im0[0].idata0/xc2v.x0/a11.x[3].r.A>:<RAMB16_RAM
+   B16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA7> on
+   block:<l3.cpu[0].u0/cmem0/ime.im0[0].idata0/xc2v.x0/a11.x[3].r.A>:<RAMB16_RAM
+   B16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA14> on
+   block:<l3.cpu[0].u0/cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r.A>:<RAMB16_RAM
+   B16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA15> on
+   block:<l3.cpu[0].u0/cmem0/dme.dd0[0].ddata0/xc2v.x0/a10.x[1].r.A>:<RAMB16_RAM
+   B16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB0> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[1].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB24> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[1].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB25> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[1].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB26> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[1].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB27> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[1].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB28> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[1].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB29> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[1].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB30> on
+   block:<l3.cpu[0].u0/cmem0/dme.dtags1.dt1.dt0[1].dtags0/xc2v.x0/a9.x[0].r0.B>:
+   <RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA5> on
+   block:<l3.cpu[0].u0/cmem0/ime.im0[1].idata0/xc2v.x0/a11.x[3].r.A>:<RAMB16_RAM
+   B16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA6> on
+   block:<l3.cpu[0].u0/cmem0/ime.im0[1].idata0/xc2v.x0/a11.x[3].r.A>:<RAMB16_RAM
+   B16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA7> on
+   block:<l3.cpu[0].u0/cmem0/ime.im0[1].idata0/xc2v.x0/a11.x[3].r.A>:<RAMB16_RAM
+   B16A>.
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:159 - Net Timing constraints on signal clk are pushed forward
+   through input buffer.
+INFO:MapLib:159 - Net Timing constraints on signal erx_clk are pushed forward
+   through input buffer.
+INFO:MapLib:159 - Net Timing constraints on signal etx_clk are pushed forward
+   through input buffer.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:PhysDesignRules:772 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp clkgen0/xc2v.v/dll0,
+   consult the device Interactive Data Sheet.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   4 block(s) removed
+   6 block(s) optimized away
+   3 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "clkgen0/xc2v.v/bufg2" (CKBUF) removed.
+ The signal "clkgen0/xc2v.v/clk_l" is loadless and has been removed.
+Loadless block "clkgen0/xc2v.v/clk_sd1.bufg3" (CKBUF) removed.
+ The signal "clkgen0/clk2xu" is loadless and has been removed.
+Loadless block "pci_clk_pad/xcv2.u0/g0.pci0.pci_3.ip" (CKBUF) removed.
+ The signal "pci_clk" is loadless and has been removed.
+  Loadless block "pci_clk" (PAD) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Strength | Rate |              |          | Delay    |
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+| address(0)                         | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(1)                         | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(2)                         | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(3)                         | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(4)                         | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(5)                         | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(6)                         | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(7)                         | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(8)                         | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(9)                         | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(10)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(11)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(12)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(13)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(14)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(15)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(16)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(17)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(18)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(19)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(20)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(21)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(22)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(23)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(24)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(25)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(26)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| address(27)                        | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| clk                                | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| data(0)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(1)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(2)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(3)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(4)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(5)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(6)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(7)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(8)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(9)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(10)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(11)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(12)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(13)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(14)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(15)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(16)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(17)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(18)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(19)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(20)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(21)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(22)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(23)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(24)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(25)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(26)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(27)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(28)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(29)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(30)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| data(31)                           | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| dsuact                             | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| dsubre                             | IOB              | INPUT     | LVTTL                |          |      | INFF1        |          |          |
+| dsuen                              | IOB              | INPUT     | LVTTL                |          |      | INFF1        |          |          |
+| dsurx                              | IOB              | INPUT     | LVTTL                |          |      | INFF1        |          |          |
+| dsutx                              | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| emdc                               | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| emdio                              | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+| errorn                             | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | ENFF1        |          |          |
+| erx_clk                            | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| erx_col                            | IOB              | INPUT     | LVTTL                |          |      | INFF1        |          | IFD      |
+| erx_crs                            | IOB              | INPUT     | LVTTL                |          |      | INFF1        |          | IFD      |
+| erx_dv                             | IOB              | INPUT     | LVTTL                |          |      | INFF1        |          | IFD      |
+| erx_er                             | IOB              | INPUT     | LVTTL                |          |      | INFF1        |          | IFD      |
+| erxd(0)                            | IOB              | INPUT     | LVTTL                |          |      | INFF1        |          | IFD      |
+| erxd(1)                            | IOB              | INPUT     | LVTTL                |          |      | INFF1        |          | IFD      |
+| erxd(2)                            | IOB              | INPUT     | LVTTL                |          |      | INFF1        |          | IFD      |
+| erxd(3)                            | IOB              | INPUT     | LVTTL                |          |      | INFF1        |          | IFD      |
+| etx_clk                            | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| etx_en                             | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| etx_er                             | IOB              | OUTPUT    | LVTTL                | 12       | SLOW |              |          |          |
+| etxd(0)                            | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| etxd(1)                            | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| etxd(2)                            | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| etxd(3)                            | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| gpio(0)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+|                                    |                  |           |                      |          |      | ENFF1        |          |          |
+| gpio(1)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+|                                    |                  |           |                      |          |      | ENFF1        |          |          |
+| gpio(2)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+|                                    |                  |           |                      |          |      | ENFF1        |          |          |
+| gpio(3)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+|                                    |                  |           |                      |          |      | ENFF1        |          |          |
+| gpio(4)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+|                                    |                  |           |                      |          |      | ENFF1        |          |          |
+| gpio(5)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+|                                    |                  |           |                      |          |      | ENFF1        |          |          |
+| gpio(6)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+|                                    |                  |           |                      |          |      | ENFF1        |          |          |
+| gpio(7)                            | IOB              | BIDIR     | LVTTL                | 12       | SLOW | INFF1        |          |          |
+|                                    |                  |           |                      |          |      | OFF1         |          |          |
+|                                    |                  |           |                      |          |      | ENFF1        |          |          |
+| iosn                               | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| oen                                | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| pci_ad(0)                          | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(1)                          | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(2)                          | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(3)                          | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(4)                          | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(5)                          | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(6)                          | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(7)                          | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(8)                          | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(9)                          | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(10)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(11)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(12)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(13)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(14)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(15)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(16)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(17)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(18)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(19)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(20)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(21)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(22)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(23)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(24)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(25)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(26)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(27)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(28)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(29)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(30)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_ad(31)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_arb_gnt(0)                     | IOB              | OUTPUT    | LVTTL                | 12       | SLOW |              |          |          |
+| pci_arb_gnt(1)                     | IOB              | OUTPUT    | LVTTL                | 12       | SLOW |              |          |          |
+| pci_arb_gnt(2)                     | IOB              | OUTPUT    | LVTTL                | 12       | SLOW |              |          |          |
+| pci_arb_gnt(3)                     | IOB              | OUTPUT    | LVTTL                | 12       | SLOW |              |          |          |
+| pci_arb_req(0)                     | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_arb_req(1)                     | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_arb_req(2)                     | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_arb_req(3)                     | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_cbe(0)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_cbe(1)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_cbe(2)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_cbe(3)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_devsel                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_frame                          | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_gnt                            | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_host                           | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_idsel                          | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_irdy                           | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_lock                           | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_par                            | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_perr                           | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_req                            | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_rst                            | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_serr                           | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_stop                           | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pci_trdy                           | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| pllref                             | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| ramoen(0)                          | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| ramoen(1)                          | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| ramoen(2)                          | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| ramoen(3)                          | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| ramoen(4)                          | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| ramsn(0)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| ramsn(1)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| ramsn(2)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW |              |          |          |
+| ramsn(3)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW |              |          |          |
+| ramsn(4)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW |              |          |          |
+| read                               | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| resetn                             | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| romsn(0)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| romsn(1)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| rwen(0)                            | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| rwen(1)                            | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| rwen(2)                            | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| rwen(3)                            | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| rxd1                               | IOB              | INPUT     | LVTTL                |          |      | INFF1        |          |          |
+| rxd2                               | IOB              | INPUT     | LVTTL                |          |      | INFF1        |          |          |
+| sdcasn                             | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| sdcke(0)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW |              |          |          |
+| sdcke(1)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| sdclk                              | IOB              | OUTPUT    | LVTTL                | 12       | SLOW |              |          |          |
+| sdcsn(0)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| sdcsn(1)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| sddqm(0)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| sddqm(1)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| sddqm(2)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| sddqm(3)                           | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| sdrasn                             | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| sdwen                              | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| spw_rxd(0)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| spw_rxd(1)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| spw_rxs(0)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| spw_rxs(1)                         | IOB              | INPUT     | LVTTL                |          |      |              |          |          |
+| spw_txd(0)                         | IOB              | OUTPUT    | LVTTL                | 12       | SLOW |              |          |          |
+| spw_txd(1)                         | IOB              | OUTPUT    | LVTTL                | 12       | SLOW |              |          |          |
+| spw_txs(0)                         | IOB              | OUTPUT    | LVTTL                | 12       | SLOW |              |          |          |
+| spw_txs(1)                         | IOB              | OUTPUT    | LVTTL                | 12       | SLOW |              |          |          |
+| txd1                               | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| txd2                               | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
+| writen                             | IOB              | OUTPUT    | LVTTL                | 12       | SLOW | OFF1         |          |          |
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.
+
+Section 11 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 13 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 14 - Utilization by Hierarchy
+-------------------------------------
+
+This feature is not supported for this architecture.

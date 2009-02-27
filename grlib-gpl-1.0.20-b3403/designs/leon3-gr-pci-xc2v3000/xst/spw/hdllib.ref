@@ -1,0 +1,3 @@
+AR grspw_gen rtl ../../lib/spw/wrapper/grspw_gen.vhd sub00/vhpl02 1235534589
+EN grspw_gen NULL ../../lib/spw/wrapper/grspw_gen.vhd sub00/vhpl01 1235534588
+PH spwcomp NULL ../../lib/spw/comp/spwcomp.vhd sub00/vhpl00 1235534587

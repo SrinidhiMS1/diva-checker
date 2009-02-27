@@ -1,0 +1,706 @@
+Release 10.1.03 - par K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Tue Feb 24 18:20:11 2009
+
+
+INFO: The IO information is provided in three file formats as part of the Place and Route (PAR) process.  These formats are:
+1. The <design name>_pad.txt file (this file) designed to provide information on IO usage in a human readable ASCII text format viewable through common text editors.
+2. The <design namd>_pad.csv file for use with spreadsheet programs such as MS Excel. This file can also be read by PACE to communicate post PAR IO information.
+3. The <design name>.pad file designed for parsing by customers.  It uses the "|" as a data field separator.
+
+INPUT FILE:       leon3mp.ncd
+OUTPUT FILE:      leon3mp_pad.txt
+PART TYPE:        xc2v3000
+SPEED GRADE:      -4
+PACKAGE:          fg676
+
+Pinout by Pin Number:
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Pin Number|Signal Name   |Pin Usage|Pin Name              |Direction|IO Standard|IO Bank Number|Drive (mA)|Slew Rate|Termination|IOB Delay|Voltage|Constraint|DCI Value|IO Register|Signal Integrity|
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|A1        |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|A2        |              |DIFFM    |IO_L02P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|A3        |              |DIFFM    |IO_L04P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|A4        |              |DIFFM    |IO_L19P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|A5        |              |DIFFM    |IO_L21P_0/VREF_0      |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|A6        |              |DIFFM    |IO_L22P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|A7        |              |DIFFS    |IO_L24N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|A8        |              |DIFFM    |IO_L24P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|A9        |              |DIFFM    |IO_L54P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|A10       |              |DIFFS    |IO_L72N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|A11       |              |DIFFM    |IO_L72P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|A12       |              |DIFFS    |IO_L93N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|A13       |              |DIFFM    |IO_L93P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|A14       |              |DIFFS    |IO_L92N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|A15       |              |DIFFM    |IO_L92P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|A16       |              |DIFFS    |IO_L73N_1             |UNUSED   |           |1             |          |         |           |         |       |PROHIBITED|         |           |                |
+|A17       |              |DIFFM    |IO_L73P_1             |UNUSED   |           |1             |          |         |           |         |       |PROHIBITED|         |           |                |
+|A18       |              |DIFFS    |IO_L52N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|A19       |              |DIFFM    |IO_L52P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|A20       |              |DIFFS    |IO_L21N_1/VREF_1      |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|A21       |              |DIFFM    |IO_L21P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|A22       |              |DIFFS    |IO_L05N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|A23       |              |DIFFM    |IO_L05P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|A24       |              |DIFFS    |IO_L02N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|A25       |              |DIFFM    |IO_L02P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|A26       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|AA1       |              |DIFFS    |IO_L24N_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|AA2       |              |DIFFM    |IO_L24P_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|AA3       |pci_lock      |IOB      |IO_L19N_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AA4       |              |DIFFM    |IO_L19P_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|AA5       |              |         |M1                    |         |           |              |          |         |           |         |       |          |         |           |                |
+|AA6       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|AA7       |pci_cbe(1)    |IOB      |IO_L03P_5/D5/ALT_VRN_5|INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AA8       |pci_ad(11)    |IOB      |IO_L22P_5             |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AA9       |              |DIFFS    |IO_L25N_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AA10      |pci_ad(7)     |IOB      |IO_L52P_5             |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AA11      |pci_ad(4)     |IOB      |IO_L69P_5             |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AA12      |              |DIFFS    |IO_L76N_5             |UNUSED   |           |5             |          |         |           |         |       |PROHIBITED|         |           |                |
+|AA13      |writen        |IOB      |IO_L95N_5/GCLK5S      |OUTPUT   |LVTTL*     |5             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AA14      |ramoen(2)     |IOB      |IO_L95N_4/GCLK3S      |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AA15      |              |DIFFM    |IO_L78P_4             |UNUSED   |           |4             |          |         |           |         |       |PROHIBITED|         |           |                |
+|AA16      |              |DIFFS    |IO_L75N_4             |UNUSED   |           |4             |          |         |           |         |       |PROHIBITED|         |           |                |
+|AA17      |rwen(0)       |IOB      |IO_L69N_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AA18      |sddqm(0)      |IOB      |IO_L51N_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AA19      |              |DIFFS    |IO_L25N_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AA20      |sdrasn        |IOB      |IO_L03N_4/D2/ALT_VRP_4|OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AA21      |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|AA22      |address(0)    |IOB      |IO_L01P_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AA23      |address(4)    |IOB      |IO_L03P_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AA24      |address(5)    |IOB      |IO_L03N_3/VREF_3      |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AA25      |              |DIFFM    |IO_L24P_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|AA26      |              |DIFFS    |IO_L24N_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|AB1       |              |DIFFS    |IO_L06N_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|AB2       |              |DIFFM    |IO_L06P_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|AB3       |pci_perr      |IOB      |IO_L02N_6/VRP_6       |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AB4       |pci_serr      |IOB      |IO_L02P_6/VRN_6       |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AB5       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|AB6       |              |DIFFS    |IO_L01N_5/RDWR_B      |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AB7       |pci_cbe(0)    |IOB      |IO_L03N_5/D4/ALT_VRP_5|INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AB8       |pci_ad(10)    |IOB      |IO_L22N_5             |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AB9       |              |DIFFS    |IO_L27N_5/VREF_5      |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AB10      |pci_ad(6)     |IOB      |IO_L52N_5             |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AB11      |pci_ad(0)     |IOB      |IO_L72P_5             |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AB12      |              |DIFFM    |IO_L78P_5             |UNUSED   |           |5             |          |         |           |         |       |PROHIBITED|         |           |                |
+|AB13      |pllref        |IOB      |IO_L96P_5/GCLK6P      |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AB14      |ramoen(3)     |IOB      |IO_L95P_4/GCLK2P      |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AB15      |ramsn(2)      |IOB      |IO_L92N_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|AB16      |              |DIFFS    |IO_L73N_4             |UNUSED   |           |4             |          |         |           |         |       |PROHIBITED|         |           |                |
+|AB17      |rwen(1)       |IOB      |IO_L69P_4/VREF_4      |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AB18      |sddqm(1)      |IOB      |IO_L51P_4/VREF_4      |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AB19      |              |DIFFM    |IO_L25P_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AB20      |sdcasn        |IOB      |IO_L03P_4/D3/ALT_VRN_4|OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AB21      |              |         |CCLK                  |         |           |              |          |         |           |         |       |          |         |           |                |
+|AB22      |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|AB23      |address(2)    |IOB      |IO_L02P_3/VRN_3       |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AB24      |address(3)    |IOB      |IO_L02N_3/VRP_3       |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AB25      |              |DIFFM    |IO_L19P_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|AB26      |              |DIFFS    |IO_L19N_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|AC1       |              |DIFFS    |IO_L04N_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|AC2       |              |DIFFM    |IO_L04P_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|AC3       |              |         |VCCAUX                |         |           |              |          |         |           |         |3.3    |          |         |           |                |
+|AC4       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|AC5       |pci_par       |IOB      |IO_L01P_5/CS_B        |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AC6       |pci_cbe(3)    |IOB      |IO_L02P_5/D7          |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AC7       |pci_ad(12)    |IOB      |IO_L21N_5/VREF_5      |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AC8       |              |DIFFM    |IO_L28P_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AC9       |              |DIFFM    |IO_L27P_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AC10      |pci_ad(9)     |IOB      |IO_L51P_5             |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AC11      |romsn(1)      |IOB      |IO_L72N_5             |OUTPUT   |LVTTL*     |5             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AC12      |              |DIFFS    |IO_L78N_5             |UNUSED   |           |5             |          |         |           |         |       |PROHIBITED|         |           |                |
+|AC13      |clk           |IOB      |IO_L96N_5/GCLK7S      |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AC14      |              |DIFFS    |IO_L96N_4/GCLK1S      |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AC15      |ramsn(3)      |IOB      |IO_L92P_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|AC16      |              |DIFFM    |IO_L73P_4             |UNUSED   |           |4             |          |         |           |         |       |PROHIBITED|         |           |                |
+|AC17      |rwen(2)       |IOB      |IO_L70N_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AC18      |sdcke(0)      |IOB      |IO_L54N_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|AC19      |              |DIFFS    |IO_L28N_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AC20      |              |DIFFM    |IO_L27P_4/VREF_4      |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AC21      |              |DIFFM    |IO_L01P_4/INIT_B      |UNUSED   |           |4             |          |         |           |         |       |PROHIBITED|         |           |                |
+|AC22      |sdclk         |IOB      |IO_L04N_4/VREF_4      |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|AC23      |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|AC24      |              |         |VCCAUX                |         |           |              |          |         |           |         |3.3    |          |         |           |                |
+|AC25      |              |DIFFM    |IO_L06P_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|AC26      |              |DIFFS    |IO_L06N_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|AD1       |              |DIFFS    |IO_L03N_6/VREF_6      |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|AD2       |              |DIFFM    |IO_L03P_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|AD3       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|AD4       |              |         |M0                    |         |           |              |          |         |           |         |       |          |         |           |                |
+|AD5       |              |         |M2                    |         |           |              |          |         |           |         |       |          |         |           |                |
+|AD6       |pci_cbe(2)    |IOB      |IO_L02N_5/D6          |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AD7       |pci_ad(13)    |IOB      |IO_L21P_5             |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AD8       |              |DIFFS    |IO_L28N_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AD9       |pci_ad(5)     |IOB      |IO_L54P_5             |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AD10      |pci_ad(8)     |IOB      |IO_L51N_5/VREF_5      |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|AD11      |              |DIFFM    |IO_L73P_5             |UNUSED   |           |5             |          |         |           |         |       |PROHIBITED|         |           |                |
+|AD12      |romsn(0)      |IOB      |IO_L91P_5/VREF_5      |OUTPUT   |LVTTL*     |5             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AD13      |              |         |VCCAUX                |         |           |              |          |         |           |         |3.3    |          |         |           |                |
+|AD14      |ramoen(4)     |IOB      |IO_L96P_4/GCLK0P      |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AD15      |ramsn(4)      |IOB      |IO_L93N_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|AD16      |              |DIFFS    |IO_L76N_4             |UNUSED   |           |4             |          |         |           |         |       |PROHIBITED|         |           |                |
+|AD17      |rwen(3)       |IOB      |IO_L70P_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AD18      |sdcke(1)      |IOB      |IO_L54P_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|AD19      |              |DIFFM    |IO_L28P_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AD20      |              |DIFFS    |IO_L27N_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AD21      |              |DIFFS    |IO_L01N_4/DOUT        |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AD22      |              |         |DONE                  |         |           |              |          |         |           |         |       |          |         |           |                |
+|AD23      |              |         |PWRDWN_B              |         |           |              |          |         |           |         |       |          |         |           |                |
+|AD24      |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|AD25      |              |DIFFM    |IO_L04P_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|AD26      |              |DIFFS    |IO_L04N_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|AE1       |              |DIFFS    |IO_L01N_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|AE2       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|AE3       |              |DIFFM    |IO_L05P_5/VRN_5       |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AE4       |              |DIFFM    |IO_L06P_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AE5       |              |DIFFM    |IO_L19P_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AE6       |              |DIFFM    |IO_L24P_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AE7       |              |         |VCCO_5                |         |           |5             |          |         |           |         |3.30   |          |         |           |                |
+|AE8       |              |DIFFS    |IO_L49N_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AE9       |              |DIFFS    |IO_L54N_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AE10      |              |         |VCCO_5                |         |           |5             |          |         |           |         |3.30   |          |         |           |                |
+|AE11      |              |DIFFS    |IO_L73N_5             |UNUSED   |           |5             |          |         |           |         |       |PROHIBITED|         |           |                |
+|AE12      |              |DIFFS    |IO_L91N_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AE13      |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|AE14      |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|AE15      |              |DIFFM    |IO_L93P_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AE16      |              |DIFFM    |IO_L76P_4             |UNUSED   |           |4             |          |         |           |         |       |PROHIBITED|         |           |                |
+|AE17      |              |         |VCCO_4                |         |           |4             |          |         |           |         |3.30   |          |         |           |                |
+|AE18      |              |DIFFS    |IO_L67N_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AE19      |              |DIFFS    |IO_L49N_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AE20      |              |         |VCCO_4                |         |           |4             |          |         |           |         |3.30   |          |         |           |                |
+|AE21      |              |DIFFM    |IO_L04P_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AE22      |              |DIFFS    |IO_L22N_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AE23      |              |DIFFS    |IO_L21N_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AE24      |              |DIFFS    |IO_L19N_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AE25      |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|AE26      |              |DIFFS    |IO_L05N_4/VRP_4       |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AF1       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|AF2       |              |DIFFM    |IO_L01P_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|AF3       |              |DIFFS    |IO_L05N_5/VRP_5       |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AF4       |              |DIFFS    |IO_L06N_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AF5       |              |DIFFS    |IO_L19N_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AF6       |              |DIFFS    |IO_L24N_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AF7       |              |DIFFM    |IO_L49P_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AF8       |              |DIFFM    |IO_L67P_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AF9       |              |DIFFS    |IO_L67N_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AF10      |              |DIFFM    |IO_L75P_5             |UNUSED   |           |5             |          |         |           |         |       |PROHIBITED|         |           |                |
+|AF11      |              |DIFFS    |IO_L75N_5/VREF_5      |UNUSED   |           |5             |          |         |           |         |       |PROHIBITED|         |           |                |
+|AF12      |              |DIFFM    |IO_L92P_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AF13      |              |DIFFS    |IO_L92N_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AF14      |              |DIFFM    |IO_L93P_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AF15      |              |DIFFS    |IO_L93N_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|AF16      |              |DIFFM    |IO_L72P_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AF17      |              |DIFFS    |IO_L72N_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AF18      |              |DIFFM    |IO_L67P_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AF19      |              |DIFFM    |IO_L49P_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AF20      |              |DIFFM    |IO_L24P_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AF21      |              |DIFFS    |IO_L24N_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AF22      |              |DIFFM    |IO_L22P_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AF23      |              |DIFFM    |IO_L21P_4/VREF_4      |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AF24      |              |DIFFM    |IO_L19P_4             |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AF25      |              |DIFFM    |IO_L05P_4/VRN_4       |UNUSED   |           |4             |          |         |           |         |       |          |         |           |                |
+|AF26      |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|B1        |              |DIFFS    |IO_L02N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|B2        |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|B3        |              |DIFFS    |IO_L04N_0/VREF_0      |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|B4        |              |DIFFS    |IO_L19N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|B5        |              |DIFFS    |IO_L21N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|B6        |              |DIFFS    |IO_L22N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|B7        |              |         |VCCO_0                |         |           |0             |          |         |           |         |3.30   |          |         |           |                |
+|B8        |              |DIFFM    |IO_L49P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|B9        |              |DIFFS    |IO_L54N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|B10       |              |         |VCCO_0                |         |           |0             |          |         |           |         |3.30   |          |         |           |                |
+|B11       |              |DIFFS    |IO_L78N_0             |UNUSED   |           |0             |          |         |           |         |       |PROHIBITED|         |           |                |
+|B12       |              |DIFFM    |IO_L78P_0             |UNUSED   |           |0             |          |         |           |         |       |PROHIBITED|         |           |                |
+|B13       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|B14       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|B15       |              |DIFFS    |IO_L91N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|B16       |              |DIFFS    |IO_L72N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|B17       |              |         |VCCO_1                |         |           |1             |          |         |           |         |3.30   |          |         |           |                |
+|B18       |              |DIFFS    |IO_L49N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|B19       |              |DIFFS    |IO_L24N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|B20       |              |         |VCCO_1                |         |           |1             |          |         |           |         |3.30   |          |         |           |                |
+|B21       |              |DIFFS    |IO_L06N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|B22       |              |DIFFM    |IO_L06P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|B23       |              |DIFFS    |IO_L01N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|B24       |              |DIFFM    |IO_L01P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|B25       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|B26       |              |DIFFS    |IO_L01N_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|C1        |              |DIFFM    |IO_L03P_7/VREF_7      |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|C2        |              |DIFFS    |IO_L03N_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|C3        |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|C4        |              |         |PROG_B                |         |           |              |          |         |           |         |       |          |         |           |                |
+|C5        |              |         |DXP                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|C6        |gpio(1)       |IOB      |IO_L01P_0             |BIDIR    |LVTTL*     |0             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|C7        |gpio(3)       |IOB      |IO_L03P_0/VRN_0       |BIDIR    |LVTTL*     |0             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|C8        |              |DIFFS    |IO_L49N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|C9        |              |DIFFS    |IO_L67N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|C10       |rxd1          |IOB      |IO_L67P_0             |INPUT    |LVTTL*     |0             |          |         |           |NONE     |       |LOCATED   |         |YES        |NONE            |
+|C11       |              |DIFFM    |IO_L76P_0             |UNUSED   |           |0             |          |         |           |         |       |PROHIBITED|         |           |                |
+|C12       |              |DIFFM    |IO_L93P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|C13       |              |DIFFM    |IO_L96P_0/GCLK4S      |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|C14       |              |         |VCCAUX                |         |           |              |          |         |           |         |3.3    |          |         |           |                |
+|C15       |spw_rxs(1)    |IOB      |IO_L91P_1/VREF_1      |INPUT    |LVTTL*     |1             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|C16       |spw_rxd(0)    |IOB      |IO_L72P_1             |INPUT    |LVTTL*     |1             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|C17       |              |DIFFS    |IO_L69N_1/VREF_1      |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|C18       |              |DIFFM    |IO_L49P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|C19       |              |DIFFM    |IO_L24P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|C20       |              |DIFFS    |IO_L03N_1/VRP_1       |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|C21       |              |DIFFS    |IO_L04N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|C22       |              |         |NC                    |         |           |              |          |         |           |         |       |          |         |           |                |
+|C23       |              |         |VBATT                 |         |           |              |          |         |           |         |       |          |         |           |                |
+|C24       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|C25       |              |DIFFS    |IO_L03N_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|C26       |              |DIFFM    |IO_L01P_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|D1        |              |DIFFM    |IO_L04P_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|D2        |              |DIFFS    |IO_L04N_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|D3        |              |         |VCCAUX                |         |           |              |          |         |           |         |3.3    |          |         |           |                |
+|D4        |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|D5        |              |         |HSWAP_EN              |         |           |              |          |         |           |         |       |          |         |           |                |
+|D6        |gpio(0)       |IOB      |IO_L01N_0             |BIDIR    |LVTTL*     |0             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|D7        |gpio(2)       |IOB      |IO_L03N_0/VRP_0       |BIDIR    |LVTTL*     |0             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|D8        |              |DIFFM    |IO_L25P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|D9        |              |DIFFS    |IO_L51N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|D10       |              |DIFFM    |IO_L70P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|D11       |              |DIFFS    |IO_L76N_0             |UNUSED   |           |0             |          |         |           |         |       |PROHIBITED|         |           |                |
+|D12       |              |DIFFS    |IO_L93N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|D13       |              |DIFFS    |IO_L96N_0/GCLK5P      |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|D14       |spw_rxs(0)    |IOB      |IO_L94P_1/VREF_1      |INPUT    |LVTTL*     |1             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|D15       |              |DIFFS    |IO_L78N_1             |UNUSED   |           |1             |          |         |           |         |       |PROHIBITED|         |           |                |
+|D16       |spw_rxd(1)    |IOB      |IO_L70N_1             |INPUT    |LVTTL*     |1             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|D17       |              |DIFFM    |IO_L69P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|D18       |              |DIFFM    |IO_L51P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|D19       |              |DIFFS    |IO_L22N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|D20       |              |DIFFM    |IO_L03P_1/VRN_1       |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|D21       |              |DIFFM    |IO_L04P_1/VREF_1      |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|D22       |              |         |TMS                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|D23       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|D24       |              |         |VCCAUX                |         |           |              |          |         |           |         |3.3    |          |         |           |                |
+|D25       |              |DIFFM    |IO_L03P_2/VREF_2      |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|D26       |              |DIFFS    |IO_L19N_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|E1        |              |DIFFM    |IO_L06P_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|E2        |              |DIFFS    |IO_L06N_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|E3        |dsuen         |IOB      |IO_L02P_7/VRN_7       |INPUT    |LVTTL*     |7             |          |         |           |NONE     |       |LOCATED   |         |YES        |NONE            |
+|E4        |dsubre        |IOB      |IO_L02N_7/VRP_7       |INPUT    |LVTTL*     |7             |          |         |           |NONE     |       |LOCATED   |         |YES        |NONE            |
+|E5        |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|E6        |gpio(6)       |IOB      |IO_L06N_0             |BIDIR    |LVTTL*     |0             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|E7        |gpio(7)       |IOB      |IO_L06P_0             |BIDIR    |LVTTL*     |0             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|E8        |              |DIFFS    |IO_L25N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|E9        |rxd2          |IOB      |IO_L51P_0/VREF_0      |INPUT    |LVTTL*     |0             |          |         |           |NONE     |       |LOCATED   |         |YES        |NONE            |
+|E10       |              |DIFFS    |IO_L70N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|E11       |              |DIFFM    |IO_L73P_0             |UNUSED   |           |0             |          |         |           |         |       |PROHIBITED|         |           |                |
+|E12       |              |DIFFM    |IO_L92P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|E13       |              |DIFFM    |IO_L95P_0/GCLK6S      |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|E14       |spw_txs(1)    |IOB      |IO_L94N_1             |OUTPUT   |LVTTL*     |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|E15       |              |DIFFM    |IO_L78P_1             |UNUSED   |           |1             |          |         |           |         |       |PROHIBITED|         |           |                |
+|E16       |              |DIFFM    |IO_L70P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|E17       |              |DIFFS    |IO_L54N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|E18       |              |DIFFS    |IO_L51N_1/VREF_1      |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|E19       |              |DIFFM    |IO_L22P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|E20       |              |DIFFS    |IO_L19N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|E21       |              |         |TCK                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|E22       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|E23       |data(2)       |IOB      |IO_L04N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|E24       |data(3)       |IOB      |IO_L04P_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|E25       |              |DIFFS    |IO_L22N_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|E26       |              |DIFFM    |IO_L19P_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|F1        |              |DIFFS    |IO_L24N_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|F2        |              |DIFFS    |IO_L21N_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|F3        |dsutx         |IOB      |IO_L21P_7/VREF_7      |OUTPUT   |LVTTL*     |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|F4        |resetn        |IOB      |IO_L01N_7             |INPUT    |LVTTL*     |7             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|F5        |              |         |TDI                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|F6        |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|F7        |              |         |DXN                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|F8        |              |DIFFM    |IO_L27P_0/VREF_0      |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|F9        |txd2          |IOB      |IO_L52N_0             |OUTPUT   |LVTTL*     |0             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|F10       |txd1          |IOB      |IO_L69N_0             |OUTPUT   |LVTTL*     |0             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|F11       |              |DIFFS    |IO_L73N_0             |UNUSED   |           |0             |          |         |           |         |       |PROHIBITED|         |           |                |
+|F12       |              |DIFFS    |IO_L92N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|F13       |              |DIFFS    |IO_L95N_0/GCLK7P      |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|F14       |spw_txs(0)    |IOB      |IO_L95P_1/GCLK0S      |OUTPUT   |LVTTL*     |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|F15       |              |DIFFS    |IO_L76N_1             |UNUSED   |           |1             |          |         |           |         |       |PROHIBITED|         |           |                |
+|F16       |              |DIFFM    |IO_L75P_1             |UNUSED   |           |1             |          |         |           |         |       |PROHIBITED|         |           |                |
+|F17       |              |DIFFM    |IO_L54P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|F18       |              |DIFFM    |IO_L27P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|F19       |              |DIFFS    |IO_L27N_1/VREF_1      |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|F20       |              |DIFFM    |IO_L19P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|F21       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|F22       |              |         |TDO                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|F23       |data(6)       |IOB      |IO_L21N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|F24       |data(7)       |IOB      |IO_L21P_2/VREF_2      |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|F25       |              |DIFFM    |IO_L22P_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|F26       |              |DIFFS    |IO_L43N_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|G1        |              |DIFFM    |IO_L24P_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|G2        |              |         |VCCO_7                |         |           |7             |          |         |           |         |3.30   |          |         |           |                |
+|G3        |              |DIFFM    |IO_L22P_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|G4        |              |DIFFS    |IO_L22N_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|G5        |errorn        |IOB      |IO_L01P_7             |TRISTATE |LVTTL*     |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|G6        |gpio(4)       |IOB      |IO_L05N_0             |BIDIR    |LVTTL*     |0             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|G7        |gpio(5)       |IOB      |IO_L05P_0             |BIDIR    |LVTTL*     |0             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|G8        |              |DIFFS    |IO_L27N_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|G9        |              |DIFFM    |IO_L52P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|G10       |              |DIFFM    |IO_L69P_0/VREF_0      |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|G11       |              |DIFFS    |IO_L75N_0             |UNUSED   |           |0             |          |         |           |         |       |PROHIBITED|         |           |                |
+|G12       |              |DIFFS    |IO_L91N_0/VREF_0      |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|G13       |              |DIFFS    |IO_L94N_0/VREF_0      |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|G14       |spw_txd(1)    |IOB      |IO_L95N_1/GCLK1P      |OUTPUT   |LVTTL*     |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|G15       |              |DIFFM    |IO_L76P_1             |UNUSED   |           |1             |          |         |           |         |       |PROHIBITED|         |           |                |
+|G16       |              |DIFFS    |IO_L75N_1/VREF_1      |UNUSED   |           |1             |          |         |           |         |       |PROHIBITED|         |           |                |
+|G17       |              |DIFFM    |IO_L67P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|G18       |              |DIFFS    |IO_L25N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|G19       |              |DIFFM    |IO_L25P_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|G20       |data(0)       |IOB      |IO_L02N_2/VRP_2       |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|G21       |data(4)       |IOB      |IO_L06N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|G22       |data(5)       |IOB      |IO_L06P_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|G23       |              |DIFFS    |IO_L25N_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|G24       |              |DIFFM    |IO_L25P_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|G25       |              |         |VCCO_2                |         |           |2             |          |         |           |         |3.30   |          |         |           |                |
+|G26       |              |DIFFM    |IO_L43P_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|H1        |              |DIFFS    |IO_L49N_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|H2        |              |DIFFM    |IO_L25P_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|H3        |              |DIFFS    |IO_L25N_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|H4        |etxd(2)       |IOB      |IO_L45N_7             |OUTPUT   |LVTTL*     |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|H5        |etxd(3)       |IOB      |IO_L45P_7/VREF_7      |OUTPUT   |LVTTL*     |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|H6        |dsuact        |IOB      |IO_L19P_7             |OUTPUT   |LVTTL*     |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|H7        |dsurx         |IOB      |IO_L19N_7             |INPUT    |LVTTL*     |7             |          |         |           |NONE     |       |LOCATED   |         |YES        |NONE            |
+|H8        |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|H9        |              |         |VCCO_0                |         |           |0             |          |         |           |         |3.30   |          |         |           |                |
+|H10       |              |         |VCCO_0                |         |           |0             |          |         |           |         |3.30   |          |         |           |                |
+|H11       |              |DIFFM    |IO_L75P_0/VREF_0      |UNUSED   |           |0             |          |         |           |         |       |PROHIBITED|         |           |                |
+|H12       |              |DIFFM    |IO_L91P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|H13       |              |DIFFM    |IO_L94P_0             |UNUSED   |           |0             |          |         |           |         |       |          |         |           |                |
+|H14       |              |DIFFS    |IO_L96N_1/GCLK3P      |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|H15       |spw_txd(0)    |IOB      |IO_L96P_1/GCLK2S      |OUTPUT   |LVTTL*     |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|H16       |              |DIFFS    |IO_L67N_1             |UNUSED   |           |1             |          |         |           |         |       |          |         |           |                |
+|H17       |              |         |VCCO_1                |         |           |1             |          |         |           |         |3.30   |          |         |           |                |
+|H18       |              |         |VCCO_1                |         |           |1             |          |         |           |         |3.30   |          |         |           |                |
+|H19       |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|H20       |data(1)       |IOB      |IO_L02P_2/VRN_2       |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|H21       |data(9)       |IOB      |IO_L24P_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|H22       |data(8)       |IOB      |IO_L24N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|H23       |data(10)      |IOB      |IO_L45N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|H24       |data(11)      |IOB      |IO_L45P_2/VREF_2      |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|H25       |              |DIFFS    |IO_L48N_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|H26       |              |DIFFM    |IO_L48P_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|J1        |              |DIFFS    |IO_L67N_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|J2        |              |DIFFM    |IO_L49P_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|J3        |erx_dv        |IOB      |IO_L48P_7             |INPUT    |LVTTL*     |7             |          |         |           |IFD      |       |LOCATED   |         |YES        |NONE            |
+|J4        |erx_clk       |IOB      |IO_L48N_7             |INPUT    |LVTTL*     |7             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|J5        |etx_clk       |IOB      |IO_L46P_7             |INPUT    |LVTTL*     |7             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|J6        |etx_er        |IOB      |IO_L46N_7             |OUTPUT   |LVTTL*     |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|J7        |erx_crs       |IOB      |IO_L43N_7             |INPUT    |LVTTL*     |7             |          |         |           |IFD      |       |LOCATED   |         |YES        |NONE            |
+|J8        |              |         |VCCO_7                |         |           |7             |          |         |           |         |3.30   |          |         |           |                |
+|J9        |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|J10       |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|J11       |              |         |VCCO_0                |         |           |0             |          |         |           |         |3.30   |          |         |           |                |
+|J12       |              |         |VCCO_0                |         |           |0             |          |         |           |         |3.30   |          |         |           |                |
+|J13       |              |         |VCCO_0                |         |           |0             |          |         |           |         |3.30   |          |         |           |                |
+|J14       |              |         |VCCO_1                |         |           |1             |          |         |           |         |3.30   |          |         |           |                |
+|J15       |              |         |VCCO_1                |         |           |1             |          |         |           |         |3.30   |          |         |           |                |
+|J16       |              |         |VCCO_1                |         |           |1             |          |         |           |         |3.30   |          |         |           |                |
+|J17       |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|J18       |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|J19       |              |         |VCCO_2                |         |           |2             |          |         |           |         |3.30   |          |         |           |                |
+|J20       |data(13)      |IOB      |IO_L46P_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|J21       |data(12)      |IOB      |IO_L46N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|J22       |data(14)      |IOB      |IO_L49N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|J23       |data(15)      |IOB      |IO_L49P_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|J24       |data(20)      |IOB      |IO_L54N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|J25       |              |DIFFM    |IO_L54P_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|J26       |              |DIFFS    |IO_L69N_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|K1        |              |DIFFM    |IO_L67P_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|K2        |              |         |VCCO_7                |         |           |7             |          |         |           |         |3.30   |          |         |           |                |
+|K3        |etxd(1)       |IOB      |IO_L54P_7             |OUTPUT   |LVTTL*     |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|K4        |etxd(0)       |IOB      |IO_L54N_7             |OUTPUT   |LVTTL*     |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|K5        |etx_en        |IOB      |IO_L52P_7             |OUTPUT   |LVTTL*     |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|K6        |emdc          |IOB      |IO_L52N_7             |OUTPUT   |LVTTL*     |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|K7        |erx_col       |IOB      |IO_L43P_7             |INPUT    |LVTTL*     |7             |          |         |           |IFD      |       |LOCATED   |         |YES        |NONE            |
+|K8        |              |         |VCCO_7                |         |           |7             |          |         |           |         |3.30   |          |         |           |                |
+|K9        |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|K10       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|K11       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|K12       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|K13       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|K14       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|K15       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|K16       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|K17       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|K18       |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|K19       |              |         |VCCO_2                |         |           |2             |          |         |           |         |3.30   |          |         |           |                |
+|K20       |data(18)      |IOB      |IO_L52N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|K21       |data(16)      |IOB      |IO_L51N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|K22       |data(17)      |IOB      |IO_L51P_2/VREF_2      |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|K23       |data(21)      |IOB      |IO_L67N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|K24       |data(22)      |IOB      |IO_L67P_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|K25       |              |         |VCCO_2                |         |           |2             |          |         |           |         |3.30   |          |         |           |                |
+|K26       |              |DIFFM    |IO_L69P_2/VREF_2      |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|L1        |              |DIFFM    |IO_L72P_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|L2        |              |DIFFS    |IO_L72N_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|L3        |erxd(1)       |IOB      |IO_L69P_7/VREF_7      |INPUT    |LVTTL*     |7             |          |         |           |IFD      |       |LOCATED   |         |YES        |NONE            |
+|L4        |erxd(0)       |IOB      |IO_L69N_7             |INPUT    |LVTTL*     |7             |          |         |           |IFD      |       |LOCATED   |         |YES        |NONE            |
+|L5        |erxd(3)       |IOB      |IO_L70P_7             |INPUT    |LVTTL*     |7             |          |         |           |IFD      |       |LOCATED   |         |YES        |NONE            |
+|L6        |erxd(2)       |IOB      |IO_L70N_7             |INPUT    |LVTTL*     |7             |          |         |           |IFD      |       |LOCATED   |         |YES        |NONE            |
+|L7        |erx_er        |IOB      |IO_L51N_7             |INPUT    |LVTTL*     |7             |          |         |           |IFD      |       |LOCATED   |         |YES        |NONE            |
+|L8        |emdio         |IOB      |IO_L51P_7/VREF_7      |BIDIR    |LVTTL*     |7             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|L9        |              |         |VCCO_7                |         |           |7             |          |         |           |         |3.30   |          |         |           |                |
+|L10       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|L11       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|L12       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|L13       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|L14       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|L15       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|L16       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|L17       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|L18       |              |         |VCCO_2                |         |           |2             |          |         |           |         |3.30   |          |         |           |                |
+|L19       |              |DIFFS    |IO_L73N_2             |UNUSED   |           |2             |          |         |           |         |       |PROHIBITED|         |           |                |
+|L20       |data(19)      |IOB      |IO_L52P_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|L21       |data(24)      |IOB      |IO_L70P_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|L22       |data(23)      |IOB      |IO_L70N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|L23       |              |DIFFS    |IO_L75N_2             |UNUSED   |           |2             |          |         |           |         |       |PROHIBITED|         |           |                |
+|L24       |              |DIFFM    |IO_L75P_2/VREF_2      |UNUSED   |           |2             |          |         |           |         |       |PROHIBITED|         |           |                |
+|L25       |              |DIFFS    |IO_L72N_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|L26       |              |DIFFM    |IO_L72P_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|M1        |              |DIFFM    |IO_L78P_7             |UNUSED   |           |7             |          |         |           |         |       |PROHIBITED|         |           |                |
+|M2        |              |DIFFS    |IO_L78N_7             |UNUSED   |           |7             |          |         |           |         |       |PROHIBITED|         |           |                |
+|M3        |              |DIFFM    |IO_L75P_7/VREF_7      |UNUSED   |           |7             |          |         |           |         |       |PROHIBITED|         |           |                |
+|M4        |              |DIFFS    |IO_L75N_7             |UNUSED   |           |7             |          |         |           |         |       |PROHIBITED|         |           |                |
+|M5        |              |DIFFM    |IO_L76P_7             |UNUSED   |           |7             |          |         |           |         |       |PROHIBITED|         |           |                |
+|M6        |              |DIFFS    |IO_L76N_7             |UNUSED   |           |7             |          |         |           |         |       |PROHIBITED|         |           |                |
+|M7        |              |DIFFM    |IO_L73P_7             |UNUSED   |           |7             |          |         |           |         |       |PROHIBITED|         |           |                |
+|M8        |              |DIFFS    |IO_L73N_7             |UNUSED   |           |7             |          |         |           |         |       |PROHIBITED|         |           |                |
+|M9        |              |         |VCCO_7                |         |           |7             |          |         |           |         |3.30   |          |         |           |                |
+|M10       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|M11       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|M12       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|M13       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|M14       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|M15       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|M16       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|M17       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|M18       |              |         |VCCO_2                |         |           |2             |          |         |           |         |3.30   |          |         |           |                |
+|M19       |              |DIFFM    |IO_L73P_2             |UNUSED   |           |2             |          |         |           |         |       |PROHIBITED|         |           |                |
+|M20       |data(25)      |IOB      |IO_L93N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|M21       |              |DIFFM    |IO_L76P_2             |UNUSED   |           |2             |          |         |           |         |       |PROHIBITED|         |           |                |
+|M22       |              |DIFFS    |IO_L76N_2             |UNUSED   |           |2             |          |         |           |         |       |PROHIBITED|         |           |                |
+|M23       |              |DIFFS    |IO_L78N_2             |UNUSED   |           |2             |          |         |           |         |       |PROHIBITED|         |           |                |
+|M24       |              |DIFFM    |IO_L78P_2             |UNUSED   |           |2             |          |         |           |         |       |PROHIBITED|         |           |                |
+|M25       |              |DIFFS    |IO_L91N_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|M26       |              |DIFFM    |IO_L91P_2             |UNUSED   |           |2             |          |         |           |         |       |          |         |           |                |
+|N1        |              |DIFFS    |IO_L96N_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|N2        |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|N3        |              |         |VCCAUX                |         |           |              |          |         |           |         |3.3    |          |         |           |                |
+|N4        |pci_arb_gnt(3)|IOB      |IO_L94P_7             |OUTPUT   |LVTTL*     |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|N5        |pci_arb_gnt(2)|IOB      |IO_L94N_7             |OUTPUT   |LVTTL*     |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|N6        |pci_arb_gnt(1)|IOB      |IO_L93P_7/VREF_7      |OUTPUT   |LVTTL*     |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|N7        |pci_arb_gnt(0)|IOB      |IO_L93N_7             |OUTPUT   |LVTTL*     |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |NO         |NONE            |
+|N8        |pci_rst       |IOB      |IO_L91N_7             |INPUT    |LVTTL*     |7             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|N9        |              |         |VCCO_7                |         |           |7             |          |         |           |         |3.30   |          |         |           |                |
+|N10       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|N11       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|N12       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|N13       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|N14       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|N15       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|N16       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|N17       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|N18       |              |         |VCCO_2                |         |           |2             |          |         |           |         |3.30   |          |         |           |                |
+|N19       |              |DIFFM    |IO_L93P_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|N20       |data(26)      |IOB      |IO_L93P_2/VREF_2      |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|N21       |data(28)      |IOB      |IO_L94P_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|N22       |data(27)      |IOB      |IO_L94N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|N23       |data(30)      |IOB      |IO_L96P_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|N24       |data(29)      |IOB      |IO_L96N_2             |BIDIR    |LVTTL*     |2             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|N25       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|N26       |              |DIFFS    |IO_L96N_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|P1        |              |DIFFM    |IO_L96P_7             |UNUSED   |           |7             |          |         |           |         |       |          |         |           |                |
+|P2        |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|P3        |pci_gnt       |IOB      |IO_L96N_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|P4        |pci_arb_req(0)|IOB      |IO_L96P_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|P5        |pci_arb_req(1)|IOB      |IO_L94N_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|P6        |pci_arb_req(2)|IOB      |IO_L94P_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|P7        |pci_arb_req(3)|IOB      |IO_L93N_6/VREF_6      |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|P8        |pci_idsel     |IOB      |IO_L91P_7             |INPUT    |LVTTL*     |7             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|P9        |              |         |VCCO_6                |         |           |6             |          |         |           |         |3.30   |          |         |           |                |
+|P10       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|P11       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|P12       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|P13       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|P14       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|P15       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|P16       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|P17       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|P18       |              |         |VCCO_3                |         |           |3             |          |         |           |         |3.30   |          |         |           |                |
+|P19       |              |DIFFS    |IO_L93N_3/VREF_3      |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|P20       |address(26)   |IOB      |IO_L91P_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|P21       |address(27)   |IOB      |IO_L91N_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|P22       |              |DIFFM    |IO_L94P_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|P23       |data(31)      |IOB      |IO_L94N_3             |BIDIR    |LVTTL*     |3             |12        |SLOW     |NONE**     |NONE     |       |LOCATED   |         |YES        |NONE            |
+|P24       |              |         |VCCAUX                |         |           |              |          |         |           |         |3.3    |          |         |           |                |
+|P25       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|P26       |              |DIFFM    |IO_L96P_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|R1        |              |DIFFS    |IO_L91N_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|R2        |              |DIFFM    |IO_L91P_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|R3        |              |DIFFS    |IO_L78N_6             |UNUSED   |           |6             |          |         |           |         |       |PROHIBITED|         |           |                |
+|R4        |              |DIFFM    |IO_L78P_6             |UNUSED   |           |6             |          |         |           |         |       |PROHIBITED|         |           |                |
+|R5        |              |DIFFS    |IO_L76N_6             |UNUSED   |           |6             |          |         |           |         |       |PROHIBITED|         |           |                |
+|R6        |              |DIFFM    |IO_L76P_6             |UNUSED   |           |6             |          |         |           |         |       |PROHIBITED|         |           |                |
+|R7        |pci_req       |IOB      |IO_L93P_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|R8        |pci_host      |IOB      |IO_L72N_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|R9        |              |         |VCCO_6                |         |           |6             |          |         |           |         |3.30   |          |         |           |                |
+|R10       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|R11       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|R12       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|R13       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|R14       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|R15       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|R16       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|R17       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|R18       |              |         |VCCO_3                |         |           |3             |          |         |           |         |3.30   |          |         |           |                |
+|R19       |              |DIFFM    |IO_L76P_3             |UNUSED   |           |3             |          |         |           |         |       |PROHIBITED|         |           |                |
+|R20       |              |DIFFS    |IO_L76N_3             |UNUSED   |           |3             |          |         |           |         |       |PROHIBITED|         |           |                |
+|R21       |              |DIFFM    |IO_L73P_3             |UNUSED   |           |3             |          |         |           |         |       |PROHIBITED|         |           |                |
+|R22       |              |DIFFS    |IO_L73N_3             |UNUSED   |           |3             |          |         |           |         |       |PROHIBITED|         |           |                |
+|R23       |              |DIFFM    |IO_L75P_3             |UNUSED   |           |3             |          |         |           |         |       |PROHIBITED|         |           |                |
+|R24       |              |DIFFS    |IO_L75N_3/VREF_3      |UNUSED   |           |3             |          |         |           |         |       |PROHIBITED|         |           |                |
+|R25       |              |DIFFM    |IO_L78P_3             |UNUSED   |           |3             |          |         |           |         |       |PROHIBITED|         |           |                |
+|R26       |              |DIFFS    |IO_L78N_3             |UNUSED   |           |3             |          |         |           |         |       |PROHIBITED|         |           |                |
+|T1        |              |DIFFS    |IO_L73N_6             |UNUSED   |           |6             |          |         |           |         |       |PROHIBITED|         |           |                |
+|T2        |              |DIFFM    |IO_L73P_6             |UNUSED   |           |6             |          |         |           |         |       |PROHIBITED|         |           |                |
+|T3        |              |DIFFS    |IO_L75N_6/VREF_6      |UNUSED   |           |6             |          |         |           |         |       |PROHIBITED|         |           |                |
+|T4        |              |DIFFM    |IO_L75P_6             |UNUSED   |           |6             |          |         |           |         |       |PROHIBITED|         |           |                |
+|T5        |pci_ad(29)    |IOB      |IO_L70P_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|T6        |pci_ad(30)    |IOB      |IO_L70N_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|T7        |pci_ad(24)    |IOB      |IO_L54N_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|T8        |pci_ad(31)    |IOB      |IO_L72P_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|T9        |              |         |VCCO_6                |         |           |6             |          |         |           |         |3.30   |          |         |           |                |
+|T10       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|T11       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|T12       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|T13       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|T14       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|T15       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|T16       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|T17       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|T18       |              |         |VCCO_3                |         |           |3             |          |         |           |         |3.30   |          |         |           |                |
+|T19       |address(24)   |IOB      |IO_L70P_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|T20       |address(25)   |IOB      |IO_L70N_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|T21       |address(20)   |IOB      |IO_L67P_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|T22       |address(21)   |IOB      |IO_L67N_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|T23       |address(22)   |IOB      |IO_L69P_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|T24       |address(23)   |IOB      |IO_L69N_3/VREF_3      |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|T25       |              |DIFFM    |IO_L72P_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|T26       |              |DIFFS    |IO_L72N_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|U1        |              |DIFFS    |IO_L52N_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|U2        |              |         |VCCO_6                |         |           |6             |          |         |           |         |3.30   |          |         |           |                |
+|U3        |pci_ad(26)    |IOB      |IO_L67N_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|U4        |pci_ad(25)    |IOB      |IO_L67P_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|U5        |pci_ad(28)    |IOB      |IO_L69N_6/VREF_6      |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|U6        |pci_ad(27)    |IOB      |IO_L69P_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|U7        |pci_ad(23)    |IOB      |IO_L54P_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|U8        |              |         |VCCO_6                |         |           |6             |          |         |           |         |3.30   |          |         |           |                |
+|U9        |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|U10       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|U11       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|U12       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|U13       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|U14       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|U15       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|U16       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|U17       |              |         |GND                   |         |           |              |          |         |           |         |       |          |         |           |                |
+|U18       |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|U19       |              |         |VCCO_3                |         |           |3             |          |         |           |         |3.30   |          |         |           |                |
+|U20       |address(12)   |IOB      |IO_L45N_3/VREF_3      |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|U21       |address(16)   |IOB      |IO_L51P_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|U22       |address(17)   |IOB      |IO_L51N_3/VREF_3      |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|U23       |address(18)   |IOB      |IO_L52P_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|U24       |address(19)   |IOB      |IO_L52N_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|U25       |              |         |VCCO_3                |         |           |3             |          |         |           |         |3.30   |          |         |           |                |
+|U26       |              |DIFFS    |IO_L54N_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|V1        |              |DIFFM    |IO_L52P_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|V2        |              |DIFFS    |IO_L51N_6/VREF_6      |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|V3        |pci_ad(22)    |IOB      |IO_L51P_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|V4        |pci_ad(21)    |IOB      |IO_L49N_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|V5        |pci_ad(20)    |IOB      |IO_L49P_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|V6        |pci_ad(18)    |IOB      |IO_L48P_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|V7        |pci_ad(19)    |IOB      |IO_L48N_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|V8        |              |         |VCCO_6                |         |           |6             |          |         |           |         |3.30   |          |         |           |                |
+|V9        |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|V10       |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|V11       |              |         |VCCO_5                |         |           |5             |          |         |           |         |3.30   |          |         |           |                |
+|V12       |              |         |VCCO_5                |         |           |5             |          |         |           |         |3.30   |          |         |           |                |
+|V13       |              |         |VCCO_5                |         |           |5             |          |         |           |         |3.30   |          |         |           |                |
+|V14       |              |         |VCCO_4                |         |           |4             |          |         |           |         |3.30   |          |         |           |                |
+|V15       |              |         |VCCO_4                |         |           |4             |          |         |           |         |3.30   |          |         |           |                |
+|V16       |              |         |VCCO_4                |         |           |4             |          |         |           |         |3.30   |          |         |           |                |
+|V17       |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|V18       |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|V19       |              |         |VCCO_3                |         |           |3             |          |         |           |         |3.30   |          |         |           |                |
+|V20       |address(11)   |IOB      |IO_L45P_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|V21       |              |DIFFS    |IO_L25N_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|V22       |address(13)   |IOB      |IO_L48P_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|V23       |address(14)   |IOB      |IO_L48N_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|V24       |address(15)   |IOB      |IO_L49P_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|V25       |              |DIFFS    |IO_L49N_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|V26       |              |DIFFM    |IO_L54P_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|W1        |              |DIFFS    |IO_L46N_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|W2        |              |DIFFM    |IO_L45P_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|W3        |pci_ad(17)    |IOB      |IO_L45N_6/VREF_6      |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|W4        |pci_ad(16)    |IOB      |IO_L43N_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|W5        |pci_frame     |IOB      |IO_L43P_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|W6        |pci_trdy      |IOB      |IO_L22P_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|W7        |pci_irdy      |IOB      |IO_L22N_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|W8        |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|W9        |              |         |VCCO_5                |         |           |5             |          |         |           |         |3.30   |          |         |           |                |
+|W10       |              |         |VCCO_5                |         |           |5             |          |         |           |         |3.30   |          |         |           |                |
+|W11       |pci_ad(1)     |IOB      |IO_L70N_5             |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|W12       |iosn          |IOB      |IO_L94P_5/VREF_5      |OUTPUT   |LVTTL*     |5             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|W13       |oen           |IOB      |IO_L94N_5             |OUTPUT   |LVTTL*     |5             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|W14       |ramoen(0)     |IOB      |IO_L94N_4/VREF_4      |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|W15       |ramsn(0)      |IOB      |IO_L91N_4/VREF_4      |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|W16       |ramsn(1)      |IOB      |IO_L91P_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|W17       |              |         |VCCO_4                |         |           |4             |          |         |           |         |3.30   |          |         |           |                |
+|W18       |              |         |VCCO_4                |         |           |4             |          |         |           |         |3.30   |          |         |           |                |
+|W19       |              |         |VCCINT                |         |           |              |          |         |           |         |1.5    |          |         |           |                |
+|W20       |sdcsn(0)      |IOB      |IO_L06N_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|W21       |              |DIFFM    |IO_L25P_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|W22       |address(7)    |IOB      |IO_L21N_3/VREF_3      |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|W23       |address(6)    |IOB      |IO_L21P_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|W24       |address(10)   |IOB      |IO_L43P_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|W25       |              |DIFFS    |IO_L43N_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|W26       |              |DIFFS    |IO_L46N_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
+|Y1        |              |DIFFM    |IO_L46P_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|Y2        |              |         |VCCO_6                |         |           |6             |          |         |           |         |3.30   |          |         |           |                |
+|Y3        |              |DIFFS    |IO_L25N_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|Y4        |              |DIFFM    |IO_L25P_6             |UNUSED   |           |6             |          |         |           |         |       |          |         |           |                |
+|Y5        |pci_devsel    |IOB      |IO_L21N_6/VREF_6      |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|Y6        |pci_stop      |IOB      |IO_L21P_6             |INPUT    |LVTTL*     |6             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|Y7        |pci_ad(15)    |IOB      |IO_L04P_5/VREF_5      |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|Y8        |pci_ad(14)    |IOB      |IO_L04N_5             |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|Y9        |              |DIFFM    |IO_L25P_5             |UNUSED   |           |5             |          |         |           |         |       |          |         |           |                |
+|Y10       |pci_ad(2)     |IOB      |IO_L70P_5             |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|Y11       |pci_ad(3)     |IOB      |IO_L69N_5/VREF_5      |INPUT    |LVTTL*     |5             |          |         |           |NONE     |       |LOCATED   |         |NO         |NONE            |
+|Y12       |              |DIFFM    |IO_L76P_5             |UNUSED   |           |5             |          |         |           |         |       |PROHIBITED|         |           |                |
+|Y13       |read          |IOB      |IO_L95P_5/GCLK4P      |OUTPUT   |LVTTL*     |5             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|Y14       |ramoen(1)     |IOB      |IO_L94P_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|Y15       |              |DIFFS    |IO_L78N_4             |UNUSED   |           |4             |          |         |           |         |       |PROHIBITED|         |           |                |
+|Y16       |              |DIFFM    |IO_L75P_4/VREF_4      |UNUSED   |           |4             |          |         |           |         |       |PROHIBITED|         |           |                |
+|Y17       |sddqm(3)      |IOB      |IO_L52P_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|Y18       |sddqm(2)      |IOB      |IO_L52N_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|Y19       |sdwen         |IOB      |IO_L02P_4/D1          |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|Y20       |              |DIFFS    |IO_L02N_4/D0          |UNUSED   |           |4             |          |         |           |         |       |PROHIBITED|         |           |                |
+|Y21       |sdcsn(1)      |IOB      |IO_L06P_4             |OUTPUT   |LVTTL*     |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|Y22       |address(1)    |IOB      |IO_L01N_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|Y23       |address(8)    |IOB      |IO_L22P_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|Y24       |address(9)    |IOB      |IO_L22N_3             |OUTPUT   |LVTTL*     |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |         |YES        |NONE            |
+|Y25       |              |         |VCCO_3                |         |           |3             |          |         |           |         |3.30   |          |         |           |                |
+|Y26       |              |DIFFM    |IO_L46P_3             |UNUSED   |           |3             |          |         |           |         |       |          |         |           |                |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+* Default value.
+** This default Pullup/Pulldown value can be overridden in Bitgen. 
+****** Special VCCO requirements may apply. Please consult the device 
+       family datasheet for specific guideline on VCCO requirements. 
+
+

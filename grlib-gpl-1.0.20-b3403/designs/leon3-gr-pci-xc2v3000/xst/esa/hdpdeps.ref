@@ -1,0 +1,31 @@
+V3 24
+FL ../../lib/esa/memoryctrl/mctrl.vhd 2009/02/12.10:30:49 K.39
+EN esa/mctrl 1235534597 FL ../../lib/esa/memoryctrl/mctrl.vhd \
+      PB ieee/std_logic_1164 1217055545 LB grlib PB grlib/amba 1235534587 \
+      PH grlib/devices 1235534587 PB grlib/stdlib 1235534586 LB gaisler \
+      PH gaisler/memctrl 1235534588 LB esa PH esa/memoryctrl 1235534596
+AR esa/mctrl/rtl 1235534598 \
+      FL ../../lib/esa/memoryctrl/mctrl.vhd EN esa/mctrl 1235534597 CP sdmctrl
+FL ../../lib/esa/memoryctrl/memoryctrl.vhd 2009/02/12.10:30:49 K.39
+PH esa/memoryctrl 1235534596 FL ../../lib/esa/memoryctrl/memoryctrl.vhd \
+      PB ieee/std_logic_1164 1217055545 LB grlib PB grlib/amba 1235534587 \
+      LB gaisler PH gaisler/memctrl 1235534588 CD mctrl
+FL ../../lib/esa/pci/pciarb.vhd 2009/02/12.10:30:49 K.39
+EN esa/pciarb 1235534598 FL ../../lib/esa/pci/pciarb.vhd LB grlib LB gaisler LB esa \
+      LB techmap PB ieee/std_logic_1164 1217055545 PB grlib/stdlib 1235534586 \
+      PB grlib/amba 1235534587 PH grlib/devices 1235534587 PH techmap/gencomp 1235534587 \
+      PH esa/pci_arb_pkg 1235534597
+AR esa/pciarb/rtl 1235534599 \
+      FL ../../lib/esa/pci/pciarb.vhd EN esa/pciarb 1235534598 CP pci_arb \
+      CP pci_arb_net
+FL ../../lib/esa/pci/pcicomp.vhd 2009/02/12.10:30:49 K.39
+PH esa/pcicomp 1235534597 FL ../../lib/esa/pci/pcicomp.vhd LB grlib PB grlib/amba 1235534587 \
+      PB ieee/std_logic_1164 1217055545 CD pciarb
+FL ../../lib/esa/pci/pci_arb.vhd 2009/02/12.10:30:49 K.39
+EN esa/pci_arb 1235534598 FL ../../lib/esa/pci/pci_arb.vhd PB ieee/std_logic_1164 1217055545 \
+      LB grlib PB grlib/stdlib 1235534586 LB esa PH esa/pci_arb_pkg 1235534597
+AR esa/pci_arb/rtl 1235534599 \
+      FL ../../lib/esa/pci/pci_arb.vhd EN esa/pci_arb 1235534598
+FL ../../lib/esa/pci/pci_arb_pkg.vhd 2009/02/12.10:30:49 K.39
+PH esa/pci_arb_pkg 1235534597 FL ../../lib/esa/pci/pci_arb_pkg.vhd \
+      PB ieee/std_logic_1164 1217055545
