@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<document OS="lin" product="ISE" version="10.1.03">
+
+  <!--The data in this file is primarily intended for consumption by Xilinx tools.
+    The structure and the elements are likely to change over the next few releases.
+    This means code written to parse this file will need to be revisited each subsequent release.-->
+
+  <application stringID="Map" timeStamp="Tue Feb 24 18:16:45 2009">
+    <task stringID="MAP_PACK_REPORT">
+      <section stringID="MAP_DESIGN_INFORMATION">
+        <item stringID="MAP_PART" value="2v3000fg676-4"/>
+        <item stringID="MAP_DEVICE" value="xc2v3000"/>
+        <item stringID="MAP_ARCHITECTURE" value="virtex2"/>
+        <item stringID="MAP_PACKAGE" value="fg676"/>
+        <item stringID="MAP_SPEED" value="-4"/>
+      </section>
+      <section stringID="MAP_DESIGN_SUMMARY">
+        <item dataType="int" stringID="MAP_NUM_ERRORS" value="0"/>
+        <item dataType="int" stringID="MAP_FILTERED_WARNINGS" value="0"/>
+        <item dataType="int" stringID="MAP_NUM_WARNINGS" value="139"/>
+        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="325176"/>
+        <item stringID="MAP_TOTAL_REAL_TIME" value="36 secs "/>
+        <item stringID="MAP_TOTAL_CPU_TIME" value="36 secs "/>
+      </section>
+      <section stringID="MAP_SLICE_REPORTING"/>
+      <section stringID="MAP_LOGIC_UTILIZATION">
+        <item dataType="int" stringID="MAP_NUM_SLICE_FF" value="6419"/>
+        <item dataType="int" stringID="MAP_NUM_SLICE_LATCH" value="0"/>
+        <item dataType="int" stringID="MAP_NUM_SLICE" value="14336"/>
+        <item dataType="int" stringID="MAP_FLOPS_PER_SLICE" value="2"/>
+        <item dataType="int" stringID="MAP_NUM_4_INPUT_LUT" value="18731"/>
+        <item dataType="int" stringID="MAP_NUM_LUT_RT" value="18731"/>
+      </section>
+      <section stringID="MAP_LOGIC_DISTRIBUTION">
+        <item dataType="int" stringID="MAP_AGG_SLICE" value="11772"/>
+        <item dataType="int" stringID="MAP_NUM_SLICE_UNRELATED" value="0"/>
+        <item dataType="int" stringID="MAP_NUM_4_INPUT_LUT" value="18988"/>
+        <item dataType="int" stringID="MAP_NUM_LUT_RT" value="257"/>
+        <item dataType="int" stringID="MAP_NUM_DP_RAM" value="120"/>
+        <item dataType="int" stringID="MAP_NUM_RAM32" value="0"/>
+        <item dataType="int" stringID="MAP_NUM_RAM16" value="0"/>
+        <item dataType="int" stringID="MAP_NUM_ROM16" value="0"/>
+        <item dataType="int" stringID="MAP_NUM_SHIFT" value="48"/>
+      </section>
+      <section stringID="MAP_IOB_REPORTING">
+        <item AVAILABLE="484" dataType="int" stringID="MAP_AGG_BONDED_IO" value="197"/>
+        <item AVAILABLE="476" dataType="int" stringID="MAP_AGG_UNBONDED_IO" value="0"/>
+        <item AVAILABLE="0" dataType="int" stringID="MAP_NUM_IOB_FF" value="169"/>
+        <item AVAILABLE="0" dataType="int" stringID="MAP_NUM_IOB_LATCH" value="0"/>
+      </section>
+      <section stringID="MAP_HARD_IP_REPORTING">
+        <item AVAILABLE="0" dataType="int" stringID="MAP_NUM_JTAGPPC" value="0"/>
+        <item AVAILABLE="96" dataType="int" stringID="MAP_NUM_RAMB16" value="26"/>
+        <item AVAILABLE="1" dataType="int" stringID="MAP_NUM_ICAP" value="0"/>
+        <item AVAILABLE="1" dataType="int" stringID="MAP_NUM_STARTUP" value="0"/>
+        <item AVAILABLE="1" dataType="int" stringID="MAP_NUM_BSCAN" value="1"/>
+        <item AVAILABLE="1" dataType="int" stringID="MAP_NUM_CAPTURE" value="0"/>
+      </section>
+      <section stringID="MAP_MACRO_RPM_REPORTING">
+        <item dataType="int" stringID="MAP_HARD_MACROS" value="0"/>
+        <item dataType="int" stringID="MAP_RPMS" value="0"/>
+      </section>
+      <section stringID="MAP_IOB_PROPERTIES">
+        <table stringID="MAP_IOB_TABLE">
+          <column stringID="IOB_Name"/>
+          <column stringID="TYPE"/>
+          <column stringID="DIRECTION"/>
+          <column stringID="IO_STANDARD"/>
+          <column stringID="DIFF_TERM"/>
+          <column stringID="DRIVE_STRENGTH"/>
+          <column stringID="SLEW_RATE"/>
+          <column stringID="REGS"/>
+          <column stringID="RESISTOR"/>
+          <column stringID="IOB_Delay"/>
+          <row stringID="row" value="1">
+            <item stringID="IOB_Name" value="address(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="2">
+            <item stringID="IOB_Name" value="address(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="3">
+            <item stringID="IOB_Name" value="address(2)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="4">
+            <item stringID="IOB_Name" value="address(3)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="5">
+            <item stringID="IOB_Name" value="address(4)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="6">
+            <item stringID="IOB_Name" value="address(5)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="7">
+            <item stringID="IOB_Name" value="address(6)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="8">
+            <item stringID="IOB_Name" value="address(7)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="9">
+            <item stringID="IOB_Name" value="address(8)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="10">
+            <item stringID="IOB_Name" value="address(9)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="11">
+            <item stringID="IOB_Name" value="address(10)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="12">
+            <item stringID="IOB_Name" value="address(11)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="13">
+            <item stringID="IOB_Name" value="address(12)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="14">
+            <item stringID="IOB_Name" value="address(13)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="15">
+            <item stringID="IOB_Name" value="address(14)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="16">
+            <item stringID="IOB_Name" value="address(15)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="17">
+            <item stringID="IOB_Name" value="address(16)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="18">
+            <item stringID="IOB_Name" value="address(17)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="19">
+            <item stringID="IOB_Name" value="address(18)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="20">
+            <item stringID="IOB_Name" value="address(19)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="21">
+            <item stringID="IOB_Name" value="address(20)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="22">
+            <item stringID="IOB_Name" value="address(21)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="23">
+            <item stringID="IOB_Name" value="address(22)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="24">
+            <item stringID="IOB_Name" value="address(23)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="25">
+            <item stringID="IOB_Name" value="address(24)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="26">
+            <item stringID="IOB_Name" value="address(25)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="27">
+            <item stringID="IOB_Name" value="address(26)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="28">
+            <item stringID="IOB_Name" value="address(27)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="29">
+            <item stringID="IOB_Name" value="clk"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="30">
+            <item stringID="IOB_Name" value="data(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="31"/>
+          <row stringID="row" value="32">
+            <item stringID="IOB_Name" value="data(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="33"/>
+          <row stringID="row" value="34">
+            <item stringID="IOB_Name" value="data(2)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="35"/>
+          <row stringID="row" value="36">
+            <item stringID="IOB_Name" value="data(3)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="37"/>
+          <row stringID="row" value="38">
+            <item stringID="IOB_Name" value="data(4)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="39"/>
+          <row stringID="row" value="40">
+            <item stringID="IOB_Name" value="data(5)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="41"/>
+          <row stringID="row" value="42">
+            <item stringID="IOB_Name" value="data(6)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="43"/>
+          <row stringID="row" value="44">
+            <item stringID="IOB_Name" value="data(7)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="45"/>
+          <row stringID="row" value="46">
+            <item stringID="IOB_Name" value="data(8)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="47"/>
+          <row stringID="row" value="48">
+            <item stringID="IOB_Name" value="data(9)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="49"/>
+          <row stringID="row" value="50">
+            <item stringID="IOB_Name" value="data(10)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="51"/>
+          <row stringID="row" value="52">
+            <item stringID="IOB_Name" value="data(11)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="53"/>
+          <row stringID="row" value="54">
+            <item stringID="IOB_Name" value="data(12)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="55"/>
+          <row stringID="row" value="56">
+            <item stringID="IOB_Name" value="data(13)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="57"/>
+          <row stringID="row" value="58">
+            <item stringID="IOB_Name" value="data(14)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="59"/>
+          <row stringID="row" value="60">
+            <item stringID="IOB_Name" value="data(15)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="61"/>
+          <row stringID="row" value="62">
+            <item stringID="IOB_Name" value="data(16)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="63"/>
+          <row stringID="row" value="64">
+            <item stringID="IOB_Name" value="data(17)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="65"/>
+          <row stringID="row" value="66">
+            <item stringID="IOB_Name" value="data(18)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="67"/>
+          <row stringID="row" value="68">
+            <item stringID="IOB_Name" value="data(19)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="69"/>
+          <row stringID="row" value="70">
+            <item stringID="IOB_Name" value="data(20)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="71"/>
+          <row stringID="row" value="72">
+            <item stringID="IOB_Name" value="data(21)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="73"/>
+          <row stringID="row" value="74">
+            <item stringID="IOB_Name" value="data(22)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="75"/>
+          <row stringID="row" value="76">
+            <item stringID="IOB_Name" value="data(23)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="77"/>
+          <row stringID="row" value="78">
+            <item stringID="IOB_Name" value="data(24)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="79"/>
+          <row stringID="row" value="80">
+            <item stringID="IOB_Name" value="data(25)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="81"/>
+          <row stringID="row" value="82">
+            <item stringID="IOB_Name" value="data(26)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="83"/>
+          <row stringID="row" value="84">
+            <item stringID="IOB_Name" value="data(27)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="85"/>
+          <row stringID="row" value="86">
+            <item stringID="IOB_Name" value="data(28)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="87"/>
+          <row stringID="row" value="88">
+            <item stringID="IOB_Name" value="data(29)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="89"/>
+          <row stringID="row" value="90">
+            <item stringID="IOB_Name" value="data(30)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="91"/>
+          <row stringID="row" value="92">
+            <item stringID="IOB_Name" value="data(31)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="93"/>
+          <row stringID="row" value="94">
+            <item stringID="IOB_Name" value="dsuact"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="95">
+            <item stringID="IOB_Name" value="dsubre"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="REGS" value="INFF1"/>
+          </row>
+          <row stringID="row" value="96">
+            <item stringID="IOB_Name" value="dsuen"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="REGS" value="INFF1"/>
+          </row>
+          <row stringID="row" value="97">
+            <item stringID="IOB_Name" value="dsurx"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="REGS" value="INFF1"/>
+          </row>
+          <row stringID="row" value="98">
+            <item stringID="IOB_Name" value="dsutx"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="99">
+            <item stringID="IOB_Name" value="emdc"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="100">
+            <item stringID="IOB_Name" value="emdio"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1"/>
+          </row>
+          <row stringID="row" value="101"/>
+          <row stringID="row" value="102">
+            <item stringID="IOB_Name" value="errorn"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="ENFF1"/>
+          </row>
+          <row stringID="row" value="103">
+            <item stringID="IOB_Name" value="erx_clk"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="104">
+            <item stringID="IOB_Name" value="erx_col"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="REGS" value="INFF1"/>
+            <item stringID="IOB_Delay" value="IFD"/>
+          </row>
+          <row stringID="row" value="105">
+            <item stringID="IOB_Name" value="erx_crs"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="REGS" value="INFF1"/>
+            <item stringID="IOB_Delay" value="IFD"/>
+          </row>
+          <row stringID="row" value="106">
+            <item stringID="IOB_Name" value="erx_dv"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="REGS" value="INFF1"/>
+            <item stringID="IOB_Delay" value="IFD"/>
+          </row>
+          <row stringID="row" value="107">
+            <item stringID="IOB_Name" value="erx_er"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="REGS" value="INFF1"/>
+            <item stringID="IOB_Delay" value="IFD"/>
+          </row>
+          <row stringID="row" value="108">
+            <item stringID="IOB_Name" value="erxd(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="REGS" value="INFF1"/>
+            <item stringID="IOB_Delay" value="IFD"/>
+          </row>
+          <row stringID="row" value="109">
+            <item stringID="IOB_Name" value="erxd(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="REGS" value="INFF1"/>
+            <item stringID="IOB_Delay" value="IFD"/>
+          </row>
+          <row stringID="row" value="110">
+            <item stringID="IOB_Name" value="erxd(2)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="REGS" value="INFF1"/>
+            <item stringID="IOB_Delay" value="IFD"/>
+          </row>
+          <row stringID="row" value="111">
+            <item stringID="IOB_Name" value="erxd(3)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="REGS" value="INFF1"/>
+            <item stringID="IOB_Delay" value="IFD"/>
+          </row>
+          <row stringID="row" value="112">
+            <item stringID="IOB_Name" value="etx_clk"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="113">
+            <item stringID="IOB_Name" value="etx_en"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="114">
+            <item stringID="IOB_Name" value="etx_er"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+          </row>
+          <row stringID="row" value="115">
+            <item stringID="IOB_Name" value="etxd(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="116">
+            <item stringID="IOB_Name" value="etxd(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="117">
+            <item stringID="IOB_Name" value="etxd(2)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="118">
+            <item stringID="IOB_Name" value="etxd(3)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="119">
+            <item stringID="IOB_Name" value="gpio(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1 ENFF1"/>
+          </row>
+          <row stringID="row" value="120"/>
+          <row stringID="row" value="121"/>
+          <row stringID="row" value="122">
+            <item stringID="IOB_Name" value="gpio(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1 ENFF1"/>
+          </row>
+          <row stringID="row" value="123"/>
+          <row stringID="row" value="124"/>
+          <row stringID="row" value="125">
+            <item stringID="IOB_Name" value="gpio(2)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1 ENFF1"/>
+          </row>
+          <row stringID="row" value="126"/>
+          <row stringID="row" value="127"/>
+          <row stringID="row" value="128">
+            <item stringID="IOB_Name" value="gpio(3)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1 ENFF1"/>
+          </row>
+          <row stringID="row" value="129"/>
+          <row stringID="row" value="130"/>
+          <row stringID="row" value="131">
+            <item stringID="IOB_Name" value="gpio(4)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1 ENFF1"/>
+          </row>
+          <row stringID="row" value="132"/>
+          <row stringID="row" value="133"/>
+          <row stringID="row" value="134">
+            <item stringID="IOB_Name" value="gpio(5)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1 ENFF1"/>
+          </row>
+          <row stringID="row" value="135"/>
+          <row stringID="row" value="136"/>
+          <row stringID="row" value="137">
+            <item stringID="IOB_Name" value="gpio(6)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1 ENFF1"/>
+          </row>
+          <row stringID="row" value="138"/>
+          <row stringID="row" value="139"/>
+          <row stringID="row" value="140">
+            <item stringID="IOB_Name" value="gpio(7)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="BIDIR"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="INFF1 OFF1 ENFF1"/>
+          </row>
+          <row stringID="row" value="141"/>
+          <row stringID="row" value="142"/>
+          <row stringID="row" value="143">
+            <item stringID="IOB_Name" value="iosn"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="144">
+            <item stringID="IOB_Name" value="oen"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="145">
+            <item stringID="IOB_Name" value="pci_ad(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="146">
+            <item stringID="IOB_Name" value="pci_ad(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="147">
+            <item stringID="IOB_Name" value="pci_ad(2)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="148">
+            <item stringID="IOB_Name" value="pci_ad(3)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="149">
+            <item stringID="IOB_Name" value="pci_ad(4)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="150">
+            <item stringID="IOB_Name" value="pci_ad(5)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="151">
+            <item stringID="IOB_Name" value="pci_ad(6)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="152">
+            <item stringID="IOB_Name" value="pci_ad(7)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="153">
+            <item stringID="IOB_Name" value="pci_ad(8)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="154">
+            <item stringID="IOB_Name" value="pci_ad(9)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="155">
+            <item stringID="IOB_Name" value="pci_ad(10)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="156">
+            <item stringID="IOB_Name" value="pci_ad(11)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="157">
+            <item stringID="IOB_Name" value="pci_ad(12)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="158">
+            <item stringID="IOB_Name" value="pci_ad(13)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="159">
+            <item stringID="IOB_Name" value="pci_ad(14)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="160">
+            <item stringID="IOB_Name" value="pci_ad(15)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="161">
+            <item stringID="IOB_Name" value="pci_ad(16)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="162">
+            <item stringID="IOB_Name" value="pci_ad(17)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="163">
+            <item stringID="IOB_Name" value="pci_ad(18)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="164">
+            <item stringID="IOB_Name" value="pci_ad(19)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="165">
+            <item stringID="IOB_Name" value="pci_ad(20)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="166">
+            <item stringID="IOB_Name" value="pci_ad(21)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="167">
+            <item stringID="IOB_Name" value="pci_ad(22)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="168">
+            <item stringID="IOB_Name" value="pci_ad(23)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="169">
+            <item stringID="IOB_Name" value="pci_ad(24)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="170">
+            <item stringID="IOB_Name" value="pci_ad(25)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="171">
+            <item stringID="IOB_Name" value="pci_ad(26)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="172">
+            <item stringID="IOB_Name" value="pci_ad(27)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="173">
+            <item stringID="IOB_Name" value="pci_ad(28)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="174">
+            <item stringID="IOB_Name" value="pci_ad(29)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="175">
+            <item stringID="IOB_Name" value="pci_ad(30)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="176">
+            <item stringID="IOB_Name" value="pci_ad(31)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="177">
+            <item stringID="IOB_Name" value="pci_arb_gnt(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+          </row>
+          <row stringID="row" value="178">
+            <item stringID="IOB_Name" value="pci_arb_gnt(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+          </row>
+          <row stringID="row" value="179">
+            <item stringID="IOB_Name" value="pci_arb_gnt(2)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+          </row>
+          <row stringID="row" value="180">
+            <item stringID="IOB_Name" value="pci_arb_gnt(3)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+          </row>
+          <row stringID="row" value="181">
+            <item stringID="IOB_Name" value="pci_arb_req(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="182">
+            <item stringID="IOB_Name" value="pci_arb_req(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="183">
+            <item stringID="IOB_Name" value="pci_arb_req(2)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="184">
+            <item stringID="IOB_Name" value="pci_arb_req(3)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="185">
+            <item stringID="IOB_Name" value="pci_cbe(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="186">
+            <item stringID="IOB_Name" value="pci_cbe(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="187">
+            <item stringID="IOB_Name" value="pci_cbe(2)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="188">
+            <item stringID="IOB_Name" value="pci_cbe(3)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="189">
+            <item stringID="IOB_Name" value="pci_devsel"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="190">
+            <item stringID="IOB_Name" value="pci_frame"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="191">
+            <item stringID="IOB_Name" value="pci_gnt"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="192">
+            <item stringID="IOB_Name" value="pci_host"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="193">
+            <item stringID="IOB_Name" value="pci_idsel"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="194">
+            <item stringID="IOB_Name" value="pci_irdy"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="195">
+            <item stringID="IOB_Name" value="pci_lock"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="196">
+            <item stringID="IOB_Name" value="pci_par"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="197">
+            <item stringID="IOB_Name" value="pci_perr"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="198">
+            <item stringID="IOB_Name" value="pci_req"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="199">
+            <item stringID="IOB_Name" value="pci_rst"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="200">
+            <item stringID="IOB_Name" value="pci_serr"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="201">
+            <item stringID="IOB_Name" value="pci_stop"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="202">
+            <item stringID="IOB_Name" value="pci_trdy"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="203">
+            <item stringID="IOB_Name" value="pllref"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="204">
+            <item stringID="IOB_Name" value="ramoen(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="205">
+            <item stringID="IOB_Name" value="ramoen(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="206">
+            <item stringID="IOB_Name" value="ramoen(2)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="207">
+            <item stringID="IOB_Name" value="ramoen(3)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="208">
+            <item stringID="IOB_Name" value="ramoen(4)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="209">
+            <item stringID="IOB_Name" value="ramsn(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="210">
+            <item stringID="IOB_Name" value="ramsn(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="211">
+            <item stringID="IOB_Name" value="ramsn(2)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+          </row>
+          <row stringID="row" value="212">
+            <item stringID="IOB_Name" value="ramsn(3)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+          </row>
+          <row stringID="row" value="213">
+            <item stringID="IOB_Name" value="ramsn(4)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+          </row>
+          <row stringID="row" value="214">
+            <item stringID="IOB_Name" value="read"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="215">
+            <item stringID="IOB_Name" value="resetn"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="216">
+            <item stringID="IOB_Name" value="romsn(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="217">
+            <item stringID="IOB_Name" value="romsn(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="218">
+            <item stringID="IOB_Name" value="rwen(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="219">
+            <item stringID="IOB_Name" value="rwen(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="220">
+            <item stringID="IOB_Name" value="rwen(2)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="221">
+            <item stringID="IOB_Name" value="rwen(3)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="222">
+            <item stringID="IOB_Name" value="rxd1"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="REGS" value="INFF1"/>
+          </row>
+          <row stringID="row" value="223">
+            <item stringID="IOB_Name" value="rxd2"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="REGS" value="INFF1"/>
+          </row>
+          <row stringID="row" value="224">
+            <item stringID="IOB_Name" value="sdcasn"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="225">
+            <item stringID="IOB_Name" value="sdcke(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+          </row>
+          <row stringID="row" value="226">
+            <item stringID="IOB_Name" value="sdcke(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="227">
+            <item stringID="IOB_Name" value="sdclk"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+          </row>
+          <row stringID="row" value="228">
+            <item stringID="IOB_Name" value="sdcsn(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="229">
+            <item stringID="IOB_Name" value="sdcsn(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="230">
+            <item stringID="IOB_Name" value="sddqm(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="231">
+            <item stringID="IOB_Name" value="sddqm(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="232">
+            <item stringID="IOB_Name" value="sddqm(2)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="233">
+            <item stringID="IOB_Name" value="sddqm(3)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="234">
+            <item stringID="IOB_Name" value="sdrasn"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="235">
+            <item stringID="IOB_Name" value="sdwen"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="236">
+            <item stringID="IOB_Name" value="spw_rxd(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="237">
+            <item stringID="IOB_Name" value="spw_rxd(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="238">
+            <item stringID="IOB_Name" value="spw_rxs(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="239">
+            <item stringID="IOB_Name" value="spw_rxs(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="INPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+          </row>
+          <row stringID="row" value="240">
+            <item stringID="IOB_Name" value="spw_txd(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+          </row>
+          <row stringID="row" value="241">
+            <item stringID="IOB_Name" value="spw_txd(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+          </row>
+          <row stringID="row" value="242">
+            <item stringID="IOB_Name" value="spw_txs(0)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+          </row>
+          <row stringID="row" value="243">
+            <item stringID="IOB_Name" value="spw_txs(1)"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+          </row>
+          <row stringID="row" value="244">
+            <item stringID="IOB_Name" value="txd1"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="245">
+            <item stringID="IOB_Name" value="txd2"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+          <row stringID="row" value="246">
+            <item stringID="IOB_Name" value="writen"/>
+            <item stringID="TYPE" value="IOB"/>
+            <item stringID="DIRECTION" value="OUTPUT"/>
+            <item stringID="IO_STANDARD" value="LVTTL"/>
+            <item stringID="DRIVE_STRENGTH" value="12"/>
+            <item stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="REGS" value="OFF1"/>
+          </row>
+        </table>
+      </section>
+      <section stringID="MAP_RPM_MACROS">
+        <section stringID="MAP_SHAPE_SECTION">
+          <item dataType="int" stringID="MAP_NUM_SHAPE" value="263"/>
+        </section>
+      </section>
+      <section stringID="MAP_GUIDE_REPORT"/>
+      <section stringID="MAP_AREA_GROUPS_PARTITIONS"/>
+      <section stringID="MAP_TIMING_REPORT"/>
+      <section stringID="MAP_CONFIGURATION_STRING_DETAILS"/>
+      <section stringID="MAP_GENERAL_CONFIG_DATA">
+        <item stringID="MAP_CLKDV_DIVIDE" value="2"/>
+        <item stringID="MAP_CLKOUT_PHASE_SHIFT" value="NONE"/>
+        <item stringID="MAP_CLK_FEEDBACK" value="1X"/>
+        <item stringID="MAP_DESKEW_ADJUST" value="11"/>
+        <item stringID="MAP_DFS_FREQUENCY_MODE" value="LOW"/>
+        <item stringID="MAP_DLL_FREQUENCY_MODE" value="LOW"/>
+        <item stringID="MAP_DUTY_CYCLE_CORRECTION" value="TRUE"/>
+        <item stringID="MAP_CLKFX_DIVIDE" value="2"/>
+        <item stringID="MAP_CLKFX_MULTIPLY" value="2"/>
+        <item stringID="MAP_PHASE_SHIFT" value="0"/>
+        <item stringID="MAP_INITP_00" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INITP_01" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INITP_02" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INITP_03" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INITP_04" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INITP_05" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INITP_06" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INITP_07" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_00" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_01" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_02" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_03" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_04" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_05" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_06" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_07" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_08" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_09" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_10" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_11" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_12" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_13" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_14" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_15" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_16" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_17" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_18" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_19" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_20" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_21" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_22" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_23" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_24" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_25" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_26" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_27" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_28" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_29" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_30" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_31" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_32" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_33" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_34" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_35" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_36" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_37" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_38" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_39" value="0000000000000000000000000000000000000000000000000000000000000000"/>
+        <item stringID="MAP_INIT_A" value="000000000"/>
+        <item stringID="MAP_SRVAL_A" value="000000000"/>
+        <item stringID="MAP_INIT_B" value="000000000"/>
+        <item stringID="MAP_SRVAL_B" value="000000000"/>
+      </section>
+      <section stringID="MAP_CONTROL_SET_INFORMATION"/>
+    </task>
+  </application>
+
+</document>

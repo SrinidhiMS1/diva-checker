@@ -1,0 +1,22 @@
+JDF H
+PROJECT leon3mp
+DESIGN leon3mp
+DEVFAM virtex2
+DEVICE xc2v3000
+DEVSPEED -4
+DEVPKG fg676
+DEVTOPLEVELMODULETYPE EDIF
+DEVSIMULATOR Modelsim
+DEVGENERATEDSIMULATIONMODEL VHDL
+SOURCE synplify/leon3mp.edf
+DEPASSOC leon3mp ../../boards/gr-pci-xc2v/leon3mp.ucf
+[Normal]
+xilxMapAllowLogicOpt=edif,  virtex2, EDIF.t_placeAndRouteDes, 1102861051, True
+xilxMapCoverMode=edif,  virtex2, EDIF.t_placeAndRouteDes, 1102861051, Speed
+xilxNgdbld_AUL=edif,  virtex2, EDIF.t_placeAndRouteDes, 1102861051, True
+xilxPAReffortLevel=edif,  virtex2, EDIF.t_placeAndRouteDes, 1102861051, Medium
+xilxNgdbldMacro=edif,  virtex2, EDIF.t_placeAndRouteDes, 1105378344, ../../netlists/xilinx/virtex2
+_SynthUseFsmExplorerData=synprovhd, virtex, VHDL.t_synthesize, 1235533505, TRUE
+_SynthPipelining=synprovhd, virtex, VHDL.t_synthesize, 1235533505, TRUE
+[STRATEGY-LIST]
+Normal=True
