@@ -9,7 +9,7 @@ PROGS = report_device apbuart divtest multest regtest \
 	cache gpio ramfill ramtest irqmp leon3_test gptimer \
 	mulasm cacheasm spwtest mptest fpu spwtest mptest grfpu_ops \
 	base_test can_oc mmu mmu_asm pcitest greth grfpu_test atactrl \
-	grcan i2cmst spictrl greth_api misc spimctrl
+	grcan i2cmst spictrl greth_api misc spimctrl checker
 
 
 OFILES = $(PROGS:%=%.o)

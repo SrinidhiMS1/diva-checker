@@ -5,6 +5,7 @@ libmmu.vhd
 libiu.vhd
 libcache.vhd
 libproc3.vhd
+libchecker.vhd
 cachemem.vhd
 cachememft.vhd
 mmu_icache.vhd
@@ -39,6 +40,7 @@ dsu3x.vhd
 dsu3.vhd
 dsu3_2x.vhd
 proc3.vhd
+checker.vhd
 proc3ft.vhd
 leon3s2x.vhd
 leon3s.vhd

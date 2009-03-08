@@ -12,7 +12,6 @@ actel/corePCIF
 gr1553
 gaisler
 esa
-#nasa
 gleichmann
 fmf
 spansion
