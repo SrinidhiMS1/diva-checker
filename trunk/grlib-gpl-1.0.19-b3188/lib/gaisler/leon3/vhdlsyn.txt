@@ -6,6 +6,7 @@ libiu.vhd
 libcache.vhd
 libproc3.vhd
 libchecker.vhd
+queue.vhd
 cachemem.vhd
 cachememft.vhd
 mmu_icache.vhd
