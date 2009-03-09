@@ -41,73 +41,62 @@ use gaisler.arith.all;
 
 entity checker is
   generic (
-    hindex    : integer               := 0;
-    fabtech   : integer range 0 to NTECH  := 0;
-    memtech   : integer range 0 to NTECH  := 0;
-    nwindows  : integer range 2 to 32 := 8;
-    dsu       : integer range 0 to 1  := 0;
-    fpu       : integer range 0 to 15 := 0;
-    v8        : integer range 0 to 63 := 0;
-    cp        : integer range 0 to 1  := 0;
-    mac       : integer range 0 to 1  := 0;
-    pclow     : integer range 0 to 2  := 2;
-    notag     : integer range 0 to 1  := 0;
-    nwp       : integer range 0 to 4  := 0;
-    icen      : integer range 0 to 1  := 0;
-    irepl     : integer range 0 to 2  := 2;
-    isets     : integer range 1 to 4  := 1;
-    ilinesize : integer range 4 to 8  := 4;
-    isetsize  : integer range 1 to 256 := 1;
-    isetlock  : integer range 0 to 1  := 0;
-    dcen      : integer range 0 to 1  := 0;
-    drepl     : integer range 0 to 2  := 2;
-    dsets     : integer range 1 to 4  := 1;
-    dlinesize : integer range 4 to 8  := 4;
-    dsetsize  : integer range 1 to 256 := 1;
-    dsetlock  : integer range 0 to 1  := 0;
-    dsnoop    : integer range 0 to 6  := 0;
-    ilram      : integer range 0 to 1 := 0;
-    ilramsize  : integer range 1 to 512 := 1;
-    ilramstart : integer range 0 to 255 := 16#8e#;
-    dlram      : integer range 0 to 1 := 0;
-    dlramsize  : integer range 1 to 512 := 1;
-    dlramstart : integer range 0 to 255 := 16#8f#;
-    mmuen     : integer range 0 to 1  := 0;
-    itlbnum   : integer range 2 to 64 := 8;
-    dtlbnum   : integer range 2 to 64 := 8;
-    tlb_type  : integer range 0 to 3 := 1;
-    tlb_rep   : integer range 0 to 1 := 0;
-    lddel     : integer range 1 to 2 := 2;
-    disas     : integer range 0 to 2  := 0;
-    tbuf      : integer range 0 to 64 := 0;
-    pwd      : integer range 0 to 2 := 0;
-    svt      : integer range 0 to 1 := 0;   -- single-vector trapping
-    rstaddr  : integer              := 0;
-    smp      : integer range 0 to 15 := 0;  -- support SMP systems
-    cached   : integer := 0;
-    clk2x    : integer := 0;
-    scantest : integer := 0    
+    hindex    : integer               := 0;     -- AHB Master Index
+    fabtech   : integer range 0 to NTECH  := 0; -- Target Technology
+    memtech   : integer range 0 to NTECH  := 0; -- Vendor library for regfile and cahe RAMs
+    nwindows  : integer range 2 to 32 := 8;     -- number of SPARC register windows
+    dsu       : integer range 0 to 1  := 0;     -- enable Debug Support Unit interface
+    fpu       : integer range 0 to 15 := 0;     -- Floating Point Unit
+    v8        : integer range 0 to 63 := 0;     -- Generate SPARC V8 MUL and DIV instructions
+    cp        : integer range 0 to 1  := 0;     -- Generate co-processor interface
+    mac       : integer range 0 to 1  := 0;     -- Generate SPARC V8c SMAC/UMAC instruction
+    pclow     : integer range 0 to 2  := 2;     -- Least significant bit of PC that is actually generated
+    notag     : integer range 0 to 1  := 0;     -- Not used
+    nwp       : integer range 0 to 4  := 0;     -- Number of watchpoints
+    icen      : integer range 0 to 1  := 0;     -- Enable Instruction Cache
+    irepl     : integer range 0 to 2  := 2;     -- Instruction cache replacement policy
+    isets     : integer range 1 to 4  := 1;     -- number of instruction cache sets
+    ilinesize : integer range 4 to 8  := 4;     -- instruction cache line size
+    isetsize  : integer range 1 to 256 := 1;    -- size of each instruction cache set
+    isetlock  : integer range 0 to 1  := 0;     -- enable instruction cache line locking
+    dcen      : integer range 0 to 1  := 0;     -- data cache enable
+    drepl     : integer range 0 to 2  := 2;     -- data cache replacement policy
+    dsets     : integer range 1 to 4  := 1;     -- number of data cache sets
+    dlinesize : integer range 4 to 8  := 4;     -- data cache line size
+    dsetsize  : integer range 1 to 256 := 1;    -- size of each data cache set
+    dsetlock  : integer range 0 to 1  := 0;     -- enable data cache line locking
+    dsnoop    : integer range 0 to 6  := 0;     -- enable data cache snooping
+    ilram      : integer range 0 to 1 := 0;     -- enable local instruction RAM
+    ilramsize  : integer range 1 to 512 := 1;   -- local instruction RAM size
+    ilramstart : integer range 0 to 255 := 16#8e#;  -- 8 MSB bits used to decode local instruction RAM area
+    dlram      : integer range 0 to 1 := 0;     -- enable local data RAM (scratch-pad RAM)
+    dlramsize  : integer range 1 to 512 := 1;   -- local data RAM size
+    dlramstart : integer range 0 to 255 := 16#8f#;  -- 8 MSB bits used to decode local instruction RAM area
+    mmuen     : integer range 0 to 1  := 0;     -- enable MMU
+    itlbnum   : integer range 2 to 64 := 8;     -- number of instruction TLB entries
+    dtlbnum   : integer range 2 to 64 := 8;     -- number of data TLB entries
+    tlb_type  : integer range 0 to 3 := 1;      -- TLB type
+    tlb_rep   : integer range 0 to 1 := 0;      -- TLB replacement
+    lddel     : integer range 1 to 2 := 2;      -- load delay
+    disas     : integer range 0 to 2  := 0;     -- print instruction disassembly in VHDL simulator console
+    tbuf      : integer range 0 to 64 := 0;     -- size of instruction trace buffer
+    pwd      : integer range 0 to 2 := 0;       -- power-down
+    svt      : integer range 0 to 1 := 0;       -- single-vector trapping
+    rstaddr  : integer              := 0;       -- default reset start address
+    smp      : integer range 0 to 15 := 0;      -- support SMP systems
+    cached   : integer := 0;                    -- fixed cacheability mask
+    clk2x    : integer := 0;                    -- enable processor clock in 2x mode
+    scantest : integer := 0                     -- enable scan test support
   );
   port (
-    clk    : in  std_ulogic;
-    rstn   : in  std_ulogic;
-    holdn  : out std_ulogic;
-    ahbi   : in  ahb_mst_in_type;
-    ahbo   : out ahb_mst_out_type;
-    ahbsi  : in  ahb_slv_in_type;
-    ahbso  : in  ahb_slv_out_vector;        
-    rfi    : out iregfile_in_type;
-    rfo    : in  iregfile_out_type;
-    crami  : out cram_in_type;
-    cramo  : in  cram_out_type;
-    tbi    : out tracebuf_in_type;
-    tbo    : in  tracebuf_out_type;
-    fpi    : out fpc_in_type;
+    clk    : in  std_ulogic;            -- AMBA and processor clock
+    rstn   : in  std_ulogic;            -- reset
+    holdn  : out std_ulogic;            -- hold line
+    rfo    : in  iregfile_out_type;     -- register file outputs
+    tbo    : in  tracebuf_out_type;     -- trace buffer output
     fpo    : in  fpc_out_type;
-    cpi    : out fpc_in_type;
     cpo    : in  fpc_out_type;
     irqi   : in  l3_irq_in_type;
-    irqo   : out l3_irq_out_type;
     dbgi   : in  l3_debug_in_type;
     dbgo   : out l3_debug_out_type;
     hclk, sclk   : in std_ulogic;
@@ -129,6 +118,11 @@ signal muli  : mul32_in_type;
 signal mulo  : mul32_out_type;
 signal divi  : div32_in_type;
 signal divo  : div32_out_type;
+signal tbiTemp   : tracebuf_in_type;
+signal rfiTemp   : iregfile_in_type;
+signal fpiTemp   : fpc_in_type;
+signal cpiTemp   : fpc_in_type;
+signal irqoTemp  : l3_irq_out_type;
 
 begin
 
@@ -140,8 +134,8 @@ begin
      iu0 : iu3  
        generic map (nwindows, isets, dsets, fpu, v8, cp, mac, dsu, nwp, pclow,
 	 0, hindex, lddel, IRFWT, disas, tbuf, pwd, svt, rstaddr, smp, fabtech, clk2x)
-       port map (clk, rstn, holdnx, ici, ico, dci, dco, rfi, rfo, irqi, irqo, 
-                 dbgi, dbgo, muli, mulo, divi, divo, fpo, fpi, cpo, cpi, tbo, tbi, sclk);
+       port map (clk, rstn, holdnx, ici, ico, dci, dco, rfiTemp, rfo, irqi, irqoTemp, 
+                 dbgi, dbgo, muli, mulo, divi, divo, fpo, fpiTemp, cpo, cpiTemp, tbo, tbiTemp, sclk);
 
 -- multiply and divide units 
 -- Actel FPGAs cannot use inferred mul due to bug in synplify 8.9 and 9.0
@@ -160,28 +154,6 @@ begin
   nomgen : if v8 = 0 generate
     divo <= ('0', '0', "0000", zero32);
     mulo <= ('0', '0', "0000", zero32&zero32);
-  end generate;
-
--- cache controller
-
-  m0 : if mmuen = 0 generate
-    c0 : cache 
-      generic map (hindex, dsu, icen, irepl, isets, ilinesize, isetsize, 
-	isetlock, dcen, drepl, dsets, dlinesize, dsetsize,  dsetlock, dsnoop,
-	ilram, ilramsize, ilramstart, dlram, dlramsize, dlramstart, cached, 
-	clk2x, memtech, scantest)
-      port map ( rstn, clk, ici, ico, dci, dco, ahbi, ahbo, ahbsi, ahbso, crami, cramo, pholdn, hclk, sclk, hclken);
-  end generate;
-  m1 : if mmuen = 1 generate
-    c0mmu : mmu_cache 
-       generic map (hindex=>hindex, memtech=>memtech, dsu=>dsu, icen=>icen, irepl=>irepl, 
-	  isets=>isets, ilinesize=>ilinesize, isetsize=>isetsize, isetlock=>isetlock,
-          dcen=>dcen, drepl=>drepl, dsets=>dsets, dlinesize=>dlinesize, dsetsize=>dsetsize,
-	  dsetlock=>dsetlock, dsnoop=>dsnoop, itlbnum=>itlbnum, dtlbnum=>dtlbnum, 
-	  tlb_type=>tlb_type, tlb_rep=>tlb_rep, cached => cached, clk2x => clk2x,
-	  scantest => scantest)
-       port map ( rstn, clk, ici, ico, dci, dco, 
-	  ahbi, ahbo, ahbsi, ahbso, crami, cramo, pholdn, hclk, sclk, hclken);
   end generate;
 
 end;

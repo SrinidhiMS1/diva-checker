@@ -34,7 +34,6 @@ use gaisler.leon3.all;
 use gaisler.libiu.all;
 use gaisler.libcache.all;
 use gaisler.libproc3.all;
-use gaisler.libchecker.all;
 use gaisler.arith.all;
 --library fpu;
 --use fpu.libfpu.all;
@@ -109,30 +108,16 @@ constant IRFBITS  : integer range 6 to 10 := log2(NWINDOWS+1) + 4;
 constant IREGNUM  : integer := NWINDOWS * 16 + 8;
 
 signal holdn : std_logic;
-signal ahboCore : ahb_mst_out_type;
-signal ahboChecker : ahb_mst_out_type;
-signal irqoCore : l3_irq_out_type;
-signal irqoChecker : l3_irq_out_type;
-signal dbgoCore : l3_debug_out_type;
-signal dbgoChecker : l3_debug_out_type;
 signal rfi   : iregfile_in_type;
-signal rfiCore   : iregfile_in_type;
-signal rfiChecker   : iregfile_in_type;
 signal rfo   : iregfile_out_type;
 signal crami : cram_in_type;
-signal cramiCore : cram_in_type;
-signal cramiChecker : cram_in_type;
 signal cramo : cram_out_type;
 signal tbi   : tracebuf_in_type;
 signal tbo   : tracebuf_out_type;
 signal rst   : std_ulogic;
 signal fpi   : fpc_in_type;
-signal fpiCore   : fpc_in_type;
-signal fpiChecker   : fpc_in_type;
 signal fpo   : fpc_out_type;
 signal cpi   : fpc_in_type;
-signal cpiCore   : fpc_in_type;
-signal cpiChecker   : fpc_in_type;
 signal cpo   : fpc_out_type;
 signal cpodb : fpc_debug_out_type;
 
@@ -158,39 +143,9 @@ begin
     dcen, drepl, dsets, dlinesize, dsetsize, dsetlock, dsnoop, ilram, 
     ilramsize, ilramstart, dlram, dlramsize, dlramstart, mmuen, itlbnum, dtlbnum,
     tlb_type, tlb_rep, lddel, disas, tbuf, pwd, svt, rstaddr, smp, cached, 0, scantest)
-  port map (clk, rst, holdn, ahbi, ahboCore, ahbsi, ahbso, rfiCore, rfo, cramiCore, cramo, 
-    tbi, tbo, fpiCore, fpo, cpiCore, cpo, irqi, irqoCore, dbgi, dbgoCore, gnd, clk, vcc);
-
-  c0: checker
-  generic map (hindex, fabtech, memtech, nwindows, dsu, fpuarch, v8, cp, mac,      
-    pclow, notag, nwp, icen, irepl, isets, ilinesize, isetsize, isetlock, 
-    dcen, drepl, dsets, dlinesize, dsetsize, dsetlock, dsnoop, ilram, 
-    ilramsize, ilramstart, dlram, dlramsize, dlramstart, mmuen, itlbnum, dtlbnum,
-    tlb_type, tlb_rep, lddel, disas, tbuf, pwd, svt, rstaddr, smp, cached, 0, scantest)
-  port map (clk, rst, holdn, ahbi, ahboChecker, ahbsi, ahbso, rfiChecker, rfo, cramiChecker, cramo, 
-    tbi, tbo, fpiChecker, fpo, cpiChecker, cpo, irqi, irqoChecker, dbgi, dbgoChecker, gnd, clk, vcc);
+  port map (clk, rst, holdn, ahbi, ahbo, ahbsi, ahbso, rfi, rfo, crami, cramo, 
+    tbi, tbo, fpi, fpo, cpi, cpo, irqi, irqo, dbgi, dbgo, gnd, clk, vcc);
   
-  assert irqoCore = irqoChecker report "Checker and Core out of synch" severity FAILURE;
-  irqo <= irqoCore;
-
-  assert dbgoCore = dbgoChecker report "Checker and Core out of synch" severity FAILURE;
-  dbgo <= dbgoCore;
-
-  assert rfiCore = rfiChecker report "Checker and Core out of synch" severity FAILURE;
-  rfi <= rfiCore;
-
-  assert fpiCore = fpiChecker report "Checker and Core out of synch" severity FAILURE;
-  fpi <= fpiCore;
-
-  assert cpiCore = cpiChecker report "Checker and Core out of synch" severity FAILURE;
-  cpi <= cpiCore;
-
-  assert cramiCore = cramiChecker report "Checker and Core out of synch" severity FAILURE;
-  crami <= cramiCore;
-
-  assert ahboCore = ahboChecker report "Checker and Core out of synch" severity FAILURE;
-  ahbo <= ahboCore;
-
 -- IU register file
   
     rf0 : regfile_3p generic map (memtech, IRFBITS, 32, 1, IREGNUM)

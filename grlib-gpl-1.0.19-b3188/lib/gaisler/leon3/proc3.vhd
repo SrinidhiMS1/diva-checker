@@ -35,6 +35,8 @@ library gaisler;
 use gaisler.leon3.all;
 use gaisler.libiu.all;
 use gaisler.libcache.all;
+use gaisler.libchecker.all;
+use gaisler.queue.all;
 use gaisler.arith.all;
 --library fpu;
 --use fpu.libfpu.all;
@@ -118,21 +120,28 @@ end;
 architecture rtl of proc3 is
 
 constant IRFWT    : integer := regfile_3p_write_through(memtech);
+constant QUEUE_SIZE : integer := 5;
 
 signal ici : icache_in_type;
 signal ico : icache_out_type;
 signal dci : dcache_in_type;
 signal dco : dcache_out_type;
 
+signal dbgoCore : l3_debug_out_type;
+signal dbgoChecker : l3_debug_out_type;
+signal holdnChecker : std_ulogic;
 signal holdnx, pholdn : std_logic;
 signal muli  : mul32_in_type;
 signal mulo  : mul32_out_type;
 signal divi  : div32_in_type;
 signal divo  : div32_out_type;
 
+signal coreElmnt : checker_info_in_type;
+signal checkerElmnt : checker_info_in_type;
+
 begin
 
-  holdnx <= ico.hold and dco.hold and fpo.holdn; holdn <= holdnx;
+  holdnx <= ico.hold and dco.hold and fpo.holdn;
   pholdn <= fpo.holdn;
 
 -- integer unit 
@@ -141,7 +150,37 @@ begin
        generic map (nwindows, isets, dsets, fpu, v8, cp, mac, dsu, nwp, pclow,
 	 0, hindex, lddel, IRFWT, disas, tbuf, pwd, svt, rstaddr, smp, fabtech, clk2x)
        port map (clk, rstn, holdnx, ici, ico, dci, dco, rfi, rfo, irqi, irqo, 
-                 dbgi, dbgo, muli, mulo, divi, divo, fpo, fpi, cpo, cpi, tbo, tbi, sclk);
+                 dbgi, dbgoCore, muli, mulo, divi, divo, fpo, fpi, cpo, cpi, tbo, tbi, sclk);
+
+       -- create signal to add to queue
+       --coreElmnt.icache <= crami;
+       coreElmnt.iregfile <= rfo;
+       coreElmnt.itbo <= tbo;
+       coreElmnt.ifpo <= fpo;
+       coreElmnt.icpo <= cpo;
+       coreElmnt.iirqi <= irqi;
+
+-- communication queue
+       que : connector_queue
+       generic map (QUEUE_SIZE)
+       port map (clk, holdnx, coreElmnt, checkerElmnt);
+
+
+-- checker unit
+  c0: checker
+  generic map (hindex, fabtech, memtech, nwindows, dsu, fpu, v8, cp, mac,      
+    pclow, notag, nwp, icen, irepl, isets, ilinesize, isetsize, isetlock, 
+    dcen, drepl, dsets, dlinesize, dsetsize, dsetlock, dsnoop, ilram, 
+    ilramsize, ilramstart, dlram, dlramsize, dlramstart, mmuen, itlbnum, dtlbnum,
+    tlb_type, tlb_rep, lddel, disas, tbuf, pwd, svt, rstaddr, smp, cached, 0, scantest)
+  port map (clk, rstn, holdnChecker, checkerElmnt.iregfile, checkerElmnt.itbo, 
+    checkerElmnt.ifpo, checkerElmnt.icpo, checkerElmnt.iirqi, dbgi, dbgoChecker, hclk, sclk, hclken);
+  
+  -- need to hold for error
+  holdn <= holdnx or holdnChecker;
+
+  --assert dbgoCore = dbgoChecker report "Checker and Core out of synch" severity FAILURE;
+  dbgo <= dbgoCore;
 
 -- multiply and divide units 
 -- Actel FPGAs cannot use inferred mul due to bug in synplify 8.9 and 9.0

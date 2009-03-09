@@ -24,6 +24,7 @@
 
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
 library grlib;
 use grlib.amba.all;
 library techmap;
@@ -36,6 +37,40 @@ use gaisler.libiu.all;
 --use fpu.libfpu.all;
 
 package libchecker is
+
+  -- pulled from sparcv8.pdf page 88
+  type INSTRUCTION is (
+    LOAD_,
+    STORE_,
+    SETHI_,
+    NOP_,
+    AND_,
+    ANDN_,
+    OR_,
+    ORN_,
+    XOR_,
+    XNOR_,
+    SLL_,
+    SRL_,
+    SRA_,
+    ADD_,
+    SUB_,
+    UMUL_,
+    SMUL_,
+    UDIV_,
+    SDIV_
+  );
+
+  type checker_info_in_type is record
+    icache    : cram_in_type;
+    iregfile  : iregfile_out_type;
+    itbo      : tracebuf_out_type;
+    ifpo      : fpc_out_type;
+    icpo      : fpc_out_type;
+    iirqi     : l3_irq_in_type;
+    --instr     : INSTRUCTION;
+    aluop     : std_logic_vector(2 downto 0);
+  end record;
 
   component checker 
   generic (
@@ -90,22 +125,11 @@ package libchecker is
     clk    : in  std_ulogic;
     rstn   : in  std_ulogic;
     holdn  : out std_ulogic;    
-    ahbi   : in  ahb_mst_in_type;
-    ahbo   : out ahb_mst_out_type;
-    ahbsi  : in  ahb_slv_in_type;
-    ahbso  : in  ahb_slv_out_vector;    
-    rfi    : out iregfile_in_type;
     rfo    : in  iregfile_out_type;
-    crami  : out cram_in_type;
-    cramo  : in  cram_out_type;
-    tbi    : out tracebuf_in_type;
     tbo    : in  tracebuf_out_type;
-    fpi    : out fpc_in_type;
     fpo    : in  fpc_out_type;
-    cpi    : out fpc_in_type;
     cpo    : in  fpc_out_type;
     irqi   : in  l3_irq_in_type;
-    irqo   : out l3_irq_out_type;
     dbgi   : in  l3_debug_in_type;
     dbgo   : out l3_debug_out_type;
     hclk, sclk : in  std_ulogic;
